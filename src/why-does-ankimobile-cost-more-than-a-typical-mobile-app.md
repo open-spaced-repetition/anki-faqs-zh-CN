@@ -1,5 +1,8 @@
 # 为什么 AnkiMobile 的价格比普通移动应用更高？
 
+> 原
+> 文：[Why does AnkiMobile cost more than a typical mobile app?](https://faqs.ankiweb.net/why-does-ankimobile-cost-more-than-a-typical-mobile-app.html)
+
 AnkiMobile 并不是一个独立的应用程序——它旨在与我在过去 10 年中免费提供的在线同步服务和开源计算机版本
 一起使用。在这三个平台上工作是一项全职工作，而 AnkiMobile 是我维持生计并支持未来开发的方式。
 

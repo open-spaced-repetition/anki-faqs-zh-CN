@@ -1,5 +1,7 @@
 # 卡片模板存在问题
 
+> 原文：[Card template has a problem](https://faqs.ankiweb.net/card-template-has-a-problem.html)
+
 Anki 最近在报告卡片模板中的错误时变得更为严格。过去，它会默默忽略一些问题，但会以意外的方式显示模
 板。做出这个改变是为了让错误更容易被发现。
 

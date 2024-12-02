@@ -1,13 +1,16 @@
 # 重置牌组中的进度
 
+> 原文：[Resetting progress in a deck](https://faqs.ankiweb.net/resetting-progress-in-a-deck.html)
+
 有时候，你可能希望「重置」你的部分集合，使卡片变为新的，调度算法从头开始。例如，你可能完全更改了一张
 卡片或更新了它，以致需要重新开始学习，或者你可能只是翻阅了一些卡片而没有真正学习，如果你只是想看看这
 些卡片或弄清楚 Anki 如何工作。
 
 **不建议因为进度落后而重置你的部分集合。** 虽然从卡片积压中恢复可能很困难，但抹去你所取得的所有进展
 是最糟糕的事情：你仍然会记住其中许多卡片，尽管你本可以选择「简单」，却需要从头开始学习它们。相反，可
-以考虑设定一个[每日复习上限](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html#daily-limits)（选项中的「最
-大复习/天」），每天复习一定数量的待复习卡片，直到赶上。
+以考虑设定一
+个[每日复习上限](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html#daily-limits)（选
+项中的「最大复习/天」），每天复习一定数量的待复习卡片，直到赶上。
 
 ## 在 Anki 中重置卡片
 

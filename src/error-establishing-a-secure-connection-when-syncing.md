@@ -1,5 +1,8 @@
 # 「建立安全连接时出错」同步错误
 
+> 原
+> 文：["Error establishing a secure connection." when syncing](https://faqs.ankiweb.net/error-establishing-a-secure-connection-when-syncing.html)
+
 此错误发生在 Anki 尝试连接到 AnkiWeb 并且收到无效响应时。可能是由以下原因导致的：
 
 - 你机器上的防病毒软件或防火墙

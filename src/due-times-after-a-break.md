@@ -1,5 +1,7 @@
 # 休整后的到期时间
 
+> 原文：[Due times after a break](https://faqs.ankiweb.net/due-times-after-a-break.html)
+
 当你每天使用 Anki 时，每次正确回答一张卡片，它的间隔时间都会变大。假设「好」大约将间隔时间翻倍。因
 此，你会有 5 天的等待时间，然后是 10 天、20 天、40 天，依此类推。
 

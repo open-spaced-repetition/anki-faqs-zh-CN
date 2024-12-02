@@ -1,5 +1,8 @@
 # 我可以在公司或学校使用 Anki 吗？
 
+> 原
+> 文：[Can I use Anki in a company or school?](https://faqs.ankiweb.net/can-i-use-anki-in-a-company-or-school.html)
+
 以下内容为你提供了便利。有关电脑版许可的确切条款，请阅读 Anki 源代码包中分发的 LICENSE 文件。
 
 你可以在学校或公司中自由使用 Anki 的电脑版。根据许可条款，如果你修改 Anki，必须公开你的修改。

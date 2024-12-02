@@ -1,5 +1,8 @@
 # 「同步失败：连接超时」错误
 
+> 原
+> 文：['Syncing failed: Connection timed out' errors when syncing](https://faqs.ankiweb.net/syncing-failed-connection-timed-out-errors-when-syncing.html)
+
 **Windows 上的杀毒软件/防火墙和公司/学校网络**
 
 如果同步似乎从未取得任何进展，可能是 Anki 完全被阻止连接到互联网。在这种情况下，你可能需要在杀毒软件

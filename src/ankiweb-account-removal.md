@@ -1,5 +1,7 @@
 # AnkiWeb 账户删除
 
+> 原文：[AnkiWeb account removal](https://faqs.ankiweb.net/ankiweb-account-removal.html)
+
 由于 AnkiWeb 是一项免费服务，我们需要定期删除未使用的账户数据以降低成本。正如我们的服务条款中提到
 的，如果你在过去 6 个月内没有访问你的账户或进行同步，你的数据可能会被删除。
 

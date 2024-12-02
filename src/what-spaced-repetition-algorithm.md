@@ -1,5 +1,8 @@
 # Anki 使用了什么间隔重复算法？
 
+> 原
+> 文：[What spaced repetition algorithm does Anki use?](https://faqs.ankiweb.net/what-spaced-repetition-algorithm.html)
+
 ## SM-2
 
 截至 Anki 23.10，Anki 拥有两种可用的算法。第一种基于
@@ -52,19 +55,22 @@ FSRS 基于「三元记忆模型」。该模型断言三个变量足以描述人
 多，例如，如果用户暂时离开 Anki 几周或几个月。
 
 调度代码可以在 `rslib/src/scheduler/states` 中找到。以下是摘要（请参阅手册的
-[牌组选项](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html) 部分，查询提到的 _斜体_ 选项）：
+[牌组选项](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html) 部分，查询
+提到的 _斜体_ 选项）：
 
 ## 学习/再学习卡片
 
 如果你按下…​
 
-- 再次将卡片移回 [学习/再学习步骤](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#learning-steps) 中设
-  置的第一步。
+- 再次将卡片移回
+  [学习/再学习步骤](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#learning-steps)
+  中设置的第一步。
 
 - 困难在第一步之后重复当前步骤，并且是「再次」与「良好」的平均数。
 
-- 良好将卡片移至[下一步](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#learning-steps)。如果卡片在最后
-  一步，则该卡片将转化为复习卡片（即它「毕业」）。
+- 良好将卡片移
+  至[下一步](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#learning-steps)。
+  如果卡片在最后一步，则该卡片将转化为复习卡片（即它「毕业」）。
 
 - 简单立即将卡片转化为复习卡片。
 
@@ -74,7 +80,8 @@ FSRS 基于「三元记忆模型」。该模型断言三个变量足以描述人
 ## 复习卡片
 
 在 SM-2 中，一旦卡片毕业，就会拥有易度因子。默认值是 2.5，但你可以使用
-[牌组选项](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#starting-ease) 设置其他值。
+[牌组选项](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#starting-ease)
+设置其他值。
 
 如果你按下…​
 
@@ -88,7 +95,9 @@ FSRS 基于「三元记忆模型」。该模型断言三个变量足以描述人
 - 简单当前间隔乘以当前易度再乘以容易奖励，易度增加 15 个百分点。
 
 对于困难、良好和简单，接下来的间隔还乘以间隔修饰符。如果卡片正在延迟复习，将会有额外的天数添加到当前
-间隔中，如[之前的 FAQ](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/due-times-after-a-break.html) 中所述。
+间隔中，
+如[之前的 FAQ](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/due-times-after-a-break.html)
+中所述。
 
 在 FSRS 中，一旦卡片至少复习过一次，就会被分配 DSR 值。
 

@@ -1,5 +1,8 @@
 # 如何与他人合作创建牌组？
 
+> 原
+> 文：[How can I work with someone else to create a deck?](https://faqs.ankiweb.net/how-can-i-work-with-someone-else-to-create-a-deck.html)
+
 Anki 目前的协作支持有限，但多个用户一起制作内容是可行的。
 
 如果你正在创建的卡片没有声音或图像，那么最简单的选项可能是利用诸如 Google Drive 之类的在线文档协作服

@@ -1,5 +1,8 @@
 # 共享牌组不显示图像/播放音频
 
+> 原
+> 文：[A shared deck is not showing images/playing audio](https://faqs.ankiweb.net/a-shared-deck-is-not-showing-images-or-playing-audio.html)
+
 有些共享牌组缺少声音或图像，可能是因为作者希望你从其他地方下载，或者是他们无意中或故意省略了这些文
 件。
 

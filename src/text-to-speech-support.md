@@ -1,8 +1,11 @@
 # 语音合成支持
 
+> 原文：[Text-to-speech support](https://faqs.ankiweb.net/text-to-speech-support.html)
+
 <h1>适用于 Anki 2.1.20+</h1>
 
-请参见 <https://open-spaced-repetition.github.io/anki-manual-zh-CN/templates/fields.html#text-to-speech-for-individual-fields>
+请参见
+<https://open-spaced-repetition.github.io/anki-manual-zh-CN/templates/fields.html#text-to-speech-for-individual-fields>
 
 <h1>适用于 AnkiMobile 2.0.56+</h1>
 

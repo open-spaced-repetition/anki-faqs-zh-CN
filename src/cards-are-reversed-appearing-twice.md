@@ -1,5 +1,8 @@
 # 卡片被翻转 / 出现两次
 
+> 原
+> 文：[Cards are reversed / appearing twice](https://faqs.ankiweb.net/cards-are-reversed-appearing-twice.html)
+
 Anki 可以配置为在正向和反向两个方向显示卡片。如果你希望卡片仅从正面到背面显示，可以删除反向卡片。
 
 如果你在 `Basic (and reversed)` 或 `Basic (optional reversed)` 笔记类型中添加了卡片，你可以通过在浏

@@ -1,5 +1,7 @@
 # 拥有奇怪名称的笔记类型
 
+> 原文：[Note types with strange names](https://faqs.ankiweb.net/note-types-with-strange-names.html)
+
 当你使用 Anki 一段时间并下载了一些共享牌组后，你可能会发现一些笔记类型有类似「Basic-908e4」或
 「Cloze-37a28」的名称。这些笔记类型是在你下载一个共享牌组时创建的，而该牌组使用的笔记类型名称与已经
 在你的集合中存在的笔记类型名称相同。（如果 Anki 不这样做，那么可能会合并两个碰巧同名的不同笔记类

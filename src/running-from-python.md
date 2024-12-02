@@ -1,5 +1,7 @@
 # 从 Python 运行
 
+> 原文：[Running from Python](https://faqs.ankiweb.net/running-from-python.html)
+
 如果你在使用 Anki 的打包版本时遇到启动问题或崩溃，并且无法解决，你可以尝试最后的办法，直接通过
 Python 运行。
 

@@ -1,5 +1,8 @@
 # 我要去度假。我可以暂停调度器吗？
 
+> 原
+> 文：[I am going on vacation. Can I pause the scheduler?](https://faqs.ankiweb.net/i-am-going-on-vacation-can-i-pause-the-scheduler.html)
+
 能够在度假回来后发现 Anki 处于你离开时的相同状态听起来很有吸引力，但不幸的是，尽管可以轻松告知计算机
 暂停其对你遗忘速度的估计，却无法暂停你的记忆，因此如果你不进行复习，记忆仍会继续衰退。如果你暂停了调
 度器，将会延迟牌组中每张卡片的复习，这样就会增加遗忘每张卡片的几率，甚至包括那些通常在你度假回来后才

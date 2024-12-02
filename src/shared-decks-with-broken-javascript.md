@@ -1,5 +1,8 @@
 # 含有损坏 Javascript 的共享牌组
 
+> 原
+> 文：[Shared decks with broken Javascript](https://faqs.ankiweb.net/shared-decks-with-broken-javascript.html)
+
 一些共享牌组使用了一种称为「Javascript」的功能，它允许动态修改卡片的显示。Javascript 可能比较脆弱，
 这就是为什么 Anki 手册建议牌组作者避免使用它的原因。它可能在 Anki 升级时失效，或者当牌组作者没有在不
 同的 Anki 平台上测试他们的 Javascript 时出现问题。

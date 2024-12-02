@@ -1,5 +1,8 @@
 # 导入/导出因未来的时间戳失败
 
+> 原
+> 文：[Importing/exporting fails due to timestamps in the future](https://faqs.ankiweb.net/timestamps-in-the-future.html)
+
 一些共享牌组包含无效创建日期的卡片/笔记，例如它们显示卡片的创建年份是 40000 年，而不是 2023 年。这会
 导致各种问题，并导致在导入此类牌组后创建的任何卡片最终都具有类似的无效时间戳。
 

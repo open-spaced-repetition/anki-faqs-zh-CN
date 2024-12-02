@@ -1,5 +1,8 @@
 # 同步多个配置文件
 
+> 原
+> 文：[Synchronizing multiple profiles](https://faqs.ankiweb.net/synchronizing-multiple-profiles.html)
+
 **配置文件** 是一项功能，旨在允许多个人在同一设备上使用 Anki 学习。它们可能对测试和其他类似目的有
 用，但这并不是其主要目的。配置文件*不*推荐用于划分内容，因为这样做是没有必要的，并且会在查看统计数据
 和移动内容方面限制你的选择。AnkiDroid 上也不支持配置文件。

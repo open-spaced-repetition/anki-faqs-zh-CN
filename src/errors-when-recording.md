@@ -1,5 +1,7 @@
 # 录音时的错误
 
+> 原文：[Errors when recording](https://faqs.ankiweb.net/errors-when-recording.html)
+
 如果你在 Anki 中录音时遇到问题，请确保：
 
 - 麦克风已连接到电脑

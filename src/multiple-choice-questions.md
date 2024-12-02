@@ -1,5 +1,7 @@
 # 多选题
 
+> 原文：[Multiple choice questions](https://faqs.ankiweb.net/multiple-choice-questions.html)
+
 多选题并不是最有效的学习方式。它们在学术环境中被广泛使用的原因是因为容易评分，并且允许学习者展示他们
 识别正确答案的能力，即使他们无法自己生成答案。
 

@@ -1,5 +1,8 @@
 # 我可以只同步某些牌组吗？
 
+> 原
+> 文：[Can I sync only some of my decks?](https://faqs.ankiweb.net/can-i-sync-only-some-of-my-decks.html)
+
 Anki 会将你所有的牌组存储在一个集合文件中，因此无法仅同步集合的一部分。不过，有几种可能的变通方法可
 能会有所帮助：
 

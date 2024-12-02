@@ -1,5 +1,8 @@
 # 使用 Anki 准备大型考试的设置
 
+> 原
+> 文：[Settings for using Anki to prepare for a large exam](https://faqs.ankiweb.net/settings-for-using-anki-to-prepare-for-a-large-exam.html)
+
 如果你开始使用 Anki 来帮助准备几周或几个月后的大型考试，你可能会好奇如何最好地配置它以让你准备好参加
 考试。Anki 的默认设置主要是为长期学习和记忆信息而配置的，但这通常也是准备考试的最佳方式——你只需确保
 在考试来临前完成材料。
@@ -23,5 +26,5 @@ Enter 搜索当前牌组，并查看标题栏，你可以找到牌组中有多�
 
 如果你在考试前几天有时间余裕地完成了所有新卡片，你可能希望快速浏览你所有的卡片或其中的一部分，以复习
 自上次复习以来已经遗忘的卡片。你可以使用 Anki
-的[自定义学习](https://open-spaced-repetition.github.io/anki-manual-zh-CN/filtered-decks.html#custom-study)功能来学习更多卡片；有关说
-明和可用选项，请参阅手册中链接的部分。
+的[自定义学习](https://open-spaced-repetition.github.io/anki-manual-zh-CN/filtered-decks.html#custom-study)功
+能来学习更多卡片；有关说明和可用选项，请参阅手册中链接的部分。

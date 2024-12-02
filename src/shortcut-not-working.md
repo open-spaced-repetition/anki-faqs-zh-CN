@@ -1,5 +1,7 @@
 # 快捷键无法使用
 
+> 原文：[A shortcut key is not working](https://faqs.ankiweb.net/shortcut-not-working.html)
+
 你的计算机上可能有其他程序正在捕获该快捷键。例如，一些用户最近报告其 AMD/ATI 显卡软件在截取完形填空
 快捷键。当他们在该程序的首选项中禁用快捷键后，该键在 Anki 中又恢复了功能。
 

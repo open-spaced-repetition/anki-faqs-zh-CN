@@ -1,5 +1,7 @@
 # 我能将卡片连接在一起吗？
 
+> 原文：[Can I link cards together?](https://faqs.ankiweb.net/linking-cards-together.html)
+
 Anki 支持在同一笔记的卡片之间建立链接，但无法在不相关的卡片之间建立链接。假设你正在学习日语，并希望
 能够同时识别和复述日语。你可以输入「ookii」，意思是「大」，并告诉 Anki 生成两张卡片——「ookii→大」和
 「大→ookii」。

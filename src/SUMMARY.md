@@ -1,7 +1,6 @@
 # 摘要
 
-[获取帮助](./getting-help.md)
-[当出现问题时](./when-problems-occur.md)
+[获取帮助](./getting-help.md) [当出现问题时](./when-problems-occur.md)
 [恢复自动备份（从数据丢失中恢复）](./restoring-an-automatic-backup-recovering-from-data-loss.md)
 
 ---

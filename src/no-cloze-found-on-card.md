@@ -1,5 +1,7 @@
 # 卡片上未找到完形填空
 
+> 原文：[No cloze found on card](https://faqs.ankiweb.net/no-cloze-found-on-card.html)
+
 <h2>单个空卡片</h2>
 
 在制作完形填空时，每个完形填空编号会被转换为一张独立的卡片。例如，以下内容将创建三张卡片：

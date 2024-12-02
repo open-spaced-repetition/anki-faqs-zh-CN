@@ -1,5 +1,7 @@
 # 移除重复的笔记类型
 
+> 原文：[Removing duplicate note types](https://faqs.ankiweb.net/removing-duplicate-note-types.html)
+
 有时候你可能会遇到几个同名的笔记类型。这通常发生在导入多个牌组时，当然你也可以通过在「管理笔记类型」
 对话框中创建一个与另一个同名的笔记类型来实现。
 

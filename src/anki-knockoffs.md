@@ -1,5 +1,7 @@
 # Anki 仿冒应用
 
+> 原文：[Anki knockoffs](https://faqs.ankiweb.net/anki-knockoffs.html)
+
 AnkiApp 和 Anki Pro 是由不同团队开发的，并且它们与 Anki 生态系统的其他部分没有关系。它们是在 Anki 已
 经在市场上建立之后才推出的，我们怀疑这些名字是故意选择的，以利用我们所建立的品牌认可度。名字中使用
 Anki 暗示它们可以与其他 Anki 客户端一起使用，但事实并非如此。

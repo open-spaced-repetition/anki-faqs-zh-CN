@@ -1,5 +1,8 @@
 # AnkiWeb 上的文件大小有限制吗？
 
+> 原
+> 文：[Are there limits on file sizes on AnkiWeb?](https://faqs.ankiweb.net/are-there-limits-on-file-sizes-on-ankiweb.html)
+
 AnkiWeb 上的集合被限制在压缩大小为 100MB 和未压缩大小为 250MB。这包括你卡片上的文本和计划信息，但不
 包括声音/图像，因为它们是单独存储的。
 

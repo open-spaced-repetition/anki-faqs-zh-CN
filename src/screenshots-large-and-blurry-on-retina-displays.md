@@ -1,5 +1,8 @@
 # Retina 显示屏上截图过大且模糊
 
+> 原
+> 文：[Screenshots large and blurry on retina displays](https://faqs.ankiweb.net/screenshots-large-and-blurry-on-retina-displays.html)
+
 如果你编辑一张卡片，点击卡片，然后在样式部分的最底部放置以下内容，它将把截图缩小到合适的大小：
 
 ```

@@ -1,5 +1,8 @@
 # 申请 AnkiMobile 退款
 
+> 原
+> 文：[Requesting a refund for AnkiMobile](https://faqs.ankiweb.net/requesting-a-refund-for-ankimobile.html)
+
 如果你在使用 AnkiMobile 时遇到问题，请告诉我们，我们会尽力帮助你解决它。
 
 App Store 由苹果公司运营。当你在上面购买应用时，你是将钱支付给苹果。他们会保留部分费用，并在大约一个

@@ -1,5 +1,8 @@
 # Outlook.com 静默丢弃邮件
 
+> 原
+> 文：[Outlook.com silently discards email](https://faqs.ankiweb.net/outlook-silently-discards-email.html)
+
 Microsoft 的邮件服务器无法可靠地传递邮件。网上有大量报告称，邮件虽然成功传送到了 Microsoft 的服务
 器，但却未能出现在用户的收件箱中——即使是在垃圾邮件文件夹中也没有。
 

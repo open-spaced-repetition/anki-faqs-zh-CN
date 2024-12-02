@@ -1,5 +1,8 @@
 # 邮件因「垃圾邮件」而未收到
 
+> 原
+> 文：[Emails not being received due to "spam"](https://faqs.ankiweb.net/emails-not-being-received.html)
+
 一些邮件提供商（通常是学校或企业的邮件）将垃圾邮件检查外包给外部公司。这些外部公司中有些在打击垃圾邮
 件时过于严格，遗憾的是附带损害不可避免——当同一网络上的其他客户发送了不当邮件时，像 AnkiWeb 这样的无
 辜方可能会被封锁。

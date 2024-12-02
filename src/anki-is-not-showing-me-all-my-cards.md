@@ -1,5 +1,8 @@
 # Anki 没有显示我所有的卡片！
 
+> 原
+> 文：[Anki is not showing me all my cards!](https://faqs.ankiweb.net/anki-is-not-showing-me-all-my-cards.html)
+
 <h2>Anki 决定你看到哪些卡片</h2>
 
 Anki 的设计目标是帮助你长期记忆大量的材料。为此，它的操作方式与传统的闪卡程序不同。
@@ -42,8 +45,9 @@ Anki 会在认为你会忘记它们的时候显示你之前复习过的卡片。
 或者进行其他学习。
 
 如果你有即将到来的考试，并且需要在截止日期前复习材料，你可以告诉 Anki 你想
-要[在常规计划外复习](https://open-spaced-repetition.github.io/anki-manual-zh-CN/filtered-decks.html)。如果你只是想快速翻阅一些卡片以检
-查创建后的错误，或对所学内容有个大致了解，你可以使用浏览界面右上角的 **预览** 功能。
+要[在常规计划外复习](https://open-spaced-repetition.github.io/anki-manual-zh-CN/filtered-decks.html)。
+如果你只是想快速翻阅一些卡片以检查创建后的错误，或对所学内容有个大致了解，你可以使用浏览界面右上角的
+**预览** 功能。
 
 <h2>卡片计数减少超过一个</h2>
 

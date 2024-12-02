@@ -1,5 +1,7 @@
 # 字符被截断
 
+> 原文：[Characters are cut off](https://faqs.ankiweb.net/characters-are-cut-off.html)
+
 如果你发现部分字符缺失，可能是你正在使用的字体不适合你学习的语言。为了解决这个问题：
 
 - 当显示受影响的卡片时，点击编辑，然后是卡片。

@@ -1,5 +1,8 @@
 # 获取 AnkiMobile 崩溃日志
 
+> 原
+> 文：[Retrieving AnkiMobile crash logs](https://faqs.ankiweb.net/retrieving-ankimobile-crash-logs.html)
+
 崩溃日志可以帮助我们识别 AnkiMobile 崩溃时出现的问题。要分享你的崩溃日志，请：
 
 - 前往主屏幕上的设置应用，并点击「隐私」

@@ -1,5 +1,7 @@
 # 合并两个牌组
 
+> 原文：[Merging/combining two decks](https://faqs.ankiweb.net/merging-or-combining-two-decks.html)
+
 Anki 没有明确的功能来合并牌组，但你可以通过将一个牌组中的所有卡片移动到另一个牌组中来轻松实现。请按
 照以下步骤进行：
 

@@ -1,5 +1,7 @@
 # 自定义 MathJax
 
+> 原文：[Customizing MathJax](https://faqs.ankiweb.net/customizing-mathjax.html)
+
 Anki 自带的 MathJax 支持在你的卡片内容加载之前加载，因此如果你想自定义 MathJax，需要以特定的方式进
 行。
 

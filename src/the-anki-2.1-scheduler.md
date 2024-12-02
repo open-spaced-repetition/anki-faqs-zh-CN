@@ -1,5 +1,7 @@
 # 旧调度器版本
 
+> 原文：[Old scheduler versions](https://faqs.ankiweb.net/the-anki-2.1-scheduler.html)
+
 本节包含有关当前已过时的调度器版本的信息。
 
 ## v1 调度器

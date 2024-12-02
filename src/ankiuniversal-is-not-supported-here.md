@@ -1,5 +1,8 @@
 # 这里不支持 AnkiUniversal
 
+> 原
+> 文：[AnkiUniversal is not supported here](https://faqs.ankiweb.net/ankiuniversal-is-not-supported-here.html)
+
 AnkiUniversal 是由一个独立的开发团队制作的，且与 Anki 生态系统的其他部分不完全兼容 —— 它不支持媒体同
 步、创建 LaTeX 图像等功能。
 

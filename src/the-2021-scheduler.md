@@ -1,5 +1,7 @@
 # Anki v3 调度器
 
+> 原文：[The Anki v3 Scheduler](https://faqs.ankiweb.net/the-2021-scheduler.html)
+
 2021 调度器（「v3」）是 [Anki 2.1 调度器](./the-anki-2.1-scheduler.md)（「v2」）的更新版本。
 
 ## 启用

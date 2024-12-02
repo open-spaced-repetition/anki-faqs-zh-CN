@@ -1,5 +1,8 @@
 # 媒体文件同步可能需要时间
 
+> 原
+> 文：[Media files may take time to sync](https://faqs.ankiweb.net/media-files-may-take-time-to-sync.html)
+
 请查看 [媒体同步介绍视频](https://www.youtube.com/watch?v=phP9GGG-PxY&yt:cc=on)。如果你不想观看视
 频，请继续阅读。
 

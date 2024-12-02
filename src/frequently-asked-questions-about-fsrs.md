@@ -1,5 +1,8 @@
 # 关于 FSRS 的常见问题
 
+> 原
+> 文：[Frequently asked questions about FSRS](https://faqs.ankiweb.net/frequently-asked-questions-about-fsrs.html)
+
 ---
 
 Q1: 我的 **Good** 的首次间隔是 3-5 天，而 **Easy** 的首次间隔超过一周！这正常吗？

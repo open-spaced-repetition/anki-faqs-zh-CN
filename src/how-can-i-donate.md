@@ -1,5 +1,7 @@
 # 如何捐赠 / 贡献？
 
+> 原文：[How can I donate / contribute?](https://faqs.ankiweb.net/how-can-i-donate.html)
+
 由于 Anki 作为一家公司运作，因此很难接受捐赠。我们通过提供
 [AnkiMobile](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) 来筹集开发资金。你可以
 在你的苹果移动设备上购买 AnkiMobile，其所得收益将用于支持 Anki 的开发。

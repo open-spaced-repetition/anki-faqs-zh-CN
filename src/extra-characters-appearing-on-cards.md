@@ -1,5 +1,8 @@
 # 卡片上出现额外字符
 
+> 原
+> 文：[Extra characters appearing on cards](https://faqs.ankiweb.net/extra-characters-appearing-on-cards.html)
+
 有时候用户会注意到卡片上或卡片前面出现了一些他们不记得自己写过的文字。通常这只是几个字母或是一些无意
 义的字符。例如，你在卡片正面写了「book」，但在复习卡片时却显示为「fybook」。
 

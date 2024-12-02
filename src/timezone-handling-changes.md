@@ -1,5 +1,7 @@
 # 时区处理变更
 
+> 原文：[Timezone handling changes](https://faqs.ankiweb.net/timezone-handling-changes.html)
+
 Anki 2.1.22+、AnkiMobile 2.0.57+ 和 AnkiDroid 2.15+ 包含了对 Anki 计算经过天数方式的可选更改。此更改
 解决了一些极端情况，即时区变更（包括夏令时）可能导致 Anki 向前或向后推移一天的问题，并解决了一些用户
 在与 AnkiWeb 同步时卡片被解除埋藏 / 每日计数被重置的问题。

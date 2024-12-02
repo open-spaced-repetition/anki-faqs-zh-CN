@@ -1,5 +1,7 @@
 # Anki 2.0 支持已结束
 
+> 原文：[Anki 2.0 support has ended](https://faqs.ankiweb.net/anki-2.0-support-has-ended.html)
+
 <h2>Anki</h2>
 
 2020 年 6 月 1 日更新：上游的一个 SSL 证书已过期，这导致剩余使用 2.0 的用户的同步中断。

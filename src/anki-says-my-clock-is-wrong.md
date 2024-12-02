@@ -1,5 +1,7 @@
 # Anki 说我的时钟不正确
 
+> 原文：[Anki says my clock is wrong](https://faqs.ankiweb.net/anki-says-my-clock-is-wrong.html)
+
 为了确保你的日程安排不被搞乱，Anki 要求你设备上的时钟设置正确。这意味着以下所有项目都必须设置正确：
 
 - 时间（包括 AM/PM）

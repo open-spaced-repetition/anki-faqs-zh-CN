@@ -1,5 +1,8 @@
 # 将一个字段拆分为多个字段
 
+> 原
+> 文：[Splitting a field into multiple fields](https://faqs.ankiweb.net/splitting-a-field-into-multiple-fields.html)
+
 ## 新版本的 Anki
 
 在新版本的 Anki 中，无需进行导出和导入操作。可以参考

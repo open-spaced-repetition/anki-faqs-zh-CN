@@ -1,4 +1,4 @@
-# 时区处理变更
+# 时区处理的变化
 
 > 原文：[Timezone handling changes](https://faqs.ankiweb.net/timezone-handling-changes.html)
 

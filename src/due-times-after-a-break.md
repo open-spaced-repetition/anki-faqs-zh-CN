@@ -1,4 +1,4 @@
-# 休整后的到期时间
+# 休息后的到期时间
 
 > 原文：[Due times after a break](https://faqs.ankiweb.net/due-times-after-a-break.html)
 

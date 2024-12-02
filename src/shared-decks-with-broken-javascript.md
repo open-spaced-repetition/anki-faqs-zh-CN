@@ -1,4 +1,4 @@
-# 含有损坏 Javascript 的共享牌组
+# 共享牌组的 Javascript 失效
 
 > 原
 > 文：[Shared decks with broken Javascript](https://faqs.ankiweb.net/shared-decks-with-broken-javascript.html)

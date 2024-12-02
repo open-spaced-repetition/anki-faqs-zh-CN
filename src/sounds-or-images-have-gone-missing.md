@@ -1,4 +1,4 @@
-# 音频/图像媒体文件丢失了！
+# 声音 / 图片媒体文件丢失了！
 
 > 原
 > 文：[Sound/image media files have gone missing!](https://faqs.ankiweb.net/sounds-or-images-have-gone-missing.html)

@@ -1,4 +1,4 @@
-# 如何在牌组之间移动卡片？
+# 我如何在牌组之间移动卡片？
 
 > 原
 > 文：[How do I move cards between decks?](https://faqs.ankiweb.net/how-do-i-move-cards-between-decks.html)

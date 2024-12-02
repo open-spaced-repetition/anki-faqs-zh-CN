@@ -1,4 +1,4 @@
-# 如何与他人合作创建牌组？
+# 我如何与其他人合作创建一个牌组？
 
 > 原
 > 文：[How can I work with someone else to create a deck?](https://faqs.ankiweb.net/how-can-i-work-with-someone-else-to-create-a-deck.html)
@@ -8,7 +8,7 @@ Anki 目前的协作支持有限，但多个用户一起制作内容是可行的
 如果你正在创建的卡片没有声音或图像，那么最简单的选项可能是利用诸如 Google Drive 之类的在线文档协作服
 务。
 
-使用这个系统时，你可以在电子表格中创建卡片（你使用的笔记类型中每个字段对应一列）。为了能轻松更新，第
+使用这个系统时，你可以在电子表格中创建卡片（你使用的笔记模板中每个字段对应一列）。为了能轻松更新，第
 一列应是一个你在更新卡片时不期望更改的字段。你可以在任何时间共同添加和编辑卡片；当你准备好用新的和更
 新的卡片来更新你的集合时，每个用户可以将电子表格导出为文本文件，然
 后[导入到 Anki 中](https://open-spaced-repetition.github.io/anki-manual-zh-CN/importing/intro.html)。

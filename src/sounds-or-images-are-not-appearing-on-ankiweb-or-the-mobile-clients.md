@@ -1,4 +1,4 @@
-# 声音/图片未出现在 AnkiWeb 或移动客户端上
+# 声音 / 图片未在 AnkiWeb 或移动客户端上显示
 
 > 原
 > 文：[Sounds/images are not appearing on AnkiWeb or the mobile clients](https://faqs.ankiweb.net/sounds-or-images-are-not-appearing-on-ankiweb-or-the-mobile-clients.html)
@@ -19,11 +19,11 @@ AnkiWeb）将无法显示图像。
 记下文件的名称。
 
 然后打开你的集合的媒体文件夹
-（<https://open-spaced-repetition.github.io/anki-manual-zh-CN/files.html#file-locations>）并找到引用
-的文件。如果文件没有使用完全相同的小写或大写字母组合，你就找到了问题所在。
+（<https://open-spaced-repetition.github.io/anki-manual-zh-CN/files.html#文件位置>）并找到引用的文
+件。如果文件没有使用完全相同的小写或大写字母组合，你就找到了问题所在。
 
 另外，请确保你已
-经[进行了媒体检查](https://open-spaced-repetition.github.io/anki-manual-zh-CN/media.html#manually-adding-media)。
+经[进行了媒体检查](https://open-spaced-repetition.github.io/anki-manual-zh-CN/media.html#手动添加媒体)。
 
 如果这是一个共享牌组，请将问题报告给共享牌组的作者。如果大小写不同是规律性的，你可以尝试使用 Anki 的
 浏览器中的查找和替换功能来解决问题。例如，如果链接是「dog.JPG」但磁盘上的文件是「dog.jpg」，你可以点

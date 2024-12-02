@@ -1,4 +1,4 @@
-# Hard/good 间隔比 good/easy 间隔长
+# 困难 / 良好的间隔比良好 / 简单更长
 
 > 原
 > 文：[Hard/good interval is longer than good/easy](https://faqs.ankiweb.net/hard-good-interval-longer-than-good-easy.html)

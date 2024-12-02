@@ -1,4 +1,4 @@
-# Anki 仿冒应用
+# Anki 山寨版
 
 > 原文：[Anki knockoffs](https://faqs.ankiweb.net/anki-knockoffs.html)
 

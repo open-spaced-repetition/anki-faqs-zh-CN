@@ -1,4 +1,4 @@
-# Anki 没有显示我所有的卡片！
+# Anki 没有向我展示所有的卡片！
 
 > 原
 > 文：[Anki is not showing me all my cards!](https://faqs.ankiweb.net/anki-is-not-showing-me-all-my-cards.html)

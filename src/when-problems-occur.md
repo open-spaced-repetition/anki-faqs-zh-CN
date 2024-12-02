@@ -1,4 +1,4 @@
-# 当问题发生时
+# 当出现问题时
 
 > 原文：[When problems occur](https://faqs.ankiweb.net/when-problems-occur.html)
 

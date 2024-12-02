@@ -1,4 +1,4 @@
-# 卡片上出现额外字符
+# 卡片上出现多余的字符
 
 > 原
 > 文：[Extra characters appearing on cards](https://faqs.ankiweb.net/extra-characters-appearing-on-cards.html)

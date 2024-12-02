@@ -12,7 +12,7 @@
 片所需的时间，与学习大量包含相同信息的简单卡片所需的时间相比，差别可能会非常显著。
 
 因此，Anki 不支持每张卡片超过两面。在我们的外语单词示例中，你可能想创建多
-个[卡片类型](https://open-spaced-repetition.github.io/anki-manual-zh-CN/templates/intro.html)，以便
+个[卡片模板](https://open-spaced-repetition.github.io/anki-manual-zh-CN/templates/intro.html)，以便
 你能在**不同的卡片**上问每个项目的问题——一张卡片可能展示单词并要求给出定义，另一张卡片可能展示缺少该
 单词的例句，并问哪个单词合适，等等。
 

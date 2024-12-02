@@ -1,4 +1,4 @@
-# 重置牌组中的进度
+# 重置牌组的进度
 
 > 原文：[Resetting progress in a deck](https://faqs.ankiweb.net/resetting-progress-in-a-deck.html)
 

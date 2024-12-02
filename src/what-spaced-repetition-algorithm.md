@@ -1,4 +1,4 @@
-# Anki 使用了什么间隔重复算法？
+# Anki 使用什么间隔重复算法？
 
 > 原
 > 文：[What spaced repetition algorithm does Anki use?](https://faqs.ankiweb.net/what-spaced-repetition-algorithm.html)

@@ -1,4 +1,4 @@
-# 录音时的错误
+# 录音时出现错误
 
 > 原文：[Errors when recording](https://faqs.ankiweb.net/errors-when-recording.html)
 

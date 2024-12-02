@@ -1,4 +1,4 @@
-# 我能将卡片连接在一起吗？
+# 我可以将卡片链接在一起吗？
 
 > 原文：[Can I link cards together?](https://faqs.ankiweb.net/linking-cards-together.html)
 

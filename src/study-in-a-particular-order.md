@@ -1,4 +1,4 @@
-# 我可以按特定顺序学习我的卡片吗？
+# 我可以按特定顺序学习卡片吗？
 
 > 原文：[Study in a particular order](https://faqs.ankiweb.net/study-in-a-particular-order.html)
 

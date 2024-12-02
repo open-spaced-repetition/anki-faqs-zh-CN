@@ -1,4 +1,4 @@
-# 合并两个牌组
+# 合并 / 组合两个牌组
 
 > 原文：[Merging/combining two decks](https://faqs.ankiweb.net/merging-or-combining-two-decks.html)
 

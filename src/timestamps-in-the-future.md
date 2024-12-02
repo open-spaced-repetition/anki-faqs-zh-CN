@@ -1,4 +1,4 @@
-# 导入/导出因未来的时间戳失败
+# 由于未来的时间戳，导入 / 导出失败
 
 > 原
 > 文：[Importing/exporting fails due to timestamps in the future](https://faqs.ankiweb.net/timestamps-in-the-future.html)

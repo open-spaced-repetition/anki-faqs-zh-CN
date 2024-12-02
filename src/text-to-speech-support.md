@@ -2,7 +2,7 @@
 
 <h1>适用于 Anki 2.1.20+</h1>
 
-请参见 <https://docs.ankiweb.net/templates/fields.html#text-to-speech-for-individual-fields>
+请参见 <https://open-spaced-repetition.github.io/anki-manual-zh-CN/templates/fields.html#text-to-speech-for-individual-fields>
 
 <h1>适用于 AnkiMobile 2.0.56+</h1>
 

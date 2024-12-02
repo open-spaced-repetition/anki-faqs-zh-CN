@@ -15,10 +15,10 @@ AnkiWeb）将无法显示图像。
 
 记下文件的名称。
 
-然后打开你的集合的媒体文件夹（<https://docs.ankiweb.net/files.html#file-locations>）并找到引用的文
+然后打开你的集合的媒体文件夹（<https://open-spaced-repetition.github.io/anki-manual-zh-CN/files.html#file-locations>）并找到引用的文
 件。如果文件没有使用完全相同的小写或大写字母组合，你就找到了问题所在。
 
-另外，请确保你已经[进行了媒体检查](https://docs.ankiweb.net/media.html#manually-adding-media)。
+另外，请确保你已经[进行了媒体检查](https://open-spaced-repetition.github.io/anki-manual-zh-CN/media.html#manually-adding-media)。
 
 如果这是一个共享牌组，请将问题报告给共享牌组的作者。如果大小写不同是规律性的，你可以尝试使用 Anki 的
 浏览器中的查找和替换功能来解决问题。例如，如果链接是「dog.JPG」但磁盘上的文件是「dog.jpg」，你可以点

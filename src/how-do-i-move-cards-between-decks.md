@@ -6,7 +6,7 @@
 - 你制作了一个较大的牌组，想将其拆分成几个小的
 - 你制作了几个小牌组，想将它们合并成一个较大的
 
-[浏览器](https://docs.ankiweb.net/browsing.html) 在菜单栏中提供了一个**更改牌组**选项，用于处理这类
+[浏览器](https://open-spaced-repetition.github.io/anki-manual-zh-CN/browsing.html) 在菜单栏中提供了一个**更改牌组**选项，用于处理这类
 任务。
 
 另请参
@@ -15,6 +15,6 @@
 
 ---
 
-如果你想在＊配置文件＊之间移动卡片，或将卡片分享给其他人，你可以使用 Anki
-的[导出](https://docs.ankiweb.net/exporting.html)功能来导出一个封装的牌组。如果你想只分享或移动牌组
+如果你想在**配置文件**之间移动卡片，或将卡片分享给其他人，你可以使用 Anki
+的[导出](https://open-spaced-repetition.github.io/anki-manual-zh-CN/exporting.html)功能来导出一个封装的牌组。如果你想只分享或移动牌组
 中的部分卡片到新的配置文件，可以先使用上面的更改牌组选项将它们移动到一个临时牌组，然后导出该牌组。

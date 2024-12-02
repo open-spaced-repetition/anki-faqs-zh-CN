@@ -26,5 +26,5 @@
 请查看牌组选项中的显示选项。
 
 虽然常规的复习过程不会按顺序显示卡片，但你可以使用
-[浏览界面](https://docs.ankiweb.net/browsing.html)按特定顺序对你的卡片进行排序，然后使用预览按钮按该
+[浏览界面](https://open-spaced-repetition.github.io/anki-manual-zh-CN/browsing.html)按特定顺序对你的卡片进行排序，然后使用预览按钮按该
 顺序浏览卡片。这样会绕过 Anki 平常的学习过程，不会改变卡片的计划或其复习历史。

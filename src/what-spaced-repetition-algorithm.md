@@ -52,18 +52,18 @@ FSRS 基于「三元记忆模型」。该模型断言三个变量足以描述人
 多，例如，如果用户暂时离开 Anki 几周或几个月。
 
 调度代码可以在 `rslib/src/scheduler/states` 中找到。以下是摘要（请参阅手册的
-[牌组选项](https://docs.ankiweb.net/deck-options.html) 部分，查询提到的 _斜体_ 选项）：
+[牌组选项](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html) 部分，查询提到的 _斜体_ 选项）：
 
 ## 学习/再学习卡片
 
 如果你按下…​
 
-- 再次将卡片移回 [学习/再学习步骤](https://docs.ankiweb.net/deck-options.html?#learning-steps) 中设
+- 再次将卡片移回 [学习/再学习步骤](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#learning-steps) 中设
   置的第一步。
 
 - 困难在第一步之后重复当前步骤，并且是「再次」与「良好」的平均数。
 
-- 良好将卡片移至[下一步](https://docs.ankiweb.net/deck-options.html?#learning-steps)。如果卡片在最后
+- 良好将卡片移至[下一步](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#learning-steps)。如果卡片在最后
   一步，则该卡片将转化为复习卡片（即它「毕业」）。
 
 - 简单立即将卡片转化为复习卡片。
@@ -74,7 +74,7 @@ FSRS 基于「三元记忆模型」。该模型断言三个变量足以描述人
 ## 复习卡片
 
 在 SM-2 中，一旦卡片毕业，就会拥有易度因子。默认值是 2.5，但你可以使用
-[牌组选项](https://docs.ankiweb.net/deck-options.html?#starting-ease) 设置其他值。
+[牌组选项](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#starting-ease) 设置其他值。
 
 如果你按下…​
 

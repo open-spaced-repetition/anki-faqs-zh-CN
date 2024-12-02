@@ -17,7 +17,7 @@
 
 请注意，如果牌组分享者在他们的集合中使用了『更改笔记类型』选项，他们将永久性地打破你和他们之间的连
 接，即使你的笔记类型的字段和卡片模板匹配，通过 .apkg 导入进行更新也是不可能的。你可以通过在学习屏幕
-查看卡片时，在[调试控制台](https://docs.ankiweb.net/misc.html#debug-console)中使用以下命令来检查笔记
+查看卡片时，在[调试控制台](https://open-spaced-repetition.github.io/anki-manual-zh-CN/misc.html#debug-console)中使用以下命令来检查笔记
 类型是否链接：
 
 ```
@@ -29,4 +29,4 @@ pp(card()['_note'].mid)
 如果共享牌组中的一个字段没有被更改，也可以通过文本导入应用更新。在将共享牌组导入临时配置文件后，使用
 文件>导出以 txt 格式保存笔记。然后在你原始的配置文件中，可以导入文本文件，与一个未更改的字段进行匹
 配。文本导入一次只能对一种笔记类型操作，所以如果你下载的共享牌组包含多种笔记类型，你需要一次处理一个
-笔记类型。更多信息请见 <https://docs.ankiweb.net/importing/packaged-decks.html#updating>。
+笔记类型。更多信息请见 <https://open-spaced-repetition.github.io/anki-manual-zh-CN/importing/packaged-decks.html#updating>。

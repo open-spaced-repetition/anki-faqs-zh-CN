@@ -23,5 +23,5 @@ Enter 搜索当前牌组，并查看标题栏，你可以找到牌组中有多�
 
 如果你在考试前几天有时间余裕地完成了所有新卡片，你可能希望快速浏览你所有的卡片或其中的一部分，以复习
 自上次复习以来已经遗忘的卡片。你可以使用 Anki
-的[自定义学习](https://docs.ankiweb.net/filtered-decks.html#custom-study)功能来学习更多卡片；有关说
+的[自定义学习](https://open-spaced-repetition.github.io/anki-manual-zh-CN/filtered-decks.html#custom-study)功能来学习更多卡片；有关说
 明和可用选项，请参阅手册中链接的部分。

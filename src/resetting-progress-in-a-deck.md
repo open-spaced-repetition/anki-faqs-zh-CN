@@ -6,7 +6,7 @@
 
 **不建议因为进度落后而重置你的部分集合。** 虽然从卡片积压中恢复可能很困难，但抹去你所取得的所有进展
 是最糟糕的事情：你仍然会记住其中许多卡片，尽管你本可以选择「简单」，却需要从头开始学习它们。相反，可
-以考虑设定一个[每日复习上限](https://docs.ankiweb.net/deck-options.html#daily-limits)（选项中的「最
+以考虑设定一个[每日复习上限](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html#daily-limits)（选项中的「最
 大复习/天」），每天复习一定数量的待复习卡片，直到赶上。
 
 ## 在 Anki 中重置卡片

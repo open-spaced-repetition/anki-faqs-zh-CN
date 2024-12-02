@@ -15,7 +15,7 @@
 如果你的账户数据因不活动而被删除，但你在电脑或移动设备上有备份，你可能仍然能够恢复这些数据。你可以通
 过打开 Anki 或 AnkiMobile/AnkiDroid 来确认数据是否仍在设备上。如果你设备上的数据在同步过程中被意外覆
 盖，你可能可以从一
-个[自动备份](https://faqs.ankiweb.net/restoring-an-automatic-backup-recovering-from-data-loss.html)中
+个[自动备份](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/restoring-an-automatic-backup-recovering-from-data-loss.html)中
 恢复它。
 
 如果你想再次将数据同步至 AnkiWeb，请首先使用你的 Anki ID 登录 ankiweb.net。如果你的账户信息正确，你

@@ -10,7 +10,7 @@
 任务。
 
 另请参
-阅[合并/组合两个牌组](https://faqs.ankiweb.net/merging-or-combining-two-decks.html#mergingcombining-two-decks)，
+阅[合并/组合两个牌组](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/merging-or-combining-two-decks.html#mergingcombining-two-decks)，
 获取该特定情况下更精确的说明。
 
 ---

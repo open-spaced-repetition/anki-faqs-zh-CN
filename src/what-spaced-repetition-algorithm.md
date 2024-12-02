@@ -88,7 +88,7 @@ FSRS 基于「三元记忆模型」。该模型断言三个变量足以描述人
 - 简单当前间隔乘以当前易度再乘以容易奖励，易度增加 15 个百分点。
 
 对于困难、良好和简单，接下来的间隔还乘以间隔修饰符。如果卡片正在延迟复习，将会有额外的天数添加到当前
-间隔中，如[之前的 FAQ](https://faqs.ankiweb.net/due-times-after-a-break.html) 中所述。
+间隔中，如[之前的 FAQ](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/due-times-after-a-break.html) 中所述。
 
 在 FSRS 中，一旦卡片至少复习过一次，就会被分配 DSR 值。
 

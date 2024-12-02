@@ -52,4 +52,4 @@ Anki 会在认为你会忘记它们的时候显示你之前复习过的卡片。
 
 <h2>相关</h2>
 
-[使用 Anki 准备大型考试的设置](https://faqs.ankiweb.net/settings-for-using-anki-to-prepare-for-a-large-exam.html)
+[使用 Anki 准备大型考试的设置](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/settings-for-using-anki-to-prepare-for-a-large-exam.html)

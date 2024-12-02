@@ -23,4 +23,4 @@
 如果你的 wifi 或互联网连接存在问题，来自 AnkiWeb 的消息可能会被破坏或无法到达，从而导致出现此错误消
 息。可以尝试检查是否存在数据包丢失：
 
-<https://faqs.ankiweb.net/syncing-failed-connection-timed-out-errors-when-syncing.html>
+<https://open-spaced-repetition.github.io/anki-faqs-zh-CN/syncing-failed-connection-timed-out-errors-when-syncing.html>

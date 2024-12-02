@@ -5,7 +5,7 @@
 如果同步似乎从未取得任何进展，可能是 Anki 完全被阻止连接到互联网。在这种情况下，你可能需要在杀毒软件
 /防火墙中添加一个例外，或者请网络管理员协助。更多信息，请参阅
 
-<https://faqs.ankiweb.net/error-establishing-a-secure-connection-when-syncing.html>
+<https://open-spaced-repetition.github.io/anki-faqs-zh-CN/error-establishing-a-secure-connection-when-syncing.html>
 
 **如果同步似乎有一些进展**
 

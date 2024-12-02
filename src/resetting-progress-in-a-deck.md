@@ -1,18 +1,23 @@
-# Resetting progress in a deck
+# 重置牌组中的进度
 
-Sometimes you may want to "reset" part of your collection so that the cards become new again and the scheduling algorithm starts from the beginning. For instance, you might have completely changed a card or updated it so that you need to start learning it again, or you may have flipped through some cards without really studying if you were just trying to take a look at the cards or figure out how Anki works.
+有时候，你可能希望「重置」你的部分集合，使卡片变为新的，调度算法从头开始。例如，你可能完全更改了一张
+卡片或更新了它，以致需要重新开始学习，或者你可能只是翻阅了一些卡片而没有真正学习，如果你只是想看看这
+些卡片或弄清楚 Anki 如何工作。
 
-**Resetting part of your collection because you are behind is not recommended.** While it can be tough to recover from a backlog of cards, erasing all the progress you have made is the worst possible thing you can do: you will still remember many of those cards, and you'll have to start them all over even though you could have pushed "easy." Instead, consider setting up a [daily review limit](https://docs.ankiweb.net/deck-options.html#daily-limits) ("maximum reviews/day" in the options) and studying a set number of the overdue cards each day until you catch up.
+**不建议因为进度落后而重置你的部分集合。** 虽然从卡片积压中恢复可能很困难，但抹去你所取得的所有进展
+是最糟糕的事情：你仍然会记住其中许多卡片，尽管你本可以选择「简单」，却需要从头开始学习它们。相反，可
+以考虑设定一个[每日复习上限](https://docs.ankiweb.net/deck-options.html#daily-limits)（选项中的「最
+大复习/天」），每天复习一定数量的待复习卡片，直到赶上。
 
-Resetting cards within Anki
---------------------------------
+## 在 Anki 中重置卡片
 
-1. Find the cards you want to reset in the browser.
-2. Select all the cards and choose **Cards**->**Reset** (or **Cards**->**Forget** in older versions).
+1. 在浏览器中找到你要重置的卡片。
+2. 全选卡片，然后选择 **Cards**->**Reset**（或者在旧版本中选择 **Cards**->**Forget**）。
 
-When you do this, Anki will turn the cards back into new cards. If you click **Info** in the browser you'll see any previous reviews you've done listed there, but that history will not influence how the cards are scheduled: they will be treated just like new cards.
+当你这么做时，Anki 会将卡片变为新卡片。如果你在浏览器中点击 **Info**，你会看到之前进行的任何复习，然
+而这些历史记录不会影响卡片的调度：它们将被视为新卡片。
 
-Removing the review history
----------------------------------
+## 删除复习历史
 
-If you accidentally imported the review history of someone else, because they shared their deck with scheduling, you can use the [Remove card history](https://ankiweb.net/shared/info/2089200096) add-on to remove the history of selected cards.
+如果你意外地导入了他人的复习历史，因为他们共享了带有调度的牌组，你可以使用
+[Remove card history](https://ankiweb.net/shared/info/2089200096) 插件来删除所选卡片的历史记录。

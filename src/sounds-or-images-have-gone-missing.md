@@ -1,13 +1,23 @@
-# Sound/image media files have gone missing!
+# 音频/图像媒体文件丢失了！
 
-Anki stores your cards' sound and image files on your computer, in your [Anki folder](https://docs.ankiweb.net/files.html#file-locations), in User 1/collection.media. If you delete any files from that folder, Anki notes they have been removed and on the next sync it will remove them from your other devices as well. What sometimes happens is users tidy up files on their computer, and accidentally remove the sounds and images that their cards use, resulting in sounds not playing or images not appearing. This is particularly easy to do accidentally on a Mac with the "all my files" feature of the Finder, but can happen on other platforms as well.
+Anki 将你的卡片的音频和图像文件存储在你的计算机中，位于
+[Anki 文件夹](https://docs.ankiweb.net/files.html#file-locations)的 User 1/collection.media 中。如果
+你删除了该文件夹中的任何文件，Anki 会记录它们已被移除，并在下次同步时也会从你的其他设备中移除它们。
+有时会发生用户在电脑上整理文件，意外删除卡片使用的音频和图像，导致音频无法播放或图像无法显示的情况。
+在 Mac 上使用 Finder 的「所有我的文件」功能时，特别容易不小心删除，但在其他平台上也可能发生。
 
-You can use Anki's Tools>Check Media function to find out which images are missing from your collection by looking at the "Used on cards but missing from media folder" section.
+你可以使用 Anki 的 工具>检查媒体 功能，通过查看「使用于卡片但在媒体文件夹中缺失」部分，找出集合中缺
+少的图像。
 
-If you've accidentally deleted the files your cards were using, you may be able to restore them from your recycle bin / trash can if the trash has not been emptied yet. Placing them back in the collection.media folder should cause the media to work again.
+如果你不小心删除了卡片使用的文件，你可以尝试从回收站中恢复它们，如果回收站尚未被清空的话。将它们放回
+collection.media 文件夹应该会使媒体再次正常工作。
 
-If you are unable to recover your media from any of your devices, we may be able to restore it from AnkiWeb's backups for you if it was deleted recently.
+如果你无法从任何设备上恢复你的媒体文件，如果这些文件是最近被删除的，我们可能可以从 AnkiWeb 的备份中
+为你恢复它们。
 
-If you've lost your sound and images, but had obtained them from a shared deck, if the shared deck is still available you can import it into a new profile, and then copy the sounds and images from it into your original collection to restore the data.
+如果你丢失了音频和图像，但这些是从共享牌组中获取的，且该共享牌组仍然可用，你可以将其导入到一个新的用
+户档案中，然后从中复制音频和图像到你的原始集合中以恢复数据。
 
-When editing fields, Anki shows the names of sound files. To see the names of image files, you can press ctrl+shift+x while the cursor is in the field with the image (cmd+shift+x on a Mac). For an image or sound file to work, a file with the exact same file name must be in the collection.media folder.
+编辑字段时，Anki 会显示音频文件的名称。要查看图像文件的名称，你可以在光标位于图像的字段中时按
+ctrl+shift+x（在 Mac 上为 cmd+shift+x）。要使图像或音频文件正常工作，具有完全相同文件名的文件必须位
+于 collection.media 文件夹中。

@@ -1,3 +1,3 @@
-# Getting help
+# 获取帮助
 
-Please see <https://docs.ankiweb.net/getting-help.html>
+请参见 <https://docs.ankiweb.net/getting-help.html>

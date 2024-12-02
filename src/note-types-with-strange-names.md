@@ -1,12 +1,19 @@
-# Note types with strange names
+# 拥有奇怪名称的笔记类型
 
-After you've used Anki for a while and downloaded some shared decks, you may end up with some note types with names like ```Basic-908e4``` or ```Cloze-37a28```. These note types are created when you download a shared deck that uses a note type with the same name as one that's already in your collection. (If Anki didn't do this, then it might merge two different note types that happened to have the same name.)
+当你使用 Anki 一段时间并下载了一些共享牌组后，你可能会发现一些笔记类型有类似「Basic-908e4」或
+「Cloze-37a28」的名称。这些笔记类型是在你下载一个共享牌组时创建的，而该牌组使用的笔记类型名称与已经
+在你的集合中存在的笔记类型名称相同。（如果 Anki 不这样做，那么可能会合并两个碰巧同名的不同笔记类
+型。）
 
-Having these note types in your collection is normal and will not cause any problems, but if you would like to clean up, you can use the following procedure:
+在你的集合中拥有这些笔记类型是正常的，不会引起任何问题，但如果你想清理它们，可以使用以下步骤：
 
-1. Compare the fields and card templates of each of the note types using the *Fields...* and *Cards...* buttons in the Manage Note Types dialog (Tools → Manage Note Types in the main window). If they're not the same, then you should just rename one to something more descriptive. If they are the same, then you can continue with these instructions to merge them.
-2. Open the browser and select the note type that you want to get rid of in the left pane. (You can pick either one as long as you're consistent.)
-3. Click in the right pane and choose Edit → Select All.
-4. Choose Notes → Change Note Type and change all of the cards to the note type that you're keeping. (Note that this step will require a full sync to AnkiWeb the next time you sync, so if you have unsynced progress on other devices, you should get everything in sync first. Anki will give you a warning about this.)
-5. Close the browser, return to the Manage Note Types dialog, and delete the old note type.
-6. Repeat these steps for any other pairs of note types you'd like to combine.
+1. 使用「字段...」和「卡片...」按钮在管理笔记类型对话框中（主窗口中路径：工具 → 管理笔记类型）比较每
+   个笔记类型的字段和卡片模板。如果它们不相同，你只需将其中一个重命名为更具描述性的名称。如果它们相
+   同，你可以继续按照这些说明将它们合并。
+2. 打开浏览器并在左侧窗格中选择要移除的笔记类型。（只要保持一致，你可以选择任意一个。）
+3. 点击右侧窗格并选择 编辑 → 全选。
+4. 选择 笔记 → 更改笔记类型，并将所有卡片改为你要保留的笔记类型。（请注意，此步骤下次同步到 AnkiWeb
+   时需要进行完整同步，因此如果你在其他设备上有未同步的进度，应该先将所有内容同步。Anki 会对此给出警
+   告。）
+5. 关闭浏览器，返回到管理笔记类型对话框，删除旧的笔记类型。
+6. 对你想要合并的任何其他笔记类型对进行重复这些步骤。

@@ -1,17 +1,27 @@
-# Splitting a field into multiple fields
+# 将一个字段拆分为多个字段
 
-## Recent Anki versions
+## 新版本的 Anki
 
-With recent Anki versions, there is no need to export+import. An example is provided [in this forum post](https://forums.ankiweb.net/t/cloze-type-to-basic-type/23305/2).
+在新版本的 Anki 中，无需进行导出和导入操作。可以参考
+[这个论坛帖子](https://forums.ankiweb.net/t/cloze-type-to-basic-type/23305/2) 中的一个示例。
 
-## Older Anki versions
+## 旧版本的 Anki
 
-Sometimes you may create a deck, or download a shared deck, with several things in one field, such as text and audio, but then later decide that you would rather have the information in two fields so that you can have more precise control over what displays on each card. One option is to add a new field and then manually cut and paste the content between fields; this may be the fastest if you have less than a hundred cards or so, but otherwise it will be very tedious and slow. Here is a method you can use based on exporting to a text file and doing a search and replace; as an example, we'll focus on
+有时你可能会创建一个牌组，或者下载一个共享牌组，其中一个字段中包含多个信息，比如文本和音频。之后你可
+能会决定将这些信息分成两个字段，以便更精确地控制每张卡片上显示的内容。一个选择是添加一个新字段，然后
+手动将内容在字段之间剪切和粘贴；如果你有少于一百张卡片，这可能是最快的方法，但否则将非常乏味且缓慢。
+这里提供一种基于导出文本文件以及进行查找和替换的方法；我们将以以下步骤为例进行说明：
 
-1. If the field you want to split is the first field, make a different field the first field by using the **Reposition** button in the Fields dialog. This field needs to be unique, so that no two cards have the same content in that field. If you don't have any unique fields except the one you're trying to split, you can use the [add note ID](https://ankiweb.net/shared/info/8897764) add-on to add a unique field to the notes.
-2. Export the entire deck to a text file, using the **Notes in plain text** choice.
-3. Add a new field to your note type. The new field should come immediately after the one that you're trying to split, so if you had a "Word and Audio" field, you could rename it to "Word" and then add an "Audio" field and reposition it to go after the "Word" field.
-4. Open the text file and do the search and replace. If your text editor supports a certain form of regular expressions, this might work for the expression: `s/\[sound/\t\[sound/`. Otherwise, if you're not sure how to form the expression, you can ask on the Community section or look for regular expression help on the Internet.
-5. Import the text file back into your collection, making sure to use the correct note type and deck. Your notes will be updated with the newly split field.
+1. 如果你想要拆分的字段是第一个字段，可通过字段对话框中的 **重新定位** 按钮将其他字段设为第一个字
+   段。这个字段需要是唯一的，以保证没有两张卡片在该字段中拥有相同的内容。如果除了你正尝试拆分的字段
+   之外没有其他唯一字段，可以使用 [add note ID](https://ankiweb.net/shared/info/8897764) 插件为笔记
+   添加一个唯一字段。
+2. 将整个牌组导出为文本文件，选择 **纯文本笔记** 选项。
+3. 向你的笔记类型中添加一个新字段。新字段应紧随你尝试拆分的字段之后，如果你先前有一个「单词和音频」
+   字段，可以将其重命名为「单词」，然后添加一个「音频」字段并将其重新定位到「单词」字段之后。
+4. 打开文本文件并进行查找和替换。如果你的文本编辑器支持某种形式的正则表达式，可能可以使用以下表达
+   式：`s/\[sound/\t\[sound/`。否则，如果你不确定如何构建表达式，可以在社区部分询问或在网上查找正则
+   表达式的帮助。
+5. 将文本文件重新导入到你的集合中，确保使用正确的笔记类型和牌组。你的笔记将更新为包含新拆分的字段。
 
-If you run into problems, please ask on the Community category, as this is outside the scope of the official support we can provide for Anki.
+如果遇到问题，请在社区类别中提问，因为这超出了我们提供的 Anki 官方支持的范围。

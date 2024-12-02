@@ -1,5 +1,8 @@
-# Printing cards in your collection
+# 打印集合中的卡片
 
-Some people like to print the cards in their collection so that they can review them on paper or for other reasons. Before you do this, please keep in mind that Anki is most effective when you study only through the application. Studying a list of your cards will necessarily require you to study them at suboptimal intervals compared to the ones Anki gives you.
+有些人喜欢打印他们集合中的卡片，以便能够在纸上查看或出于其他原因。在你这样做之前，请记住，Anki 在你
+仅通过应用程序学习时最为有效。学习你的卡片列表将需要你在与 Anki 提供的间隔相比更不理想的时间点学习这
+些卡片。
 
-Printing in Anki is handled by the [Basic Printing Support](https://ankiweb.net/shared/info/1025789669) add-on. If you have trouble getting your browser to open, please follow the directions in the review "WORKS, but does not open the browser automatically", located on that page.
+在 Anki 中打印由 [Basic Printing Support](https://ankiweb.net/shared/info/1025789669) 插件处理。如果
+你在打开浏览器时遇到问题，请遵循该页面上的「有效，但无法自动打开浏览器」评论中的说明。

@@ -1,23 +1,26 @@
-# "Error establishing a secure connection." when syncing
+# 「建立安全连接时出错」同步错误
 
-This error happens when Anki tries to make a connection to AnkiWeb, and receives an invalid response. It can be caused by:
+此错误发生在 Anki 尝试连接到 AnkiWeb 并且收到无效响应时。可能是由以下原因导致的：
 
-- antivirus or firewall software on your machine
-- a filtered network connection, common on work and school networks
-- an unreliable network connection
+- 你机器上的防病毒软件或防火墙
+- 工作和学校网络中常见的过滤网络连接
+- 不可靠的网络连接
 
-**Antivirus/firewall/VPN/proxy**
+**防病毒/防火墙/VPN/代理**
 
-Antivirus, firewall and VPN programs can often cause problems when they filter network traffic.
+防病毒、防火墙和 VPN 程序在过滤网络流量时往往会引发问题。
 
-The first thing to try is to add an exception for Anki.
+首先尝试为 Anki 添加例外。
 
-If that doesn't work, try disabling your antivirus temporarily.
+如果这不起作用，尝试暂时禁用你的防病毒软件。
 
-Unfortunately some antivirus programs do not completely stop themselves when disabled. We have seen cases where the only way to resolve the problem was to completely uninstall the antivirus program. We do not expect you to stop using your antivirus program just to run Anki, but if the previous suggestions have not helped, it is worth uninstalling and restarting your computer to see if it resolves the problem. If it does, then please contact your antivirus company to report the issue to them.
+不幸的是，有些防病毒程序在被禁用时无法完全停止运行。我们曾见过唯一解决问题的方法是完全卸载防病毒程
+序。我们并不期望你为了运行 Anki 而停止使用防病毒程序，但如果先前的建议无效，你可以尝试卸载并重启计算
+机，看看是否能解决问题。如果能，请联系你的防病毒公司，并向他们报告此问题。
 
-**Unreliable internet**
+**不可靠的网络**
 
-If your wifi or internet connection is experiencing troubles, the messages from AnkiWeb may arrive corrupted or not at all, which can cause this error message to occur. It may be worth checking for packet loss:
+如果你的 wifi 或互联网连接存在问题，来自 AnkiWeb 的消息可能会被破坏或无法到达，从而导致出现此错误消
+息。可以尝试检查是否存在数据包丢失：
 
 <https://faqs.ankiweb.net/syncing-failed-connection-timed-out-errors-when-syncing.html>

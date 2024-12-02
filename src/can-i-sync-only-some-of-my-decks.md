@@ -1,9 +1,17 @@
-# Can I sync only some of my decks?
+# 我可以只同步某些牌组吗？
 
-Anki stores all your decks in a single collection file, so there is no way to sync only part of a collection. However, there are several possible workarounds that may be useful:
+Anki 会将你所有的牌组存储在一个集合文件中，因此无法仅同步集合的一部分。不过，有几种可能的变通方法可
+能会有所帮助：
 
-**Use two profiles.** You can store the decks you do not want to sync in a separate profile (you can create and manage profiles by choosing File → Switch Profile). This is useful if you have a lot of media that you have no need for on your mobile device, or if you cannot place some data on AnkiWeb because of security or confidentiality issues. However, it has the disadvantage that you will have to switch profiles to review all of your decks, and you will not be able to get combined statistics easily.
+**使用两个配置文件。** 你可以将不想同步的牌组存储在一个单独的配置文件中（可以通过选择 文件 → 切换配
+置文件 来创建和管理配置文件）。如果你有很多不需要在移动设备上使用的媒体，或者由于安全或保密问题无法
+将某些数据放到 AnkiWeb 上，这会很有用。不过，缺点是你需要切换配置文件才能复习全部牌组，而且无法轻松
+获取合并统计信息。
 
-If you decide to use two profiles, you can easily move data between them by exporting .apkg files with scheduling information and media.
+如果你决定使用两个配置文件，可以通过导出包含计划信息和媒体的 .apkg 文件轻松地在它们之间移动数据。
 
-**Use subdecks.** If your primary objection to syncing all of your decks is that you simply don't need some of them on the mobile device and don't want to clutter up the screen, you may choose to keep them in your collection and sync them, but keep them out of the way in a separate deck. One way to do this is to create a deck called `~ Desktop Only` or something similar and drag all of your desktop-only decks underneath it (the tilde keeps it at the bottom of the deck list; you can use an underscore if you want it at the top or nothing if you want it to sort with the other decks). You can then keep this deck collapsed on your mobile device. While the information will still sync, you will not have to see it.
+**使用子牌组。** 如果你不同步所有牌组的主要原因是你在移动设备上不需要其中一些，并且不想屏幕上杂乱不
+堪，你可以选择将它们保留在你的集合中并同步，但将它们放在一个单独的牌组中以避免干扰。一种方法是创建一
+个名为「~ 仅桌面」或类似名字的牌组，并将所有仅限桌面的牌组拖到其下方（波浪号会将其置于牌组列表的底
+部；如果想放在顶部，可以使用下划线，或者不使用任何符号将其与其他牌组排序在一起）。然后，你可以在移动
+设备上将这个牌组折叠。虽然信息仍会同步，但你不会看到它。

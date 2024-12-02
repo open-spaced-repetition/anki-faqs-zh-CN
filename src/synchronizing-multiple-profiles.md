@@ -1,9 +1,15 @@
-# Synchronizing multiple profiles
+# 同步多个配置文件
 
-**Profiles** are a feature designed to allow multiple people to study with Anki on the same device. They may also be useful for testing and other similar purposes, but this is not their primary purpose. Profiles are *not* recommended for dividing up your content, as doing so is unnecessary and limits your options in terms of viewing statistics and moving content around. Profiles are also unsupported on AnkiDroid.
+**配置文件** 是一项功能，旨在允许多个人在同一设备上使用 Anki 学习。它们可能对测试和其他类似目的有
+用，但这并不是其主要目的。配置文件*不*推荐用于划分内容，因为这样做是没有必要的，并且会在查看统计数据
+和移动内容方面限制你的选择。AnkiDroid 上也不支持配置文件。
 
-Anki is designed so that each profile syncs with a single AnkiWeb account – this way, each user can have their own account and use it on whichever devices they want.
+Anki 的设计使得每个配置文件与一个 AnkiWeb 账户同步 —— 这样，每个用户都可以拥有自己的账户，并在他们想
+要的任何设备上使用它。
 
-If you have created multiple profiles for yourself, the best option is to merge them into a single profile. You can do so by exporting one deck from profile A, and then importing it into profile B, repeating for any other decks in profile A, until everything is in profile B.
+如果你为自己创建了多个配置文件，最好的选择是将它们合并到一个配置文件中。你可以通过从配置文件 A 导出
+一个牌组，然后将其导入配置文件 B，对于配置文件 A 中的所有其他牌组重复此操作，直到所有内容都在配置文
+件 B 中为止。
 
-If you have different users on your computer, each user will need to set up a separate AnkiWeb account for their profile. Attempting to sync different profiles with the same AnkiWeb account will result in lost data.
+如果你的计算机上有不同的用户，每个用户都需要为他们的配置文件设置一个单独的 AnkiWeb 账户。尝试使用相
+同的 AnkiWeb 账户同步不同的配置文件将导致数据丢失。

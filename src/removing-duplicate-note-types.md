@@ -1,10 +1,20 @@
-# Removing duplicate note types
+# 移除重复的笔记类型
 
-Sometimes you may end up with several note types of the same name. This usually happens due to importing multiple decks, although you can also create a note type with the same name as another one in the Manage Note Types dialog box.
+有时候你可能会遇到几个同名的笔记类型。这通常发生在导入多个牌组时，当然你也可以通过在「管理笔记类型」
+对话框中创建一个与另一个同名的笔记类型来实现。
 
-While this is generally harmless, it can be somewhat annoying if you can't tell which cards belong to which note type, so you can fix it as follows:
+虽然通常情况下这无伤大雅，但如果你无法分辨哪些卡片属于哪个笔记类型，可能会有点烦人，所以你可以按照以
+下步骤进行修复：
 
-1. First, confirm that all of the note types with duplicate names are really the same by going to the browser, clicking on each one in turn, and comparing the fields that are shown at the bottom of the window. (If you're not sure, you can also click the Cards button and make sure that the templates are the same as well.) If they're not the same, you should use the Manage Note Types dialog (mentioned in step 2) to rename one to something else instead.
-2. In the main Anki window, choose Tools → Manage Note Types. Select one of the duplicate note types, click Rename, and give it a new name (you can change it back later if you wish).
-3. Open the browser and click on one of the remaining note types with a duplicate name. Select all the cards, choose Edit → Change Note Type, and select the note type you just renamed for "New note type." Repeat this step as necessary.
-4. Close the browser, go back to the Manage Note Types dialog box, and delete the now-unused note types. If you wish, you can change the one you renamed in step 2 back to its original name.
+1. 首先，通过进入浏览器，依次点击每一个笔记类型，并比较窗口底部显示的字段，确认所有同名笔记类型确实
+   相同。（如果不确定，你也可以点击卡片按钮，确保模板也相同。）如果它们不相同，你应该使用「管理笔记
+   类型」对话框（在步骤 2 中提到）将其中一个重命名为其他名称。
+
+2. 在 Anki 主窗口中，选择 工具 → 管理笔记类型。选择一个重复的笔记类型，点击重命名，并给它一个新名字
+   （如果你愿意，稍后可以再改回来）。
+
+3. 打开浏览器，并点击一个剩余的同名笔记类型。选择所有卡片，选择 编辑 → 更改笔记类型，并选择你刚刚重
+   命名的笔记类型为「新笔记类型」。根据需要重复此步骤。
+
+4. 关闭浏览器，回到「管理笔记类型」对话框，并删除当前未使用的笔记类型。如果愿意，你可以将步骤 2 中重
+   命名的笔记类型改回原名。

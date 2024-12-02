@@ -1,10 +1,13 @@
-# Extra copies of a card are coming up
+# 卡片的额外副本出现
 
-Occasionally you may have been editing a note type and later discover that a number of cards are duplicated (sometimes there may even be more copies).
+有时你可能编辑了一个笔记类型，后来发现有一些卡片被重复了（有时甚至可能有更多的副本）。
 
-You can fix this as follows:
-1. Find one of the duplicated cards in the browser.
-2. Click the Cards button.
-3. Select each card type in the top drop-down box in turn, and compare the contents of the template fields and card preview pane. If the card types are identical, delete one of them (Options → Delete).
+你可以按以下步骤修复此问题：
 
-This should remove all the duplicate cards that use this note type. (If you are still having problems, it's possible that multiple note types have the issue, in which case you can repeat these steps with a card of the other note type.)
+1. 在浏览器中找到一个重复的卡片。
+2. 点击卡片按钮。
+3. 依次在顶部的下拉框中选择每个卡片类型，并比较模板字段和卡片预览窗格的内容。如果卡片类型相同，删除
+   其中一个（选项 → 删除）。
+
+这应该会移除所有使用此笔记类型的重复卡片。（如果你仍然遇到问题，可能是多个笔记类型都有这个问题，这种
+情况下你可以对其他笔记类型的卡片重复这些步骤。）

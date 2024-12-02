@@ -1,12 +1,14 @@
-# Characters are cut off
+# 字符被截断
 
-If you find that parts of your characters are missing, the font you're using is probably not appropriate for the language you're studying. To fix this:
+如果你发现部分字符缺失，可能是你正在使用的字体不适合你学习的语言。为了解决这个问题：
 
-* While an affected card is shown, click Edit, then Cards. 
-* Click the Add Field button.
-* Select Front or Back, depending on which side you want the field to be shown on.
-* Choose a font that is intended for the language you're studying.
-* After clicking OK, you should see the field appear a second time on your card, and this time it should appear correctly. If it doesn't, add the field again and try a different font.
-* Remove any other {{field}} references on the left side, so that the field only appears once on your card.
+- 当显示受影响的卡片时，点击编辑，然后是卡片。
+- 点击添加字段按钮。
+- 根据你希望字段显示在哪一面，选择正面或反面。
+- 选择一个适合你学习的语言的字体。
+- 点击 OK 后，你应该看到该字段在你的卡片上再次出现，并且这次应该正确显示。如果没有，请再次添加该字段
+  并尝试不同的字体。
+- 移除左侧的任何其他 {{field}} 引用，这样该字段在卡片上只会出现一次。
 
-If you're using Windows, you may need to install language support for the language you want to use in Windows first. After rebooting, any newly added fonts should become available to Anki.
+如果你使用的是 Windows，你可能需要首先为你想要使用的语言在 Windows 中安装语言支持。重启后，任何新添
+加的字体都应该可以在 Anki 中使用。

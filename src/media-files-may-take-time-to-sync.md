@@ -1,24 +1,30 @@
-# Media files may take time to sync
+# 媒体文件同步可能需要时间
 
-Please take a look at the [media syncing intro video](https://www.youtube.com/watch?v=phP9GGG-PxY&yt:cc=on). If you prefer not to watch a video, please read on.
+请查看 [媒体同步介绍视频](https://www.youtube.com/watch?v=phP9GGG-PxY&yt:cc=on)。如果你不想观看视
+频，请继续阅读。
 
-Recent Anki and AnkiMobile versions synchronize sounds and images in the background, allowing you to continue using the app while they are transferred. Until the media files have been transferred, audio may fail to play, and images may fail to appear if those files are not available yet.
+Anki 和 AnkiMobile 的最新版本在后台同步声音和图像，让你在文件传输时可以继续使用应用程序。在媒体文件
+传输完成之前，如果这些文件尚未可用，音频可能无法播放，图像可能无法显示。
 
-If you tap/click on the sync button when a spinner is shown next to it, it will reveal more details about the syncing progress. If you are waiting for sounds/images to start working, please wait for that window to show "media sync complete". Once that message has been displayed, it indicates all media files have been transferred to or from your device, and the media should then work during study.
+如果你在同步按钮旁边看到一个旋转图标时点击它，它将展示更多关于同步进度的详细信息。如果你正在等待声音
+/图像开始工作，请等待该窗口显示「媒体同步完成」。一旦显示此消息，即表示所有媒体文件已传输到或从你的
+设备传输完毕，此时媒体应该在学习过程中正常工作。
 
 ## AnkiMobile
 
-If you turn your device's screen off, or you switch to a different app, it will interrupt the sync. When you sync again, the download will resume where it stopped.
+如果你关闭设备的屏幕或切换到其他应用程序，将会中断同步。当你再次同步时，下载将从停下的地方继续。
 
-If you have a lot of media, the initial sync may take quite a while. AnkiMobile 2.0.64+ will keep the screen turned on while the media syncing screen is shown. Older AnkiMobile versions did not do this, so if you are on an older version and you leave your device unattented, the screen may turn off, interrupting the sync. You can check
-the version you're running in the Preferences>About screen. If you are on an older version, you can download the free update by searching for AnkiMobile in the app store.
+如果你有大量媒体文件，初始同步可能需要相当长的时间。AnkiMobile 2.0.64 及以上版本在媒体同步屏幕显示时
+将保持屏幕常亮。较旧的 AnkiMobile 版本没有这个功能，所以如果你使用较旧版本并且让设备无人监管，屏幕可
+能会关闭，从而中断同步。你可以在「Preferences>About」屏幕检查你使用的版本。如果你使用的是较旧版本，
+你可以通过在应用商店搜索 AnkiMobile 来下载免费的更新。
 
-## Monitoring progress
+## 监控进度
 
-The media sync screen will show increasing counts as progress is made. If you find the added/removed count
-does not change for an extended period, you can use the Abort button to interrupt the sync, then sync
-again to pick up where you left off.
+媒体同步屏幕将在进度进行时显示增加的计数。如果你发现增加/删除的计数在较长时间内没有变化，你可以使用
+「中止」按钮中断同步，然后重新同步从中断的地方继续。
 
-## If problems persist
+## 如果问题仍然存在
 
-If sounds or images fail to appear after "media sync complete" is shown, please check that you have syncing of sounds and images enabled in the preferences screen of each Anki version you use, and please use the "Check Media" function in the preferences screen or tools menu to check if you are missing files.
+如果在显示「媒体同步完成」后声音或图像无法出现，请检查你在所用的每个 Anki 版本中是否启用了声音和图像
+的同步，并请在首选项屏幕或工具菜单中使用「检查媒体」功能，以检查是否缺少文件。

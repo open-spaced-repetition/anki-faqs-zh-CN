@@ -1,39 +1,43 @@
-# Frequently asked questions about FSRS
+# 关于 FSRS 的常见问题
 
-***
+---
 
-Q1: My first interval for **Good** is 3-5 days, and my first interval for **Easy** is over a week long! Is this normal?
+Q1: 我的 **Good** 的首次间隔是 3-5 天，而 **Easy** 的首次间隔超过一周！这正常吗？
 
-A1: Yes. FSRS tends to give longer first intervals than SM-2, but for mature cards the opposite is true - FSRS is more conservative.
+A1: 正常。FSRS 倾向于给予比 SM-2 更长的首次间隔，但对于成熟的卡片则正好相反 - FSRS 更为保守。
 
-If you wish to make the intervals shorter, you can increase your desired retention. But note that this will shorten all the intervals, not just the first intervals.
+如果你希望缩短间隔，可以增加期望的记忆保留率。但请注意，这会缩短所有间隔，而不仅仅是首次间隔。
 
-***
+---
 
-Q2: I only use **Again** and **Good**, will FSRS work fine?
+Q2: 我只使用 **Again** 和 **Good**，FSRS 可以正常工作吗？
 
-A2: Yes. In some cases, FSRS may even be more accurate if you only use **Again** and **Good**.
+A2: 可以。在某些情况下，如果你只使用 **Again** 和 **Good**，FSRS 甚至可能更准确。
 
-***
+---
 
-Q3: Is it better to use the same parameters for all my decks or make several different presets with different parameters?
+Q3: 我是用相同的参数来处理所有牌组，还是创建几个具有不同参数的预设更好？
 
-A3: The answer to this question depends entirely on how similar your material is. For example, if you are learning Japanese and geography, it is recommended to use two different presets with different parameters. If you have two decks with Japanese vocabulary, you should use the same preset for both of them. Generally speaking, it's usually better to have different presets.
+A3: 这个问题的答案完全取决于你的材料的相似程度。例如，如果你在学习日语和地理，建议使用两个具有不同参
+数的预设。如果你有两个包含日语词汇的牌组，你应该为它们使用相同的预设。一般而言，通常多个不同的预设更
+好。
 
-***
+---
 
-Q4: How often should I re-optimize parameters?
+Q4: 我应该多久重新优化参数？
 
-A4: Once per month should be more than enough. A more sophisticated rule is to optimize every time the number of reviews doubles: after you did 100 reviews, then after 200, then after 400, etc. But the "one month" rule is simpler.
+A4: 每月一次就足够了。一个更精细的规则是每当复习次数加倍时优化：在完成 100 次复习后，然后是 200 次，
+再然后是 400 次，以此类推。但「一个月」的规则更为简单。
 
-***
+---
 
-Q5: Does FSRS take into account the amount of time that I spend reviewing a card?
+Q5: FSRS 是否会考虑我花在复习卡片上的时间？
 
-A5: No, FSRS only uses interval lengths and grades. However, the amount of time you spend on reviews is used when calculating optimal retention using the "Compute minimum recommended retention" feature.
+A5: 不，FSRS 只使用间隔时间和评分。然而，在使用「计算最低推荐记忆保留率」功能时，你花在复习上的时间
+会被考虑进去。
 
-***
+---
 
-Q6: Do I need 1000 reviews before I can optimize parameters?
+Q6: 我是否需要 1000 次复习才能优化参数？
 
-A6: That was the case in earlier versions of Anki. In Anki 24.06.3 (and newer versions), the optimizer can be used with any number of reviews.
+A6: 在早期版本的 Anki 中确实如此。但在 Anki 24.06.3（及更新版本）中，优化器可以用于任何次数的复习。

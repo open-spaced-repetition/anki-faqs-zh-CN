@@ -1,17 +1,11 @@
-# Emails not being received due to "spam"
+# 邮件因「垃圾邮件」而未收到
 
-Some email providers (typically school or business email) outsource spam
-checking to external companies. Some of these external companies can be
-heavy-handed when fighting spam, and collateral damage unfortunately happens -
-innocent parties such as AnkiWeb can end up getting blocked when a different
-customer on the same network has sent inappropriate mail.
+一些邮件提供商（通常是学校或企业的邮件）将垃圾邮件检查外包给外部公司。这些外部公司中有些在打击垃圾邮
+件时过于严格，遗憾的是附带损害不可避免——当同一网络上的其他客户发送了不当邮件时，像 AnkiWeb 这样的无
+辜方可能会被封锁。
 
-If you have access to an email address at another provider, the fastest solution
-is to use the Account tab of AnkiWeb to change to your other email address.
+如果你有其他提供商的邮箱地址，最快的解决方案是使用 AnkiWeb 的账户选项卡更改为你的其他邮箱地址。
 
-If you do not have access to another email address, you could try asking your
-email provider to remove 23.249.217.77 from the block list they are using. It is
-a dedicated IP used only by AnkiWeb, hosted in Amazon's network. If your email
-provider are not able to fix the problem for you, please sign up for a free
-email address at somewhere like gmail.com instead, as they reliably accept the
-email we send.
+如果你没有其他邮箱地址，你可以尝试请求你的邮件提供商将 23.249.217.77 从他们正在使用的封锁名单中移
+除。该 IP 是专供 AnkiWeb 使用的，并托管在 Amazon 的网络中。如果你的邮件提供商无法为你解决问题，请在
+像 gmail.com 这样的网站上注册一个免费邮箱，因为他们可靠地接收我们发送的邮件。

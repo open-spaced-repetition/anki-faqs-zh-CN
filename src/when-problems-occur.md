@@ -1,3 +1,3 @@
-# When problems occur
+# 当问题发生时
 
-Please see <https://docs.ankiweb.net/troubleshooting.html>
+请参见 <https://docs.ankiweb.net/troubleshooting.html>

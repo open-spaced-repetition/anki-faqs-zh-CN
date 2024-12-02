@@ -1,42 +1,57 @@
-# Why does AnkiMobile cost more than a typical mobile app?
+# 为什么 AnkiMobile 的价格比普通移动应用更高？
 
-AnkiMobile is not a standalone app - it is intended to be used in conjunction with the online synchronization service and open source computer version that I've made available for free for the last 10 years. Working on these three platforms is a full time job, and AnkiMobile is my way of putting food on the table and supporting future development.
+AnkiMobile 并不是一个独立的应用程序——它旨在与我在过去 10 年中免费提供的在线同步服务和开源计算机版本
+一起使用。在这三个平台上工作是一项全职工作，而 AnkiMobile 是我维持生计并支持未来开发的方式。
 
-Because there are so many $1 apps out there, some people are surprised by the price. But when you factor in the computer version, synchronization service, and free updates, AnkiMobile's price is quite competitive. At the time of writing (2013-10-04), SuperMemo's computer+iPhone version will set you back $60, and MentalCase's combo will cost you $29.95. 
+因为有很多 $1 的应用程序，一些人对这个价格感到惊讶。但是，当你考虑到计算机版本、同步服务和免费更新
+时，AnkiMobile 的价格还是相当有竞争力的。在写作时（2013-10-04），SuperMemo 的计算机+iPhone 版本会让
+你花费 $60，而 MentalCase 的组合则花费 $29.95。
 
-Whether you find AnkiMobile's price to be a good deal will ultimately depend on your needs. If you're an existing Anki user that has invested many hours studying on the computer, AnkiMobile provides an easy way to do your studies anywhere while taking advantage of the advanced scheduling and formatting features that Anki provides. On the other hand, if you're looking for something inexpensive and simple and don't mind being restricted to your Apple device, there are cheaper alternatives out there that you may want to consider.
+至于你是否觉得 AnkiMobile 的价格划算，这最终取决于你的需求。如果你是一个已经投入大量时间在计算机上学
+习的 Anki 用户，那么 AnkiMobile 提供了一种在任何地方进行学习的方法，同时利用 Anki 提供的高级调度和格
+式化功能。另一方面，如果你正在寻找便宜又简单的东西，并且不介意仅限于你的苹果设备，那么你可能想考虑一
+些更便宜的替代品。
 
-One other thing to note is that once purchased, you can use AnkiMobile on up to 5 of your iOS devices, provided they use the same Apple ID. AnkiMobile also supports family sharing, for families that have that set up.
+还有一点需要注意的是，一旦购买，你可以在最多 5 个使用相同 Apple ID 的 iOS 设备上使用
+AnkiMobile。AnkiMobile 还支持家庭共享，适用于已设置的家庭。
 
-Some frequently asked questions:
+一些常见问题：
 
-**"You'd make more money if you priced it cheaper."**
+**「如果价钱更便宜，你会赚更多钱。」**
 
-I have experimented with different price points in the past, and reducing the price resulted in a net decrease in income. Games like Angry Birds are able to make a profit because they appeal to a wide audience. Spaced repetition flashcard apps are quite a niche market in comparison. For this reason, neither a price change nor a sale is likely in the foreseeable future.
+过去我尝试了不同的价格点，降低价格导致收入净减少。像《愤怒的小鸟》这样的游戏能够盈利，因为它们吸引了
+广泛的受众。相比之下，间隔重复闪卡应用程序是一个相当小众的市场。因此，未来价格变化或折扣不太可能发
+生。
 
-**"It's too expensive in my country."**
+**「在我的国家，这太贵了。」**
 
-I appreciate that costs of living are different in different countries, but I'm afraid it's not practical to vary the price depending on where you live. The
-costs of building and supporting Anki are fixed, and they don't vary based on the country a person using Anki lives in.
+我理解不同国家的生活成本不同，但恐怕根据你所在国家调整价格是不切实际的。构建和支持 Anki 的成本是固定
+的，不会因使用 Anki 的人的国家而异。
 
-As for why the price might not be exactly the same as $25 USD, please note that Apple sets the price in each country based on the local taxes and costs of doing business there. Please also bear in mind that the price in the US is the price before state sales taxes are applied, so the difference may not be as as much as you think.
+至于为什么价格可能不完全等于 $25 美元，请注意，苹果根据当地税收和业务成本在每个国家确定价格。还请记
+住，美国的价格是州销售税应用前的价格，因此差异可能并不像你想的那么大。
 
-**"As a student, I think it's too expensive."**
+**「作为一个学生，我觉得这太贵了。」**
 
-Please compare it to the price of the average textbook and then consider how many hours of use you get out of each. If you don't use Anki enough to justify the price, then you're welcome to use AnkiWeb instead or look into cheaper alternatives.
+请将其与平均教科书的价格进行比较，然后考虑你从中得到的使用时间。如果你使用 Anki 的时间不足以证明其价
+格合理，那么你可以选择使用 AnkiWeb 或寻找更便宜的替代品。
 
-**"Can I get a free copy for personal use, or for writing a review?"**
+**「我可以免费获得一份用于个人使用或写评论吗？」**
 
-Sorry, I do not offer promo codes, as preparing them takes time away from development.
+抱歉，我不提供促销代码，因为准备这些代码会占用开发时间。
 
-**"You should just rely on donations."**
+**「你应该靠捐赠。」**
 
-Unfortunately that would not be enough to live on. No matter how much people appreciate a product or service, if they're given the option of not paying, most people will choose not to.
+不幸的是，这不足以维持生计。无论人们多么欣赏某个产品或服务，如果他们有不付费的选择，大多数人会选择不
+付费。
 
-**"You should charge for AnkiWeb instead."**
+**「你应该为 AnkiWeb 收费。」**
 
-Apple's app store provides a safe and friction-free way of making purchases. Purchasing a subscription from a website requires considerably more effort, and many people are wary of making purchases online.
+苹果的应用商店提供了一种安全且无摩擦的购买方式。从网站上购买订阅需要相当多的努力，并且许多人对于在线
+购物持谨慎态度。
 
-**"Why is the Android version free?"**
+**「为什么 Android 版本是免费的？」**
 
-The Android version is developed by a different group of people, who based it off the computer version I wrote. Because they have day jobs and can only work on it in their free time, AnkiMobile is better supported: no questions or bug reports go unanswered, the app is more polished, and most bugs get fixed quickly.
+Android 版本是由另一个团体开发的，他们基于我编写的计算机版本进行开发。因为他们有全职工作，只能在空闲
+时间开发，因此 AnkiMobile 的支持更好：没有问题或错误报告被忽视，应用程序更加完善，大多数错误都能快速
+修复。

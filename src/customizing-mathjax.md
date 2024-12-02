@@ -1,22 +1,23 @@
-# Customizing MathJax
+# 自定义 MathJax
 
-Anki's bundled MathJax support is loaded before your card content, so if you wish to customize MathJax, you will need to do so in a specific way.
+Anki 自带的 MathJax 支持在你的卡片内容加载之前加载，因此如果你想自定义 MathJax，需要以特定的方式进
+行。
 
-For recent Anki versions, use something like this:
+对于最近版本的 Anki，请使用如下代码：
 
 ```html
 <script>
-MathJax.config.tex['macros'] = {
-    R: '{\\mathbb {R}}',
-};
-if (typeof is_already_run == 'undefined') {
-  is_already_run = true
-  MathJax.startup.getComponents();
-}
+  MathJax.config.tex["macros"] = {
+    R: "{\\mathbb {R}}",
+  };
+  if (typeof is_already_run == "undefined") {
+    is_already_run = true;
+    MathJax.startup.getComponents();
+  }
 </script>
 ```
 
-For older Anki versions:
+对于较早版本的 Anki：
 
 ```html
 <script>
@@ -27,6 +28,7 @@ For older Anki versions:
 </script>
 ```
 
-Notes:
+注意：
 
-- Please avoid changing the standard open/close tags (`\(` and `\[`), to something like `$` and `$$`, as Anki has special logic for cloze deletions, which will not work if you change the delimiter.
+- 请避免将标准的打开/关闭标签（`\(` 和 `\[`）更改为类似 `$` 和 `$$` 的其他符号，因为 Anki 为完形填空
+  删除有特殊的逻辑，如果你更改了分隔符，该功能将不起作用。

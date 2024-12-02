@@ -1,1 +1,4 @@
 book
+*.ipynb
+.DS_Store
+node_modules

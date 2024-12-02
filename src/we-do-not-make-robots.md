@@ -1,3 +1,4 @@
-# We do not make robots
+# 我们不制造机器人
 
-We make a _flashcard program_ called Anki. If you are having problems with a robot you bought from a _company_ called Anki, please go to <https://support.digitaldreamlabs.com/>
+我们制作一个名为 Anki 的*卡片程序*。如果你购买了一个由名为 Anki 的*公司*生产的机器人并遇到问题，请访
+问 <https://support.digitaldreamlabs.com/>

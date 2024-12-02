@@ -1,40 +1,30 @@
-# Can I study my cards in a particular order?
+# 我可以按特定顺序学习我的卡片吗？
 
-## New cards
+## 新卡片
 
-By default, new cards are introduced by their due number. If you open the
-Browse screen and look at the due column, you'll see new cards have numbers
-like New #1, New #2, and so on. Anki will show the card with the smallest
-due number first. If you'd like to change the order, you can select one or more
-cards, then use the Reposition action in the Cards menu.
+默认情况下，新卡片是按其到期编号引入的。如果你打开浏览界面并查看到期列，你会看到新卡片有类似 New
+#1、New #2 的编号。Anki 会首先展示到期编号最小的卡片。如果你想更改顺序，可以选择一张或多张卡片，然后
+在卡片菜单中使用重定位操作。
 
-The number of new cards that will be introduced each day depends on the daily
-limits you've set in the deck options.
+每天将引入多少新卡片取决于你在牌组选项中设置的每日限制。
 
-When you have multiple cards for a note (for example, both forward->backward
-and backward->forward cards, or multiple cloze deletions on a note), those cards
-will have the same new number, and you may want those cards to be shown on different days,
-or spaced apart, or shown one after the other depending on your preferences.
+当一个笔记有多张卡片（例如，正向->反向卡片和反向->正向卡片，或在一个笔记上有多个完形填空），这些卡片
+将拥有相同的新编号，你可能希望这些卡片在不同天展示，或间隔开来，或根据你的偏好一个接一个展示。
 
-- To have the cards shown on different days, enable burying in the deck options.
-- Sibling cards are spaced apart by default.
-- To have the cards shown next to each other, enable the [v3 scheduler](./the-2021-scheduler.md), 
-and then change the sort order in the deck options, in the display order section.
+- 要在不同天展示卡片，启用牌组选项中的埋藏功能。
+- 默认情况下，兄弟卡片是间隔展示的。
+- 如果希望卡片彼此相邻展示，启用 [v3 调度器](./the-2021-scheduler.md)，然后在牌组选项的显示顺序部分
+  更改排序顺序。
 
-## Reviews
+## 复习
 
-Because Anki is [designed to show you cards again when you're about to forget them](./anki-is-not-showing-me-all-my-cards.md),
-it is not possible to preserve the original order when cards come up again for review,
-as the cards may have been scheduled on different days. For this reason, you should
-design your cards so that they do not rely on context or certain other cards having been
-seen first, or you'll find it difficult to review them.
+因为 Anki 是[在你快要遗忘时再次展示卡片给你](./anki-is-not-showing-me-all-my-cards.md)的设计，所以在
+卡片再次进行复习时无法保留原来的顺序，因为卡片可能在不同的日子安排。这是为什么应设计卡片时，不依赖于
+上下文或某些其他卡片必须先被看到，否则你会觉得难以复习。
 
-If you have a backlog of reviews, there is some flexibility in the order review cards
-are presented. After enabling the [v3 scheduler](./the-2021-scheduler.md), please see
-the display options in the deck's options.
+如果你有复习积压，复习卡片呈现顺序上会有一定的灵活性。启用 [v3 调度器](./the-2021-scheduler.md)后，
+请查看牌组选项中的显示选项。
 
-While the regular review process will not show cards in order, you can use the
-[Browse screen](https://docs.ankiweb.net/browsing.html) to sort your cards in a
-particular order, and then use the Preview button to go through the cards in that order.
-This bypasses Anki's usual learning process, and will not alter the scheduling of the
-cards or their review history.
+虽然常规的复习过程不会按顺序显示卡片，但你可以使用
+[浏览界面](https://docs.ankiweb.net/browsing.html)按特定顺序对你的卡片进行排序，然后使用预览按钮按该
+顺序浏览卡片。这样会绕过 Anki 平常的学习过程，不会改变卡片的计划或其复习历史。

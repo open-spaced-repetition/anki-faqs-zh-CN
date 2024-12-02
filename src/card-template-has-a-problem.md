@@ -1,32 +1,33 @@
-# Card template has a problem
+# 卡片模板存在问题
 
-Anki has recently become stricter about reporting mistakes in card templates. In the past, it would silently ignore some problems, but display templates in unexpected ways. This change has been made to make mistakes easier to notice.
+Anki 最近在报告卡片模板中的错误时变得更为严格。过去，它会默默忽略一些问题，但会以意外的方式显示模
+板。做出这个改变是为了让错误更容易被发现。
 
-If you have not edited your card templates yourself, it is likely you have downloaded a shared deck, where the original deck author made a mistake when creating the template.
+如果你没有自己编辑过卡片模板，那么很可能是你下载了一个共享牌组，其中原始牌组的作者在创建模板时出现了
+错误。
 
-You can correct mistakes on the template by opening the card templates screen:
+你可以通过打开卡片模板屏幕来修正模板上的错误：
 
-- On the computer version, edit a problem card, and then click on the Cards... button
-- On AnkiMobile, while viewing a problem card in the review screen, tap the cog/gear, then Card Template.
+- 在电脑版本中，编辑一张有问题的卡片，然后点击 Cards... 按钮
+- 在 AnkiMobile 中，在复习屏幕查看有问题的卡片时，点击齿轮图标，然后选择 Card Template。
 
-When you correct a mistake, it will update all cards of that type - you do not need to make the same change for every card that uses the template.
+当你修正了一个错误时，它会更新所有该类型的卡片 - 你不需要对使用该模板的每张卡片进行相同的更改。
 
-What needs changing will depend on the message you are getting.
+需要更改的内容将取决于你收到的消息。
 
 **Found '{{Field}}', but there is no field called 'Field'**
 
-This indicates your template includes the name of a field that doesn't exist. To fix the problem, locate the
-{{Field}} inside the card template, and remove it.
+这表明你的模板中包含了一个不存在的字段名称。要修复此问题，请在卡片模板中找到 {{Field}} 并将其删除。
 
 **Missing }} in {{Field**
 
-This message is shown when {{ is found in the template without a matching }}. For example, if you have
+当模板中找到了 {{ 无匹配的 }} 时，会显示此消息。例如，如果你有
 
 ```
 {{Field
 ```
 
-then this needs to be changed to
+则需要更改为
 
 ```
 {{Field}}
@@ -34,39 +35,41 @@ then this needs to be changed to
 
 **Missing {{/Field}}**
 
-This means Anki found `{{#Field}}` or `{{^Field}}` in your card template, without a matching `{{/Field}}`. Removing  `{{#Field}}` or `{{^Field}}` from the template will fix the error.
+这意味着 Anki 在卡片模板中找到了 `{{#Field}}` 或 `{{^Field}}`，但没有匹配的 `{{/Field}}`。从模板中移
+除 `{{#Field}}` 或 `{{^Field}}` 会修复此错误。
 
 **Found {{/One}}, but expected {{/Two}}**
 
-Conditional replacements need to be closed in the same order they are opened. For example, the following template is incorrect:
+条件替换需要按照打开的顺序关闭。例如，下面的模板是不正确的：
 
 ```
 {{#One}}
-  {{#Two}}
-    {{Three}}
-  {{/One}}
+{{#Two}}
+{{Three}}
+{{/One}}
 {{/Two}}
 ```
 
-To fix the problem, the template should be changed like so:
+为了修正此问题，模板应更改为：
 
 ```
 {{#One}}
-  {{#Two}}
-    {{Three}}
-  {{/Two}}
+{{#Two}}
+{{Three}}
+{{/Two}}
 {{/One}}
 ```
+
 **Found {{/Field}}, but missing '{{#Field}}' or '{{^Field}}'**
 
-Closing tags must be matched by opening tags. For example, the following is invalid, because there is no `{{#Two}}` or `{{^Two}}` at the start:
+闭合标签必须由打开标签匹配。例如，以下是无效的，因为开头没有 `{{#Two}}` 或 `{{^Two}}`：
 
 ```
-  {{Field}}
+{{Field}}
 {{/Two}}
 ```
 
-It can be fixed by removing the closing tag:
+可以通过移除闭合标签来修复：
 
 ```
 {{Field}}

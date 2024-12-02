@@ -1,174 +1,144 @@
-# The Anki v3 Scheduler
+# Anki v3 调度器
 
-The 2021 scheduler ("v3") is an update to the [Anki 2.1
-scheduler](./the-anki-2.1-scheduler.md) ("v2").
+2021 调度器（「v3」）是 [Anki 2.1 调度器](./the-anki-2.1-scheduler.md)（「v2」）的更新版本。
 
-## Enabling
+## 启用
 
-As of Anki/AnkiMobile 23.10, and AnkiDroid 2.17, the v3 scheduler is the default and only option.
+从 Anki/AnkiMobile 23.10 和 AnkiDroid 2.17 开始，v3 调度器是默认且唯一的选项。
 
-On earlier versions, the scheduler can be changed from the preferences screen.
+在更早的版本中，可以从首选项屏幕更改调度器。
 
-## Compatibility
+## 兼容性
 
-The v2 and v3 schedulers are compatible. You can switch between them without
-a full sync, and it will not cause scheduling issues if you use v3 on one
-device and sync with another device that is using v2.
+v2 和 v3 调度器是兼容的。你可以在它们之间切换而不需要完全同步，如果你在一个设备上使用 v3 并与另一个
+设备同步（该设备使用 v2），这不会导致调度问题。
 
-Client support:
+客户端支持：
 
 - Anki: 2.1.45+
 - AnkiMobile: 2.0.75+
-- AnkiWeb: yes
+- AnkiWeb: 是
 - AnkiDroid: 2.17.0+
 
-Because the v3 scheduler uses a different approach to gathering and sorting
-cards, a v2 and v3 client may show a different number of due cards on a given
-day, and may show them in a different order.
+由于 v3 调度器使用不同的方式来收集和排序卡片，v2 和 v3 客户端在某天可能显示不同数量的即将到期卡片，
+并且可能以不同的顺序显示它们。
 
-## Changes
+## 更改
 
-### Undo
+### 撤销
 
-The v3 scheduler uses Anki's new undo infrastructure: you can answer a card,
-bury another card, answer a different card, then undo each action in turn. Previous schedulers handled undo for review and non-review actions separately, so performing an action for one would clear the undo history for the other.
+v3 调度器使用 Anki 的新撤销基础结构：你可以回答一张卡片，埋藏另一张卡片，回答不同的卡片，然后依次撤
+销每个操作。之前的调度器分别处理评论和非评论操作的撤销，因此对其中一个执行操作会清除另一个的撤销历史
+记录。
 
-### Daily limits
+### 每日限制
 
-By default, the review limit in the v3 scheduler also applies to new cards, so that new card introduction
-is reduced/paused when you have a backlog of reviews. For example, if you have limits of
-200 review cards and 20 new cards, and 190 review cards are due, only 10 new
-cards will be introduced. This prevents the backlog from getting
-worse.
+默认情况下，v3 调度器中的评论限制也适用于新卡片，因此当你有待处理的评论积压时，新卡片引入会减少/暂
+停。例如，如果你有 200 张评论卡片和 20 张新卡片的限制，并且有 190 张评论卡片到期，则只会引入 10 张新
+卡片。这可以防止积压情况恶化。
 
-If you find this happening, the recommended solution is to increase your review limit, and work through
-the backlog before you add more new cards. If you're sure you want to add more new cards
-even though you have a backlog, you can enable the "New cards ignore review limit" option
-in deck options.
+如果你发现此情况发生，建议的解决方案是增加你的评论限制，并在添加更多新卡片之前解决积压。如果你确定即
+使有积压，你也想添加更多新卡片，可以在牌组选项中启用『新卡片忽略评论限制』选项。
 
-The limits of each deck will control the number of cards that are gathered from that deck
-and its subdecks. Limits are applied from the deck you select, so if you select
-a child deck, its parents' limits will not apply. For example, if the
-following limits are set:
+每个牌组的限制将控制从该牌组及其子牌组中收集卡片的数量。限制是从你选择的牌组应用的，因此如果你选择一
+个子牌组，其父牌组的限制将不适用。例如，如果设置了以下限制：
 
-- Parent: 100
-- Parent::Child: 30
-- Parent::Child::Grandchild1: 50
-- Parent::Child::Grandchild2: 5
-- Parent::Child::Grandchild3: 200
+- 父级：100
+- 父级::子级：30
+- 父级::子级::孙子1：50
+- 父级::子级::孙子2：5
+- 父级::子级::孙子3：200
 
-Then:
+那么：
 
-- If you select Grandchild3, you'll get up to 200 cards.
-- If you select Grandchild2, you'll get up to 5 cards.
-- If you select Grandchild1, you'll get up to 50 cards.
-- If you select Child, you'll get up to 30 cards from the Child deck and its
-  subdecks. No more than 5 cards will be taken from Grandchild2.
-- If you select Parent, you'll get up to 100 cards, with a maximum of 30
-  coming from Child and its subdecks.
+- 如果你选择孙子3，你将获得最多 200 张卡片。
+- 如果你选择孙子2，你将获得最多 5 张卡片。
+- 如果你选择孙子1，你将获得最多 50 张卡片。
+- 如果你选择子级，你将从子级及其子牌组中获得最多 30 张卡片。从孙子2中获取的卡片不会超过 5 张。
+- 如果你选择父级，你将获得最多 100 张卡片，其中最多 30 张来自子级及其子牌组。
 
-In earlier Anki releases, the v3 scheduler did not respect intermediate limits, so when clicking on parent, the limits of child did not influence how
-many cards were taken from the grandchild decks.
+在早期的 Anki 版本中，v3 调度器不尊重中间限制，因此单击父级时，子级的限制不影响从孙子牌组获取的卡片
+数量。
 
-### Sorting
+### 排序
 
-Additional deck options have been added to control the order new cards and
-review cards are presented in. New cards can be mixed from multiple decks, and
-review cards can optionally be ordered by interval or subdeck.
+增加了额外的牌组选项来控制新卡片和评论卡片的呈现顺序。新卡片可以从多个牌组混合，评论卡片可以选择按间
+隔或子牌组排序。
 
-When burying is disabled, with the v3 scheduler it's possible to control whether siblings are
-shown together or not, by adjusting the display order.
+当禁用埋藏时，通过调整展示顺序，v3 调度器可以控制是否一起显示兄弟姐妹卡片。
 
-The options controlling the mixing of new cards and interday learning cards have
-been moved from the Preferences screen into the deck options. The options will
-be used from the deck you select to study.
+控制新卡片和跨日学习卡片混合的选项已从首选项屏幕移动到牌组选项中。选项将从你选择学习的牌组中使用。
 
-### Burying
+### 埋藏
 
-When burying is enabled, cards are now excluded from the card counts at the start of
-a study session. Previously if you had 10 forward and 10 reversed cards, the
-counts would start at 20 and jump down as you review, but with v3 they'll start directly
-at 10.
+启用埋藏时，卡片现在在学习会话开始时从卡片计数中排除。以前如果你有 10 张正面和 10 张反面卡片，计数会
+从 20 开始并在评论时下降，但在 v3 中它们会直接从 10 开始。
 
-Because siblings are skipped when you click on a deck, the counts you see on the deck
-list will differ from the ones you see when you click on a deck. The overview screen
-will point out the number of cards that were waiting but have been skipped.
+因为点击一个牌组时会跳过兄弟姐妹卡片，所以你在牌组列表中看到的计数会与点击牌组时看到的不同。概览屏幕
+会指出等待但已被跳过的卡片数量。
 
-Learning cards that cross a day boundary ("interday learning cards") can be buried like review and new
-cards.
+跨日学习的卡片（「跨日学习卡片」）可以像评论和新卡片一样被埋藏。
 
-### Fuzz
+### 波动
 
-The small random delay added to intervals is reflected on the answer buttons,
-instead of only being applied when answering.
+添加到间隔的小随机延迟反映在答案按钮上，而不是仅在回答时应用。
 
-The way the delay is calculated has also been improved - cards with intervals under
-a week receive a more equally-weighted delay, and the delay amount increases more
-smoothly as intervals increase.
+计算延迟的方式也得到了改进——间隔少于一周的卡片获得更加均匀的延迟，随着间隔的增加，延迟量更加平滑地增
+加。
 
-### Interday learning
+### 跨日学习
 
-Interday learning cards are now subject to the review limit. When
-determining what fits within the limit, Anki gathers interday learning cards
-first, then review cards, and finally new cards.
+跨日学习卡片现在受到评论限制。确定适合限制的内容时，Anki 首先收集跨日学习卡片，然后是评论卡片，最后
+是新卡片。
 
-### Filtered decks
+### 过滤牌组
 
-Filtered decks with rescheduling disabled show 4 answer buttons. You can configure a time delay for each button. Setting this delay to 0 for an answer button means that button will return the card to its home deck.
+禁用重新调度的过滤牌组显示 4 个答案按钮。你可以为每个按钮配置时间延迟。为答案按钮设置此延迟为 0，意
+味着该按钮将把卡片返回到它的原始牌组。
 
-In earlier releases, a delay could be configured for "Again". "Hard" used 1.5x that delay, whereas "Good" used 2x that delay, and "Easy" returned the card to its home deck.
+在早期版本中，可以为「再来一次」配置延迟。「困难」使用 1.5 倍的延迟，而「良好」使用 2 倍的延迟，「简
+单」将卡片返回到它的原始牌组。
 
-## Add-ons and custom scheduling
+## 插件和自定义调度
 
-The v3 scheduler is a ground-up rewrite, so add-ons that modified the previous scheduler's card-gathering or answering routines will not work with it. It is no
-longer possible to selectively replace parts of the scheduler's code ("monkey
-patching"), so some add-ons may not be practical to port without significant
-effort.
+v3 调度器是全新的重写，所以修改以前调度器的卡片收集或回答例程的插件将不适用于新的调度器。现在不再可
+能选择性地替换调度器代码的部分（「猴子补丁」），因此一些插件可能难以在没有显著努力的情况下移植。
 
-However, the v3 scheduler does provide more control over the scheduling. As each
-card is presented, the times and states associated with each answer button are
-calculated in advance, and it is possible to modify the calculated scheduling
-with some JavaScript code entered into the bottom of the deck options screen.
+然而，v3 调度器确实提供了更多的调度控制。随着每张卡片的呈现，与每个答案按钮相关的时间和状态都经过预
+先计算，可以通过在牌组选项屏幕底部输入一些 JavaScript 代码来修改计算的调度。
 
-The code you enter applies to the entire collection, and not just decks using
-the preset.
+你输入的代码适用于整个集合，而不仅仅是使用该预设的牌组。
 
-Here's an example. Please note that it uses modern JavaScript that will need
-to be transpiled if you want to use it with the Qt5 version of Anki.
+以下是一个示例。请注意，如果你想在 Anki 的 Qt5 版本中使用它，需要转译它，因为它使用现代 JavaScript。
 
-For example:
+例如：
 
 ```javascript
-// print the existing states
-console.log(
-  JSON.stringify(states, null, 4)
-);
+// 打印现有状态
+console.log(JSON.stringify(states, null, 4));
 
-// load the debugger if the web inspector is open
+// 如果网络检查器已打开，则加载调试器
 debugger;
 
-// if the hard button is a learning step, make it
-// a 123 minute delay
+// 如果困难按钮是一个学习步骤，设置为 123 分钟延迟
 if (states.hard.normal?.learning) {
   states.hard.normal.learning.scheduledSecs = 123 * 60;
 }
 
-// apply the same change in a rescheduling filtered deck
+// 在重新调度的过滤牌组中应用相同的更改
 if (states.hard.filtered?.rescheduling?.originalState?.learning) {
-  states.hard.filtered.rescheduling.originalState.learning.scheduledSecs =
-    123 * 60;
+  states.hard.filtered.rescheduling.originalState.learning.scheduledSecs = 123 * 60;
 }
 
-// increase ease factor by 0.2 when Easy used on a review
+// 当在评论中使用简单时，提高 0.2 的简单因子
 if (states.good.normal?.review) {
-  states.easy.normal.review.easeFactor =
-    states.good.normal.review.easeFactor + 0.2;
+  states.easy.normal.review.easeFactor = states.good.normal.review.easeFactor + 0.2;
 }
 ```
 
-Because this is implemented in JavaScript, it is not limited to the computer
-version. AnkiMobile and AnkiDroid both support it as well, and AnkiWeb may also
-support it in the future. This will allow advanced users to make 
-adjustments to the standard scheduling behaviour, that apply on all platforms.
+由于这是用 JavaScript 实现的，它不仅限于计算机版本。AnkiMobile 和 AnkiDroid 都支持它，AnkiWeb 将来也
+可能支持它。这将允许高级用户对标准调度行为进行调整，适用于所有平台。
 
-The various scheduling states are described in [SchedulingStates](https://github.com/ankitects/anki/blob/main/proto/anki/scheduler.proto).
+各种调度状态在
+[SchedulingStates](https://github.com/ankitects/anki/blob/main/proto/anki/scheduler.proto) 中进行了
+描述。

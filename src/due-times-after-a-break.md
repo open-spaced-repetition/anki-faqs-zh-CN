@@ -1,53 +1,34 @@
-# Due times after a break
+# 休整后的到期时间
 
-When you use Anki every day, each time a card is answered correctly, it
-gets a bigger interval. Let’s assume that 'good' about doubles the
-interval. Thus you have a 5 day wait, then a 10 day wait, 20 days, 40
-days, and so on.
+当你每天使用 Anki 时，每次正确回答一张卡片，它的间隔时间都会变大。假设「好」大约将间隔时间翻倍。因
+此，你会有 5 天的等待时间，然后是 10 天、20 天、40 天，依此类推。
 
-When people return to their deck after weeks or months of no study,
-they’re often surprised by the length intervals have grown to. This is
-because Anki considers the actual time the card was unseen, not just the
-time it was scheduled for. Thus if the card was scheduled for 5 days but
-you didn’t study for a month, the next interval will be closer to 60
-days than 10 days.
+当人们在数周或数月未学习后重返牌组时，他们常常对间隔时间的增长感到惊讶。这是因为 Anki 考虑的是卡片未
+被看到的实际时间，而不仅仅是它被安排的时间。因此，如果卡片安排了 5 天，但你一个月没有学习，那么下一
+个间隔将更接近 60 天而不是 10 天。
 
-This is a good thing. If you have successfully remembered a card after a
-one month wait, chances are you’ll remember it again after a longer
-wait, too. The same principles which make SRS effective in normal use
-apply when you’re studying after a delay, too. It also makes little
-sense to schedule a card for 10 days in the future if you were able to
-easily answer it after a whole month’s wait - you’d be going backwards.
+这是一件好事。如果你在等待一个月后仍成功记住了一张卡片，那么在更长时间后你很可能也能记住它。同样的原
+理使得间隔重复系统（SRS）在正常使用时有效，并且在你延迟学习时同样适用。如果你在等待一个月后能轻松回
+答卡片，那么安排卡片在 10 天后再次学习就毫无意义——那会是退一步。
 
-Resetting the deck is an even worse solution. When returning to a deck
-after a long absence, you may have forgotten many of your cards, but
-chances are you haven’t forgotten them all. Resetting the entire deck
-means you have to waste time studying material you already know.
+重置牌组是更糟糕的解决方案。当你在长时间未使用后返回牌组时，你可能忘记了许多卡片，但很可能并不是全部
+忘记。重置整个牌组意味着你必须浪费时间去学习那些你已经掌握的内容。
 
-Now you may find overdue cards that you were able to recall, but not
-comfortably, since they were not reviewed when they should have been. To
-counter this, Anki treats the delay differently depending on your
-answer. If you find a card easy, the last interval plus the full delay
-are added together, and then used to calculate the next interval. When
-you answer good, only half the delay is used. And when you answer hard,
-none of the extra delay is used. So if a card was due in 5 days, and it’s
-answered 20 days late, the next times you’d end up with are
-approximately:
+现在，你可能会发现那些因没有按时复习而堆积的卡片，你能够回忆起来，但并不轻松。为了解决这一问题，Anki
+根据你的回答对待延迟有所不同。如果你觉得一张卡片很简单，上一次间隔加上整个延迟一起计算，然后用于计算
+下一个间隔。当你回答「好」时，只使用一半的延迟。当你回答「困难」时，不使用任何额外的延迟。所以，如果
+一张卡片预定在 5 天内到期，而你晚了 20 天回答，之后的时间大约是：
 
-- Hard: 5 \* 1.2 = 6 days
+- 困难：5 \* 1.2 = 6 天
 
-- Good: (5 + 20/2) \* 2.5 = 37.5 days
+- 好：(5 + 20/2) \* 2.5 = 37.5 天
 
-- Easy: (5 + 20) \* 3.25 = 81.25 days
+- 简单：(5 + 20) \* 3.25 = 81.25 天
 
-The exact numbers will depend on your past performance with the card,
-and your deck settings.
+具体数字将取决于你过去与该卡片的表现以及你的牌组设置。
 
-If you find a card hard, the next interval is conservative and any extra delay
-is discarded. If you find it good, the next interval is only about 50% higher.
-And easy increases the interval aggressively as usual.
+如果你觉得一张卡片困难，下一个间隔会很保守，并会丢弃任何额外的延迟。如果你觉得它「好」，下一个间隔大
+约只增加 50%。而如果简单，则通常会显著增加间隔。
 
-So it is recommended that you study as normal when you return to Anki
-after a period of absence. But if you absolutely must reset the deck,
-you can select the cards to reset in the browser, and use
-Cards&gt;Forget.
+因此，建议你在一段时间的缺席后重新使用 Anki 时，按照正常的学习方式进行。但如果你绝对必须重置牌组，你
+可以在浏览器中选择要重置的卡片，并使用 Cards&gt;Forget。

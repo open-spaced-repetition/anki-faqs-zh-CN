@@ -1,52 +1,28 @@
-# Can I link cards together?
+# 我能将卡片连接在一起吗？
 
-Anki supports links between cards of a note, but not between unrelated
-cards. Imagine you are studying Japanese and aiming to be able to both
-recognize and reproduce the Japanese. You may enter the word "ookii",
-which means "big", and tell Anki to generate two cards - ookii→big and
-big→ookii.
+Anki 支持在同一笔记的卡片之间建立链接，但无法在不相关的卡片之间建立链接。假设你正在学习日语，并希望
+能够同时识别和复述日语。你可以输入「ookii」，意思是「大」，并告诉 Anki 生成两张卡片——「ookii→大」和
+「大→ookii」。
 
-In the above situation Anki can space reviews of those two sibling cards
-out so that they don’t appear one after the other.
+在上述情况下，Anki 可以将这两张兄弟卡片的复习时间错开，这样它们就不会一个接一个地出现。
 
-Some people want to extend this link between arbitrary cards. They want
-to be able to tell Anki "after showing me this card, show me that card",
-or "don’t show me that card until I know this card well enough". This
-might sound like a nice idea in theory, but in practice it is not
-practical.
+有些人希望在任意卡片之间扩展这种链接功能。他们想告诉 Anki「在显示我这张卡片之后，显示我那张卡片」或
+「在我足够熟悉这张卡片之前不要显示那张卡片」。这种理论上听起来很不错的想法在实践中却不可行。
 
-For one, unlike the sibling card case above, you would have to define
-all the relations yourself. Entering new notes into Anki would become a
-complicated process, as you’d have to search through the rest of the
-deck and assign relationships between the old and new material.
+首先，与上面提到的兄弟卡片情况不同，你需要自己定义所有关系。往 Anki 中输入新笔记将变得复杂麻烦，因为
+你需要在整套牌组中搜索并为旧材料与新材料分配关系。
 
-Secondly, remember that Anki is using an algorithm to determine when the
-optimum time to show you material again is. Adding constraints to card
-display that cause cards to display earlier or later than they were
-supposed to will make the spaced repetition system less effective,
-leading to more work than necessary, or forgotten cards.
+其次，请记住 Anki 使用算法来决定何时是再次显示材料的最佳时机。对卡片显示施加的限制可能导致卡片比原定
+时间提前或延迟显示，这将降低间隔重复系统的效率，导致不必要的工作量或遗忘卡片的情况发生。
 
-The most effective way to use Anki is to make each note you see
-independent from other notes. Instead of trying to join similar words
-together, you’ll be better off if you can determine the differences
-between them. Synonyms are rarely completely interchangeable - they tend
-to have nuances attached, and it’s not unusual for a sentence to become
-strange if one synonym is replaced with another.
+使用 Anki 的最有效方式是让你看到的每一个笔记都独立于其他笔记。与其试图将相似的词汇连接在一起，不如尝
+试确定它们之间的差异。近义词很少完全可互换——它们往往带有细微差别，如果一个近义词被另一个替换，一句话
+变得奇怪也不罕见。
 
-Continuing with the Japanese example earlier, imagine you want to learn
-the word "dekai", which also roughly translates to "big", but is a more
-colloquial expression. If you still want to review in both directions,
-you might make the English prompt of this word "big (more casual)". The
-further you progress in your language studies though, the more of a
-burden it becomes to define the differences between similar words, which
-is why cards asking you to produce a particular word are best left to
-the early stage of your studies. With a strong base vocabulary, moving
-towards recognition-based study makes more sense, as we all have a much
-larger passive vocabulary than our active vocabulary.
+继续之前的日语例子，假设你想学习「dekai」这个词，它也大致翻译为「大」，但更为口语化。如果你仍然希望
+双向复习，你可以将这个词的英文提示改为「big (more casual)」。随着语言学习的深入，定义相似词汇的区别
+将变得更加麻烦，这就是为什么要求你生成特定词汇的卡片最好留在学习早期阶段。在拥有扎实的基础词汇后，转
+向基于识别的学习更有意义，因为我们所有人都有更大得多的被动词汇量相较于主动词汇量。
 
-As for ensuring that difficult material is introduced after easier
-material, a number of existing tools are available. New cards are by
-default introduced in the order they are added to the deck, so as long
-as the learning materials or sources of information you are using are
-adequately graded for your level, material should appear in order of
-easiness.
+至于确保难懂材料在简单材料之后引入，已经有许多现有工具可用。默认情况下，新卡片按照添加到牌组的顺序引
+入，因此只要你使用的学习材料或信息来源对你的水平有所分级，材料就会按照难易程度的顺序出现。

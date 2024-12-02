@@ -1,11 +1,14 @@
-# Cards are reversed / appearing twice
+# 卡片被翻转 / 出现两次
 
-Anki can be configured to show cards in both a forward and reverse direction. If you want cards to only show from front->back, you can delete the reverse card.
+Anki 可以配置为在正向和反向两个方向显示卡片。如果你希望卡片仅从正面到背面显示，可以删除反向卡片。
 
-If you have added cards to the `Basic (and reversed)` or `Basic (optional reversed)` notetypes, you can change the cards to the "Basic" card type by selecting them in the Browse screen, then using the Change Note Type menu item. Select your Basic note type, choosing to keep Card 1, and discard Card 2.
+如果你在 `Basic (and reversed)` 或 `Basic (optional reversed)` 笔记类型中添加了卡片，你可以通过在浏
+览界面中选择这些卡片，并使用「更改单类型」菜单项，将卡片更改为「Basic」卡片类型。选择你的 Basic 笔记
+类型，选择保留 卡片 1，并丢弃 卡片 2。
 
-If you have modified the Basic card template to add an unwanted reverse direction, you can modify it back instead:
+如果你修改了 Basic 卡片模板以增加不需要的反向方向，你可以将其恢复：
 
-- Edit a card
-- Click the 'Cards' button
-- You will see one or more tabs at the top representing each card type that will be created. Locate the card type you don't want, click the Options button, and remove the unwanted card template.
+- 编辑一张卡片
+- 点击『Cards』按钮
+- 你将看到顶部有一个或多个标签，代表将要创建的每种卡片类型。找到你不需要的卡片类型，点击选项按钮，删
+  除不需要的卡片模板。

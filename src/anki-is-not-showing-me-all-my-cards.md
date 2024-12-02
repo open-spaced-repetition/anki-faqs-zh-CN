@@ -1,37 +1,55 @@
-# Anki's not showing me all my cards!
+# Anki 没有显示我所有的卡片！
 
-<h2>Anki decides which cards you see</h2>
+<h2>Anki 决定你看到哪些卡片</h2>
 
-Anki was designed to help you remember large amounts of material for a long time. To do this, it operates differently to a traditional flashcard program.
+Anki 的设计目标是帮助你长期记忆大量的材料。为此，它的操作方式与传统的闪卡程序不同。
 
-In a conventional flashcard program, you see the same set of cards over and over again, and decide when you want to stop. Repeatedly reviewing material in this way - "cramming" - tends to be what we're used to, and for many people it feels like the natural way to study.
+在传统的闪卡程序中，你会一遍又一遍地看到相同的卡片，然后决定何时停止。这种反复回顾材料的方式——「填鸭
+式学习」，往往是我们习惯的方式，对许多人来说也似乎是自然的学习方法。
 
-There's just one problem with this approach - it's not terribly effective! Studies have shown that you can achieve better results by adding a delay between each review of an item, instead of reviewing it multiple times in a short period. This delay between reviews is called "spaced repetition".
+然而，这种方法有一个问题——它并不是特别有效！研究表明，通过在每次复习一个项目之间加入延迟，而不是在短
+时间内多次复习，可以获得更好的效果。这种复习之间的延迟称为「间隔复习」。
 
-In Anki, instead of going over material until you decide to stop, Anki chooses which cards you need to see. If you press the Again button on a card because you've forgotten it, it will be shown again soon. Once you've remembered the card correctly for 10 minutes, Anki will not show the card again until the next day - and if you answer it correctly then, the delay will grow larger each time.
+在 Anki 中，与其一直复习材料直到你决定停止，Anki 选择你需要看到哪些卡片。如果你按下某张卡片的「再来
+一次」按钮因为你忘记了，它会很快再次显示出来。一旦你正确记住了卡片 10 分钟，Anki 将在第二天才会再次
+显示该卡片——如果你当时回答正确，延迟将会每次增大。
 
-If you are new to spaced repetition, you may well be skeptical, and you may still feel that cramming would help you more. You are not alone - studies have shown that people tend to assume that cramming will be more effective, even when results show that spaced repetition actually works better. Please keep an open mind, and try it for a few weeks before you decide which approach is best for you.
+如果你是间隔复习的新手，你可能会持怀疑态度，并且仍然觉得填鸭式学习对你更有帮助。你并不孤单——研究表
+明，人们往往认为填鸭式学习更有效，尽管结果显示间隔复习实际上效果更好。请保持开放的心态，并在做出最佳
+学习方法的决定之前，尝试几个星期。
 
-If you have a test due in a few days, it's probably not the best time to be starting with Anki. While Anki does have tools to bypass the regular scheduling for things like upcoming tests, they take some time to learn how to use, and they are awkward to use on a daily basis. If you have an imminent test, you may want to consider studying as you have done previously, and then picking Anki back up when you're not under as much pressure.
+如果你有一个几天后就要交的考试，现在可能不是开始使用 Anki 的最佳时机。虽然 Anki 确实有工具可以绕过常
+规的安排来应对即将到来的考试，但学习使用这些工具需要一定时间，而且日常使用也不太方便。如果你有紧迫的
+考试，可能需要考虑像以前那样学习，然后在压力较小的时候重新使用 Anki。
 
-<h2>New cards</h2>
+<h2>新卡片</h2>
 
-By default, Anki will show you a maximum of 20 new cards each day. The reason for this limit is because those cards will need to be reviewed in the coming days - such as the next day, and then a few days after, and so on. Each day you use Anki, another 20 cards will be introduced, and the reviews will start to add up - if you're adding 20 new cards each day, you can expect the daily reviews in the early stages to build up to around 200 cards/day.
+默认情况下，Anki 每天会显示你最多 20 张新卡片。设置这个限制的原因是这些卡片在接下来的日子里需要被复
+习——比如第二天，然后是几天后，如此这般。每次使用 Anki，另外 20 张卡片会被引入，而复习开始累积——如果
+你每天添加 20 张新卡片，早期阶段的每日复习增加到每天大约 200 张卡片。
 
-It is possible to increase the number of new cards that are presented each day by adjusting the deck options or using the custom study feature, but please be careful - if you try to learn too many new cards at once, you'll find the follow-up reviews overwhelming, and you'll end up forgetting the material again. While you're no doubt eager to get stuck into your material, it's a good idea to try Anki with the default options for a week or two before you think about changing the limits.
+可以通过调整牌组选项或使用自定义学习功能来增加每天展示的新卡片数量，但请务必小心——如果尝试一下子学习
+太多新卡片，你会发现后续的复习任务过于繁重，最终会再次忘记材料。虽然你无疑急于深入研究你的材料，但在
+考虑更改限制之前，最好先以默认选项尝试 Anki 一两个星期。
 
-<h2>Reviews</h2>
+<h2>复习</h2>
 
-Anki will show cards you've previously reviewed when it thinks you will forget them. The delays will start from a single day, but can grow into months or years if you repeatedly answer a card correctly.
+Anki 会在认为你会忘记它们的时候显示你之前复习过的卡片。延迟将从一天开始，但如果你多次正确回答卡片，
+则延迟可能增长至数月或数年。
 
-Unless you have a test coming up soon, it's best to review cards as Anki schedules them. Try to resist the urge to review material multiple times to reinforce it - it is more efficient to just wait a while than to view the same content over and over again. If you do find yourself with free time, consider adding some more new cards to Anki instead, or doing some other studies.
+除非你近期有考试，否则最好按照 Anki 的安排复习卡片。尽量抑制多次反复复习材料以强化记忆的冲动——等一段
+时间再看相同内容比一遍又一遍地查看更为高效。如果你发现自己有空闲时间，考虑给 Anki 添加一些新的卡片，
+或者进行其他学习。
 
-If you have a test coming up and need to review the material before it is due, you can tell Anki you'd like to [review outside of the regular schedule](https://docs.ankiweb.net/filtered-decks.html). If you just want to quickly flip through some cards to check for mistakes after creating them or get a general idea of what's there, you can use the **Preview** button in the upper-right corner of the Browse screen.
+如果你有即将到来的考试，并且需要在截止日期前复习材料，你可以告诉 Anki 你想
+要[在常规计划外复习](https://docs.ankiweb.net/filtered-decks.html)。如果你只是想快速翻阅一些卡片以检
+查创建后的错误，或对所学内容有个大致了解，你可以使用浏览界面右上角的 **预览** 功能。
 
-<h2>Card counts dropping down by more than one</h2>
+<h2>卡片计数减少超过一个</h2>
 
-If you're seeing the card count drop down by more than one after certain operations like an undo, please see <https://anki.tenderapp.com/kb/problems/i-created-reversed-cards-but-theyre-not-showing-up>.
+如果你在撤销等操作后发现卡片计数减少超过一个，请查看
+<https://anki.tenderapp.com/kb/problems/i-created-reversed-cards-but-theyre-not-showing-up>。
 
-<h2>Related</h2>
+<h2>相关</h2>
 
-[Settings for using Anki to prepare for a large exam](https://faqs.ankiweb.net/settings-for-using-anki-to-prepare-for-a-large-exam.html)
+[使用 Anki 准备大型考试的设置](https://faqs.ankiweb.net/settings-for-using-anki-to-prepare-for-a-large-exam.html)

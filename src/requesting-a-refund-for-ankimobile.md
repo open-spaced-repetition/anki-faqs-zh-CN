@@ -1,21 +1,17 @@
-# Requesting a refund for AnkiMobile
+# 申请 AnkiMobile 退款
 
-If you're having a problem with AnkiMobile, please let us know and we'll do our best to help you resolve it.
+如果你在使用 AnkiMobile 时遇到问题，请告诉我们，我们会尽力帮助你解决它。
 
-The App Store is run by Apple. When you purchase an app on it, you pay money to Apple. They keep part of your money, and
-send the remainder to us about a month later. They do not tell us who has purchased the app, and do not
-give us any ability to confirm you've made a purchase, or to initiate a refund. For this reason, any
-refund requests need to be made to Apple directly.
+App Store 由苹果公司运营。当你在上面购买应用时，你是将钱支付给苹果。他们会保留部分费用，并在大约一个
+月后将剩余款项发给我们。他们不会告知我们谁购买了应用，也不会给我们任何确认你已购买或发起退款的能力。
+因此，任何退款请求都需要直接向苹果提出。
 
-Please note that except when required by law, refunds are at Apple's discretion. If it's your first time requesting a refund,
-there's a good chance they'll refund your money, but this is not guaranteed.
+请注意，除非法律要求，否则退款由苹果自行决定。如果这是你第一次申请退款，他们很可能会退还你的钱，但这
+并不保证。
 
-Please see the following page for more information:
+请参阅以下页面以获取更多信息：
 
 <https://support.apple.com/en-au/118223>
 
-We have heard reports that some Apple Support representatives, when refusing a refund, are suggesting you
-contact us instead. That is misleading, as they know we do not have access to your payment details,
-and cannot confirm you've purchased the app, or remove your access to it. If Apple have refused to refund you,
-unfortunately that is not something we can change.
-
+我们收到报告称，一些苹果支持代表在拒绝退款时建议你与我们联系。那是误导的，因为他们知道我们无法访问你
+的付款信息，无法确认你已购买应用或移除你的访问权限。如果苹果拒绝退款，很遗憾，这是我们无法改变的。

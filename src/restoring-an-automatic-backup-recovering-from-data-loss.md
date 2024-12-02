@@ -1,14 +1,15 @@
-# Restoring an Automatic Backup (Recovering from Data Loss)
+# 恢复自动备份（从数据丢失中恢复）
 
-Sometimes your collection may become very damaged. For instance:
+有时候你的集合可能会受到严重损坏。例如：
 
-- You accidentally deleted a card type or hundreds of cards and didn't notice in time to undo it.
-- Your collection has become corrupted.
-- There was a syncing error and you accidentally overwrote a large number of reviews that you did on another device.
-- ...or anything else that leaves you with lost data.
+- 你不小心删除了一个卡片类型或数百张卡片，并且没有及时注意到以撤销操作。
+- 你的集合已经损坏。
+- 由于同步错误，你不小心覆盖了在其他设备上进行的大量回顾。
+- ……或者其他任何导致数据丢失的情况。
 
-Anki automatically backs up your collection every time you close Anki or sync (AnkiMobile backs up after fixed time intervals and before syncs), and by default it stores 30 backups. For information on restoring an automatic backup, please visit the relevant page:
+Anki 会在每次关闭 Anki 或同步时自动备份你的集合（AnkiMobile 会在固定时间间隔后和同步前进行备份），默
+认情况下，它会存储 30 个备份。有关恢复自动备份的信息，请访问相关页面：
 
-- Restore a [backup made by Anki on your computer](https://docs.ankiweb.net/backups.html)
-- Restore a [backup made by AnkiMobile](https://docs.ankimobile.net/preferences.html#backups)
-- Restore a [backup made by AnkiDroid](https://ankidroid.org/docs/manual.html#backups)
+- 恢复[由电脑上的 Anki 创建的备份](https://docs.ankiweb.net/backups.html)
+- 恢复[由 AnkiMobile 创建的备份](https://docs.ankimobile.net/preferences.html#backups)
+- 恢复[由 AnkiDroid 创建的备份](https://ankidroid.org/docs/manual.html#backups)

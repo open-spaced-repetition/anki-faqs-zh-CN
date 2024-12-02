@@ -1,7 +1,11 @@
-# Email verification
+# 邮件验证
 
-AnkiWeb was previously lax about verifying your email address, sending a message out when you sign up for an account but not requiring that it be responded to. The problem with this is that email hosts don't like it when email is sent to invalid addresses, and we risk the messages we send about the service landing in the spam folder or being dropped completely if the email providers decide the valid/invalid ratio is not good enough.
+AnkiWeb 之前在验证你的电子邮件地址方面比较宽松，会在你注册账户时发送一条消息，但不要求你进行回应。这
+样做的问题是，邮件主机不喜欢邮件被发送到无效地址，当电子邮件提供商认为有效/无效比例不够好时，我们发
+送的有关服务的消息可能会进入垃圾邮件文件夹或被完全丢弃。
 
-So to address this, we've had to start verifying your email address is valid once a year. Once you click the link in the verify email message, it tells us your address is current and we are known to you, so we can send you service-related mails in the future (like when you reset your password) with a reasonable degree of certainty that the mails will not bounce back.
+为了解决这个问题，我们不得不开始每年验证你的电子邮件地址是否有效。一旦你点击验证邮件中的链接，它就会
+告知我们你的地址是最新的，并且我们为你所知，这样我们就可以在未来给你发送与服务相关的邮件（例如，当你
+重置密码时），而我们能相当有把握地认为这些邮件不会被退回。
 
-Please note our privacy policy has not changed - we will only use your email address for messages related to Anki.
+请注意，我们的隐私政策没有变化 - 我们只会使用你的电子邮件地址发送与 Anki 相关的消息。

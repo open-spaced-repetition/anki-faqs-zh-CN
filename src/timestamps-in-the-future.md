@@ -1,21 +1,17 @@
-# Importing/exporting fails due to timestamps in the future
+# 导入/导出因未来的时间戳失败
 
-Some shared decks include cards/notes with invalidate creation dates, eg
-they say cards were created in the year 40000 instead of the year 2023.
-This causes a variety of problems, and causes any cards created after
-importing such a deck to end up with similarly-invalid timestamps.
+一些共享牌组包含无效创建日期的卡片/笔记，例如它们显示卡片的创建年份是 40000 年，而不是 2023 年。这会
+导致各种问题，并导致在导入此类牌组后创建的任何卡片最终都具有类似的无效时间戳。
 
-To prevent this problem spreading, recent Anki versions will refuse to
-export decks that have invalid dates.
+为了防止此问题扩散，最近的 Anki 版本将拒绝导出具有无效日期的牌组。
 
-## When exporting
+## 导出时
 
-If you receive this message when exporting, you can fix it using one
-of the following methods:
+如果在导出时收到此消息，可以使用以下方法之一进行修复：
 
-- On a 2.1.61+ computer version, use the Tools>Check Database menu item.
-- On AnkiMobile 2.0.90+, use Check Database in the preferences screen.
+- 在 2.1.61+ 电脑版本中，使用「工具>检查数据库」菜单项。
+- 在 AnkiMobile 2.0.90+ 中，在偏好设置屏幕中使用「检查数据库」。
 
-## When importing
+## 导入时
 
-The Anki versions mentioned in the previous section can now automatically fix problem decks when importing.
+前一节中提到的 Anki 版本现在可以在导入时自动修复问题牌组。

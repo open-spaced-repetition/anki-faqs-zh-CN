@@ -1,16 +1,20 @@
-# Shared decks with broken Javascript
+# 含有损坏 Javascript 的共享牌组
 
-Some shared decks make use of a feature called 'Javascript', which allows them to dynamically modify the display of the card. Javascript can be fragile, which is why the Anki manual recommends deck authors avoid it. It may break when Anki is updated, or when the deck author has not tested their Javascript on the different Anki platforms.
+一些共享牌组使用了一种称为「Javascript」的功能，它允许动态修改卡片的显示。Javascript 可能比较脆弱，
+这就是为什么 Anki 手册建议牌组作者避免使用它的原因。它可能在 Anki 升级时失效，或者当牌组作者没有在不
+同的 Anki 平台上测试他们的 Javascript 时出现问题。
 
-If you encounter a Javascript error in a shared deck, please post a review on the shared deck download page to let the deck author and other users know of the problem. If the deck author is active, they will hopefully address 
-the issue in a future update.
+如果你在共享牌组中遇到 Javascript 错误，请在共享牌组的下载页面上发布评论，让牌组作者和其他用户知道这
+个问题。如果牌组作者活跃，他们有望在将来的更新中解决这个问题。
 
-If the deck author is unable to help you, you can try edit your card template to remove the Javascript to prevent an error from showing. Depending on what the Javascript was doing, this may result in lost functionality.
+如果牌组作者无法帮助你，你可以尝试编辑卡片模板来移除 Javascript，以防止错误的发生。根据 Javascript
+的作用，这可能导致功能丢失。
 
-To do so, using the computer version of Anki:
+要进行此操作，请使用 Anki 的电脑版：
 
-- Use File>Export to export your entire collection with scheduling information. This will give you a backup that you can restore to if anything goes wrong.
-- Edit a card, and click the Cards... button.
-- Look for areas in the front and back template that start with  ```<script>``` and end with ```</script>```. Remove the start and end, and everything in between.
-- Confirm that the card displays in the review screen without error. If it's working ok, you can sync your changes to AnkiWeb and then to your other devices.
-- If removing the script has completely broken the card, use File>Import to restore to the backup you created.
+- 使用「文件>导出」将整个集合连同计划信息一起导出。这样你将得到一个备份，如果出现问题可以恢复。
+- 编辑一个卡片，然后点击「卡片...」按钮。
+- 找到在前模板和后模板中以 `<script>` 开头和以 `</script>` 结束的区域。移除开头和结尾以及中间的内
+  容。
+- 确认卡片在复习界面中显示没有错误。如果它工作正常，你可以将更改同步到 AnkiWeb，然后同步到其他设备。
+- 如果移除脚本完全破坏了卡片，使用「文件>导入」来还原你创建的备份。

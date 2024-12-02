@@ -1,38 +1,48 @@
-# AnkiWeb account removal
+# AnkiWeb 账户删除
 
-As AnkiWeb is a free service, we need to periodically delete unused account data in order to keep costs down. As mentioned in our terms of service, your data may be deleted if you have not accessed your account or synced in the last 6 months.
+由于 AnkiWeb 是一项免费服务，我们需要定期删除未使用的账户数据以降低成本。正如我们的服务条款中提到
+的，如果你在过去 6 个月内没有访问你的账户或进行同步，你的数据可能会被删除。
 
-Once your deck data has expired, it is not possible for us to recover your data from AnkiWeb, but you may be able to recover it if you have a local copy.
+一旦你的牌组数据过期，我们将无法从 AnkiWeb 恢复你的数据，但如果你有本地副本，你可能能够恢复它。
 
-What gets deleted
--------
+## 被删除的数据
 
-If your AnkiWeb account expires, only the AnkiWeb copy of your data is deleted. Any cards you have stored on your computer, phone or tablet will remain on those devices.
+如果你的 AnkiWeb 账户过期，只有 AnkiWeb 中的数据副本会被删除。你在电脑、手机或平板电脑上存储的任何卡
+片将保留在这些设备上。
 
-Returning to AnkiWeb after your data has expired
--------
+## 数据过期后返回 AnkiWeb
 
-If your account data was deleted due to inactivity, you may still be able to recover that data if you have a copy on your computer or mobile device. You can confirm this by opening Anki or AnkiMobile/AnkiDroid to see if your data is still there. If you had data on your device but accidentally overwrote it in a sync, you may be able to recover it from an [automatic backup](https://faqs.ankiweb.net/restoring-an-automatic-backup-recovering-from-data-loss.html)
+如果你的账户数据因不活动而被删除，但你在电脑或移动设备上有备份，你可能仍然能够恢复这些数据。你可以通
+过打开 Anki 或 AnkiMobile/AnkiDroid 来确认数据是否仍在设备上。如果你设备上的数据在同步过程中被意外覆
+盖，你可能可以从一
+个[自动备份](https://faqs.ankiweb.net/restoring-an-automatic-backup-recovering-from-data-loss.html)中
+恢复它。
 
-If you'd like to start syncing that data with AnkiWeb again, please start by logging in to ankiweb.net using your Anki ID. If your account details are correct, you will find you have 0 cards.
+如果你想再次将数据同步至 AnkiWeb，请首先使用你的 Anki ID 登录 ankiweb.net。如果你的账户信息正确，你
+会发现你有 0 张卡片。
 
-Once you have a valid AnkiWeb login, you can sync your computer or mobile device, enter your details, and then choose "Upload" to send your data back to AnkiWeb. Please make sure to upload, as choosing download would overwrite your local content with your empty AnkiWeb collection.
+一旦你有一个有效的 AnkiWeb 登录，你可以同步你的电脑或移动设备，并输入你的详细信息，然后选择「上传」
+将你的数据发送回 AnkiWeb。请确保选择上传，因为选择下载将会用空的 AnkiWeb 集合覆盖你的本地内容。
 
-Avoiding account deletion
------------------
+## 避免账户删除
 
-Each time you visit ankiweb.net, or use the synchronisation feature in Anki, AnkiMobile or AnkiDroid, your account will automatically be marked as active. The mobile clients do not sync automatically, so simply using them to study will not result in your AnkiWeb account being marked active unless you use the sync button.
+每次你访问 ankiweb.net，或使用 Anki、AnkiMobile 或 AnkiDroid 中的同步功能时，你的账户将自动被标记为
+活跃。移动客户端不会自动同步，因此仅仅使用它们来学习并不会使你的 AnkiWeb 账户被标记为活跃，除非你使
+用同步按钮。
 
-If your account has been inactive for 6 months or more, and you used the service for a week or longer, we will send you an email notifying you that deletion is pending. If you'd like to keep your account active, please log in to ankiweb.net and study a card, or sync one of your devices within 30 days.
+如果你的账户已闲置 6 个月或更长时间，并且你已使用该服务一周或更长时间，我们将向你发送一封电子邮件通
+知你删除即将进行。如果你希望保持你的账户活跃，请登录 ankiweb.net 并学习一张卡片，或在 30 天内同步你
+的设备之一。
 
-Backing up your collection
---------
+## 备份你的集合
 
-If you're not planning to study for a while, or if you receive an inactivity notice and don't wish to renew your account immediately, please ensure that you have a copy of your collection on your local computer or mobile device. Your data should already be on your device if you've used Anki's synchronisation feature. If you've only used AnkiWeb before, please install the computer version or a mobile client and sync with AnkiWeb in order to download your data.
+如果你计划一段时间不学习，或者如果你收到不活动通知并且不希望立即更新你的账户，请确保你在本地电脑或移
+动设备上有集合的副本。如果你使用过 Anki 的同步功能，你的数据应该已经在你的设备上。如果你之前只使用过
+AnkiWeb，请安装电脑版本或移动客户端并与 AnkiWeb 同步以下载你的数据。
 
-Shared items
-----------------
+## 共享项目
 
-When you share a deck, a copy of the deck without scheduling information is made, and that copy along with any add-ons you share are not subject to the usual data expiry.
+当你共享一个牌组时，将创建一个没有计划信息的牌组副本，并且该副本与你共享的任何附加组件不受常规数据过
+期的限制。
 
-Please note however that shared decks will expire if they average less than a few downloads a month, so deck sharing is not a backup mechanism.
+但请注意，如果共享牌组每月平均下载次数少于几次，它们将会过期，因此牌组共享并不是备份机制。

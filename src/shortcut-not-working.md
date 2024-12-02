@@ -1,9 +1,10 @@
-# A shortcut key is not working
+# 快捷键无法使用
 
-Some other program on your computer is likely capturing the shortcut. For example, some users have recently reported that their AMD/ATI video card software is stealing the cloze deletion shortcut key. When they disable the shortcut in that program's preferences, the key starts working in Anki again.
+你的计算机上可能有其他程序正在捕获该快捷键。例如，一些用户最近报告其 AMD/ATI 显卡软件在截取完形填空
+快捷键。当他们在该程序的首选项中禁用快捷键后，该键在 Anki 中又恢复了功能。
 
-If you run into similar problems, please try temporarily closing/turning off other software running on your machine, until you discover the cause.
+如果你遇到类似问题，请尝试暂时关闭/关闭你的计算机上运行的其他软件，直到找到原因。
 
-If you use add-ons in Anki, please also try disabling them to rule them out as the cause of the problem.
+如果你在 Anki 中使用附加组件，也请尝试禁用它们，以排除它们作为问题原因的可能性。
 
-In some cases, using a non-English keyboard layout may cause the problem. 
+在某些情况下，使用非英语键盘布局可能会导致此问题。

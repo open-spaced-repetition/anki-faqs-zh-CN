@@ -1,33 +1,41 @@
-# 'Syncing failed: Connection timed out' errors when syncing
+# 「同步失败：连接超时」错误
 
-**Antivirus/firewall software on Windows and corporate/school networks**
+**Windows 上的杀毒软件/防火墙和公司/学校网络**
 
-If syncing never appears to make any progress, it is possible that Anki is completely blocked from connecting to the internet. In that case, you may need to add an exception in your antivirus/firewall, or ask your network administrators for assistance. For more information, please see
+如果同步似乎从未取得任何进展，可能是 Anki 完全被阻止连接到互联网。在这种情况下，你可能需要在杀毒软件
+/防火墙中添加一个例外，或者请网络管理员协助。更多信息，请参阅
 
 <https://faqs.ankiweb.net/error-establishing-a-secure-connection-when-syncing.html>
 
-**If the sync appears to make some progress**
+**如果同步似乎有一些进展**
 
-When you sync, Anki sends messages to AnkiWeb, and these messages typically flow through a number of networks and countries before they reach AnkiWeb. If one of the networks between you and the AnkiWeb servers is experiencing issues, this can result in connections that run slowly or terminate abruptly.
+当你进行同步时，Anki 会向 AnkiWeb 发送消息，这些消息通常需要经过多个网络和国家才能到达 AnkiWeb。如果
+你和 AnkiWeb 服务器之间的某个网络出现问题，可能会导致连接速度变慢或突然中断。
 
-A typical cause of this is when your internet provider experiences a problem with one of their international links. When this happens, you may find you can access most other sites without any problems, because those sites are hosted in different geographical locations, and thus your connections to them use different networks. Such problems typically take a few hours to a few days to clear up.
+通常造成这种情况的原因是你的互联网服务提供商在其国际连接中出现了问题。当这种情况发生时，你可能会发现
+可以正常访问其他大多数网站，因为那些网站的托管地点不同，因此连接到它们使用的是不同的网络。此类问题通
+常需要几个小时到几天才能解决。
 
-Sometimes the problems can be caused more locally. If you're on a distant or congested wifi network, that can also cause the connection to AnkiWeb to become unstable.
+有时问题可能更本地化。如果你使用的是一个遥远或拥挤的 wifi 网络，也会导致与 AnkiWeb 的连接变得不稳
+定。
 
-Unstable connections tend to become more apparent the more data you transfer. If you are experiencing packet loss you may find you can load ankiweb.net fine most of the time, but still have issues when syncing - especially if you have a lot of data to transfer.
+传输的数据越多，不稳定的连接越容易显现。如果你遇到数据包丢失的情况，你可能会发现大多数时间仍能正常加
+载 ankiweb.net，但在同步时仍会遇到问题——特别是当你需要传输大量数据时。
 
-**Working around the issue**
+**解决问题的方法**
 
-The best thing to do is try syncing on a different network - using your phone's cellular connection for example, or using your work or school's wifi network. In many cases you will find that resolves the problem, and after waiting a few hours to a few days, the problem with your home network should have gone away.
+最好的方法是尝试在不同的网络上进行同步——例如，使用手机的移动网络，或者使用工作单位或学校的 wifi 网
+络。在许多情况下，这可以解决问题，并且在等待几个小时到几天后，家庭网络的问题应该会消失。
 
-**Determining packet loss**
+**确定数据包丢失**
 
-A tool called 'mtr' can be useful for determining packet loss.
+一个名为『mtr』的工具可以用于确定数据包丢失。
 
 - Windows: <https://sourceforge.net/projects/winmtr/>
 - Mac: <https://www.reddit.com/r/TagPro/comments/2j6qx7/how_to_run_an_mtr_on_mac/>
-- Linux: install 'mtr' from your package manager
+- Linux: 从软件包管理器中安装『mtr』
 
-Once installed, you should use mtr to access 'ankiweb.net', and let it run for about 15 minutes. If any of the steps between your device and the AnkiWeb servers show a packet loss above 0%, it indicates instability.
+安装后，你应该使用 mtr 访问『ankiweb.net』，并让它运行大约 15 分钟。如果从你的设备到 AnkiWeb 服务器
+之间的任何步骤显示数据包丢失超过 0%，则表明连接不稳定。
 
-If you are seeing no packet loss at all but are still having problems syncing, you may be having a different problem - please contact us and let us know.
+如果你没有看到任何数据包丢失但仍然在同步时遇到问题，你可能遇到了不同的问题——请联系我们并告知我们。

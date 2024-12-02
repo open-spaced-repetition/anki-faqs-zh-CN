@@ -1,22 +1,32 @@
-# "Some updates were ignored because note type has changed"
+# 「某些更新被忽略，因为笔记类型已更改」
 
-When importing a shared deck that has previously been imported, Anki will only be able to update your existing cards if:
+当导入一个之前已经导入的共享牌组时，如果满足以下条件，Anki 将能够更新你现有的卡片：
 
-- the name, number and order of fields has not changed
-- the name, number and order of card templates has not changed
+- 字段的名称、数量和顺序没有改变
+- 卡片模板的名称、数量和顺序没有改变
 
-Changes to the front and back template will not prevent updates.
+对正面和背面模板的更改不会阻止更新。
 
-If changes have been made to the fields or card templates and you want to apply updates, you will need to modify the note type in your collection to match the one in the deck you're trying to import. To do this, you can import the shared deck into a new profile, note down the note type's fields and card templates, and then compare them with the note type in your profile.
+如果字段或卡片模板发生了变化且你想应用更新，你需要在你的集合中修改笔记类型以匹配你正在尝试导入的牌组
+中的笔记类型。要做到这一点，你可以将共享牌组导入一个新的配置文件中，记下笔记类型的字段和卡片模板，然
+后与配置文件中的笔记类型进行比较。
 
-If you're not concerned with updates, and just want to grab any new cards, one way to make importing work is to delete the old note type via the Tools>Manage Note Types screen. This will delete any cards associated with it, so if you wish to preserve the existing cards, you'll need to manually use the Change Note Type option in the browse screen to move them to a new note type.
+如果你不关心更新，只是想获取任何新的卡片，可以通过工具>管理笔记类型界面删除旧的笔记类型来使导入生
+效。这将删除与其关联的任何卡片，所以如果你希望保留现有的卡片，你需要在浏览界面使用更改笔记类型选项手
+动将它们移动到新的笔记类型。
 
-Please note that if the deck sharer has used the 'change note type' option in their collection, they will have permanently broken link between your copy and theirs, and updating via .apkg import will not be possible even if your note type's fields and card templates match. You can check the note types are linked by using the following command in the [debug console](https://docs.ankiweb.net/misc.html#debug-console) while looking at a card in the study screen:
+请注意，如果牌组分享者在他们的集合中使用了『更改笔记类型』选项，他们将永久性地打破你和他们之间的连
+接，即使你的笔记类型的字段和卡片模板匹配，通过 .apkg 导入进行更新也是不可能的。你可以通过在学习屏幕
+查看卡片时，在[调试控制台](https://docs.ankiweb.net/misc.html#debug-console)中使用以下命令来检查笔记
+类型是否链接：
 
 ```
 pp(card()['_note'].mid)
 ```
 
-Repeat for the shared deck imported into a temporary profile. If the numbers match, the note types are still linked.
+在导入到临时配置文件的共享牌组中重复该步骤。如果数字匹配，笔记类型仍然链接。
 
-If one of the fields in the shared deck has not been altered, it is also possible to apply updates via a text import. After importing the shared deck into a temporary profile, use File>Export to save the notes in txt format. Then in your original profile, you can import the text file, matching against a field that has not changed. Text imports can only operate on one note type at once, so if the shared deck you've downloaded contains multiple note types, you'll need to do the process one note type at a time. More info is at <https://docs.ankiweb.net/importing/packaged-decks.html#updating>.
+如果共享牌组中的一个字段没有被更改，也可以通过文本导入应用更新。在将共享牌组导入临时配置文件后，使用
+文件>导出以 txt 格式保存笔记。然后在你原始的配置文件中，可以导入文本文件，与一个未更改的字段进行匹
+配。文本导入一次只能对一种笔记类型操作，所以如果你下载的共享牌组包含多种笔记类型，你需要一次处理一个
+笔记类型。更多信息请见 <https://docs.ankiweb.net/importing/packaged-decks.html#updating>。

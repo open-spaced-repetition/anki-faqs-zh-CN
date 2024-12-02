@@ -1,19 +1,27 @@
-# Settings for using Anki to prepare for a large exam
+# 使用 Anki 准备大型考试的设置
 
-If you have started using Anki to help prepare for a large exam some weeks or months in the future, you may wonder how you should best configure it to get you ready for the test. Anki’s default settings are primarily configured to be useful for learning and remembering information over the long term, but this is usually the best way to prepare for an exam as well – you just need to make sure that you finish the material in enough time to be ready for the exam when it comes.
+如果你开始使用 Anki 来帮助准备几周或几个月后的大型考试，你可能会好奇如何最好地配置它以让你准备好参加
+考试。Anki 的默认设置主要是为长期学习和记忆信息而配置的，但这通常也是准备考试的最佳方式——你只需确保
+在考试来临前完成材料。
 
-How many new cards per day?
--------------------
+## 每天多少新卡片？
 
-The most important question is how many new cards you need to study every day in order to be ready by the time the test comes around. A very simple way to calculate this is to divide the total number of cards you have by the number of days you have to study, but before doing this, you should usually make a couple of modifications to the number of days you have to study:
+最重要的问题是，在考试来临之前，你每天需要学习多少新卡片。一个非常简单的计算方法是将你拥有的卡片总数
+除以你需要学习的天数，但在此之前，你通常需要对学习天数进行几个修改：
 
-* If you have the time, generally it is a good idea to leave 2–4 weeks between the time you will study the last new material and the time you will be tested on it. This way, you have time to consolidate all of the material so you will feel confident on it, as well as some time to do extra review right before the test. So you should subtract somewhere between 14 and 30 days from the number of days you have left.
-* If you’re like most people, you probably will miss a few days of study now and then, so it’s a good idea to plan to subtract a few days for this so that you won’t get further behind when you do.
-* If you anticipate adding more cards between now and the exam, you will need to account for the amount of extra material you plan to add.
+- 如果你有时间，通常在学习最后的新材料和参加考试之间留出 2–4 周是个好主意。这样，你有时间整合所有材
+  料，以便对它们感到自信，并有一些时间在考试前进行额外的复习。因此，你应该从剩余的天数中减去 14 到
+  30 天。
+- 如果你像大多数人一样，可能会时不时错过几天的学习，所以计划减去几天以免落后这种情况发生是个好主意。
+- 如果你预计在考试前会添加更多卡片，你需要考虑你计划添加的额外材料量。
 
-After making these modifications, you can divide the total number of cards in your deck by the adjusted number of days to get the number of new cards per day you should study; you can set this number on the **new cards** tab of the deck options screen. You can find out how many new cards are in the deck by selecting it in the deck list, choosing **Browse** at the top of the window, pressing Enter to search for the current deck, and looking at the title bar.
+在进行这些修改之后，你可以将牌组中的卡片总数除以调整后的天数，以获得每天应学习的新卡片数目；你可以在
+牌组选项屏幕的**新卡片**选项卡上设置该数值。通过在牌组列表中选择它，选择窗口顶部的 **Browse**，按下
+Enter 搜索当前牌组，并查看标题栏，你可以找到牌组中有多少新卡片。
 
-Doing extra review
-------------------
+## 进行额外复习
 
-If you get through all of your new cards with time to spare and your exam is in a couple of days, you may wish to run quickly through all of your cards or some subset of them to brush up on the ones that you’ve forgotten since your last review. You can use Anki’s [custom study](https://docs.ankiweb.net/filtered-decks.html#custom-study) feature to study extra cards; please see the linked section of the manual for instructions and available options.
+如果你在考试前几天有时间余裕地完成了所有新卡片，你可能希望快速浏览你所有的卡片或其中的一部分，以复习
+自上次复习以来已经遗忘的卡片。你可以使用 Anki
+的[自定义学习](https://docs.ankiweb.net/filtered-decks.html#custom-study)功能来学习更多卡片；有关说
+明和可用选项，请参阅手册中链接的部分。

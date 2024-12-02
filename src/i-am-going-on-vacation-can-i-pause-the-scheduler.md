@@ -1,5 +1,10 @@
-# I'm going on vacation. Can I pause the scheduler?
+# 我要去度假。我可以暂停调度器吗？
 
-Being able to come back from a break to find Anki in exactly the same state you left it in may sound attractive, but unfortunately while it's easy to tell the computer to suspend its estimates of how quickly you are forgetting, it's not possible to suspend your memory, so memories will continue to decay if you don't review. If you paused the scheduler, you would be delaying the review of every card in your deck, increasing your chance of forgetting every one of them, even those that would normally have appeared after you returned from your break.
+能够在度假回来后发现 Anki 处于你离开时的相同状态听起来很有吸引力，但不幸的是，尽管可以轻松告知计算机
+暂停其对你遗忘速度的估计，却无法暂停你的记忆，因此如果你不进行复习，记忆仍会继续衰退。如果你暂停了调
+度器，将会延迟牌组中每张卡片的复习，这样就会增加遗忘每张卡片的几率，甚至包括那些通常在你度假回来后才
+会出现的卡片。
 
-Anki does have a "Set Due Date" feature in the Browse screen that can change the due date of cards. You can use this to either to move cards to an earlier due date (allowing you to study more before you take a break), or to push cards back to a later date. Conservative changes are recommended - if you alter the due date of cards by too much, there is a good chance you will forget them and need to relearn them again.
+Anki 确实在浏览屏幕中具有「设置到期日期」功能，可以更改卡片的到期日期。你可以使用此功能将卡片移到一
+个更早的到期日期（让你在休息前学习更多），或者将卡片推迟到更晚的日期。建议进行保守的更改——如果你过多
+地更改卡片的到期日期，很有可能会忘记它们并需要再次重新学习。

@@ -1,11 +1,17 @@
-# Are there limits on file sizes on AnkiWeb?
+# AnkiWeb 上的文件大小有限制吗？
 
-Collections on AnkiWeb are limited to a compressed size of 100MB, and an uncompressed size of 250MB. This includes the text on your cards and the scheduling information, but does not include sounds/images, as they are stored separately.
+AnkiWeb 上的集合被限制在压缩大小为 100MB 和未压缩大小为 250MB。这包括你卡片上的文本和计划信息，但不
+包括声音/图像，因为它们是单独存储的。
 
-Most users will never reach the limit. 25,000 average-sized cards and several years of review history will take up about 25MB, so to hit the limit you usually need to either be copying large amounts of text into each card, or filling your collection with hundreds of thousands of new cards that you aren't actually studying.
+大多数用户永远不会达到这个限制。25,000 张平均大小的卡片和数年的复习记录大约会占用 25MB 的空间，所以
+要达到限制，通常需要在每张卡片中复制大量文本，或将数十万张新卡片填充到集合中而实际上并未学习它们。
 
-At the moment there are no limits on the size of your media, although the size of individual media files is limited to 100MB.
+目前，你的媒体大小没有限制，但单个媒体文件的大小限制为 100MB。
 
-As the usage of Anki and AnkiWeb increases, at some point a pricing system may be introduced where basic, low-capacity accounts are free and heavier users can pay more for more space.
+随着 Anki 和 AnkiWeb 的使用增加，可能会在某个时候引入一个定价系统，其中基本的、低容量的账户是免费
+的，而重度用户可以支付更多费用以获得更多空间。
 
-If you have hit the collection size limit, you will see messages about the collection being in an inconsistent state when you do a one way upload to AnkiWeb. It is not possible to increase the limit, because such large collections slow down AnkiWeb for other users. If you have imported a dictionary's worth of content, you will need to move some unused cards to a separate deck, export the deck, and then delete the deck from your collection. After doing so, Tools>Check Database can be used to free up space that was taken by the deleted cards.
+如果你已达到集合大小限制，在进行单向上传到 AnkiWeb 时，你将看到有关集合处于不一致状态的消息。无法增
+加限制，因为如此大的集合会使 AnkiWeb 对其他用户变慢。如果你导入了词典内容，你需要将一些未使用的卡片
+移动到一个单独的牌组，导出牌组，然后从你的集合中删除该牌组。完成此操作后，可以使用「工具＞检查数据
+库」来释放被删除卡片占用的空间。

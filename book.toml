@@ -1,17 +1,17 @@
 [book]
 authors = ["Ankitects Pty Ltd and contributors"]
-description = "Frequently asked questions about Anki. Anki is a program that makes learning easier."
-language = "en"
+description = "Anki 的常见问题解答。Anki 是一款让学习更容易的抽认卡程序。"
+language = "zh-CN"
 multilingual = false
 src = "src"
-title = "Anki FAQs"
+title = "Anki 常见问题解答"
 
 [build]
 create-missing = true
 
 [output.html]
 no-section-label = true
-git-repository-url = "https://github.com/ankitects/faqs/"
+git-repository-url = "https://github.com/open-spaced-repetition/anki-faqs-zh-CN/"
 additional-css = ["css/misc.css"]
 
 [output.linkcheck]

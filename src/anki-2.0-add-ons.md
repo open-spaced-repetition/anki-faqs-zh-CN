@@ -1,22 +1,24 @@
-# Anki 2.0 add-ons
+# Anki 2.0 插件
 
-**Due to the libraries Anki 2.0 uses no longer being supported, [Anki 2.0 has been discontinued](https://faqs.ankiweb.net/anki-2.0-support-has-ended.html), and may stop working in a future OS update. Please consider updating to Anki 2.1 instead.**
+**由于 Anki 2.0 使用的库已不再受支
+持，[Anki 2.0 已停止维护](https://faqs.ankiweb.net/anki-2.0-support-has-ended.html)，并可能在未来的
+操作系统更新中停止工作。请考虑升级到 Anki 2.1。**
 
-If the add-on you want has a 2.0 download link on AnkiWeb, you can download the add-on's .py or .zip file.
+如果你想要的插件在 AnkiWeb 上有 2.0 的下载链接，你可以下载插件的 .py 或 .zip 文件。
 
-- If it's a .py file, place it in your add-on folder.
-- If it's a .zip file, unzip the contents into your add-on folder.
+- 如果是 .py 文件，将其放入你的插件文件夹。
+- 如果是 .zip 文件，解压其内容到你的插件文件夹。
 
-Your add-on folder is inside your data folder: <https://docs.ankiweb.net/files.html#file-locations>
+你的插件文件夹位于你的数据文件夹中：<https://docs.ankiweb.net/files.html#file-locations>
 
-An archive of the old 2.0 add-ons has also been made available. To use it:
+旧的 2.0 插件的存档也已提供。要使用它：
 
-- Download the add-on archive from <https://apps.ankiweb.net/downloads/archive/addons-2.0.zip>
-- Extract the zip.
-- Search through the README file to locate the add-on ID you want.
-- If it's a .py file, place it in your add-on folder.
-- If it's a .zip file, unzip the contents into your add-on folder.
+- 从 <https://apps.ankiweb.net/downloads/archive/addons-2.0.zip> 下载插件存档。
+- 解压 zip 文件。
+- 查找 README 文件以定位你想要的插件 ID。
+- 如果是 .py 文件，将其放入你的插件文件夹。
+- 如果是 .zip 文件，解压其内容到你的插件文件夹。
 
-Your add-on folder is inside your data folder: <https://docs.ankiweb.net/files.html#file-locations>
+你的插件文件夹位于你的数据文件夹中：<https://docs.ankiweb.net/files.html#file-locations>
 
-**These add-ons are provided as-is, and no support can be provided for them.**
+**这些插件按原样提供，无法为它们提供支持。**

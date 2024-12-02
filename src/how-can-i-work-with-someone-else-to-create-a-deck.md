@@ -1,15 +1,26 @@
-# How can I work with someone else to create a deck?
+# 如何与他人合作创建牌组？
 
-Anki's collaboration support is limited at the moment, but it is possible for multiple people to work on content together.
+Anki 目前的协作支持有限，但多个用户一起制作内容是可行的。
 
-If you are creating cards that have no sounds or images, then the easiest option may be to take advantage of an online document collaboration service such as Google Drive.
+如果你正在创建的卡片没有声音或图像，那么最简单的选项可能是利用诸如 Google Drive 之类的在线文档协作服
+务。
 
-With this system, you create your cards in a spreadsheet (one column per field in the note type you're using). To allow updating easily, the first column should be one that you do not expect to change if you update the cards. You can add and edit cards together at whatever time you want; when you're ready to update your collection with new and updated cards, each user can export the spreadsheet to a text file and [import it into Anki](https://docs.ankiweb.net/importing/intro.html).
+使用这个系统时，你可以在电子表格中创建卡片（你使用的笔记类型中每个字段对应一列）。为了能轻松更新，第
+一列应是一个你在更新卡片时不期望更改的字段。你可以在任何时间共同添加和编辑卡片；当你准备好用新的和更
+新的卡片来更新你的集合时，每个用户可以将电子表格导出为文本文件，然
+后[导入到 Anki 中](https://docs.ankiweb.net/importing/intro.html)。
 
-If you are creating cards that contain images or sounds, it gets more complicated. You can use the above approach, but it means you'll need to distribute the media files separately. Instead, we recommend taking turns to create the content. For example, if students are collaborating on a class, student A creates a deck "lesson 1" and puts all the first lesson content in it, then student B creates "lesson 2", and so on. As each lesson is done, the student exports the deck to an apkg file, and uploads/emails/etc it, and the other people import it.
+如果你正在创建包含图像或声音的卡片，事情会变得更复杂。可以使用上述方法，但这意味着你需要单独分发媒体
+文件。我们建议轮流创建内容。例如，如果学生们正在合作进行一个课程，学生 A 创建一个牌组「Lesson 1」并
+将所有第一个课时的内容放入其中，然后学生 B 创建「Lesson 2」，以此类推。当每个课时完成后，学生将牌组
+导出为 apkg 文件，并使用上传/电子邮件等方式发送给其他人，接收方导入它。
 
-Using a separate deck for each unit of work makes it easier to export the content separately, instead of sharing everything that's been created so far (which would lead to large files). After other users import the content, they can move it to another deck if they wish, using the computer version.
+为每个工作单元使用一个单独的牌组，使得单独导出内容更容易，而不需要共享迄今为止创建的所有内容（这会导
+致文件过大）。在其他用户导入内容之后，他们可以使用电脑版本将其移动到另一个牌组中，如果他们愿意的话。
 
-Advanced users can skip the separate deck step by instead creating a filtered deck using something like 'added:7' to only include cards added in the last 7 days, and then exporting that filtered deck to share.
+高级用户可以通过创建一个过滤牌组，而不是单独牌组的步骤。可使用类似于『added:7』的条件来只包含在最近
+7 天内添加的卡片，然后导出该过滤牌组进行分享。
 
-There are also add-ons available that support collaboration, such as [AnkiHub](https://www.ankihub.net) or [AnkiCollab](https://www.ankicollab.com/). Additional add-ons offering similar functionality can be found on the [shared add-ons page](https://ankiweb.net/shared/addons).
+也有支持协作的插件可用，例如 [AnkiHub](https://www.ankihub.net) 或
+[AnkiCollab](https://www.ankicollab.com/)。在[共享插件页面](https://ankiweb.net/shared/addons)上可以
+找到提供类似功能的附加插件。

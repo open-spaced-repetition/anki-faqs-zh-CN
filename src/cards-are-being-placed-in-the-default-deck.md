@@ -1,3 +1,5 @@
-# Cards are being placed in the "Default" deck
+# 卡片被放置在「默认」牌组中
 
-This is usually caused by an AnkiDroid bug, but can happen for other reasons as well. To fix the problem, please click the Cards button while adding a card, select the card type you're having trouble with via the tabs at the top, and ensure Options>Deck Override (More>Deck Override on Anki 2.0) is turned off.
+这通常是由 AnkiDroid 的一个错误引起的，但也可能由其他原因导致。要解决此问题，请在添加卡片时点击卡片
+按钮，通过顶部的标签选择你遇到问题的卡片类型，并确保选项 > 牌组覆盖（在 Anki 2.0 上为 更多 > 牌组覆
+盖）已关闭。

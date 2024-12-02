@@ -1,26 +1,20 @@
-# Multiple choice questions
+# 多选题
 
-Multiple choice questions are not the most effective way to study. The reason
-they are commonly used in an academic setting is because they are easy to mark,
-and they allow the person studying to demonstrate their ability to recognize the
-correct answer, even if they can’t produce it themselves.
+多选题并不是最有效的学习方式。它们在学术环境中被广泛使用的原因是因为容易评分，并且允许学习者展示他们
+识别正确答案的能力，即使他们无法自己生成答案。
 
-When you need to pick from a selection of answers, it is easy to "cheat", as you
-can guess what the correct answer is if you know what the other displayed options
-are. When multiple choice tests are designed by humans, the test creator can create
-clever "distractors" that are similar to the correct answer, making it harder for
-you to guess. Computers are not so good at this.
+当你需要从多个选项中选择答案时，很容易「作弊」，因为如果你知道其他显示的选项是什么，你可以猜出正确答
+案。当多选题是由人类设计时，测试设计者可以制作出与正确答案相似的巧妙「干扰项」，使你更难猜出正确答
+案。计算机在这方面的表现不如人类。
 
-If you are studying for a test and you have a sample test with a
-multiple choice questions, like the following:
+如果你正在为测试进行学习，并且有一个包含多选题的样本测试，如下所示：
 
-    Q: What animal has a really long neck?
+问：哪种动物的脖子很长？
 
-    A: 1. A monkey. 2. A giraffe. 3. A donkey. 4. A snail.
+答：1. 猴子。2. 长颈鹿。3. 驴子。4. 蜗牛。
 
-Then the recommended way to put that question into Anki is to drop the incorrect
-answers, turning it into a simple question/answer card instead:
+那么推荐的把这个问题放入 Anki 的方法是去掉错误答案，将其转换为一个简单的问答卡片：
 
-    Q: What animal has a really long neck?
+问：哪种动物的脖子很长？
 
-    A: A giraffe.
+答：长颈鹿。

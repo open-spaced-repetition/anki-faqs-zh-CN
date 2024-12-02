@@ -1,13 +1,16 @@
-# Extra characters appearing on cards
+# 卡片上出现额外字符
 
-Sometimes users notice that text is appearing in front of or on their cards that they don't remember putting there. Usually it is just a couple of letters or nonsense. For instance, on the front side of your card you have written ```book```, but when you review the card it appears as ```fybook```.
+有时候用户会注意到卡片上或卡片前面出现了一些他们不记得自己写过的文字。通常这只是几个字母或是一些无意
+义的字符。例如，你在卡片正面写了「book」，但在复习卡片时却显示为「fybook」。
 
-This problem is caused by accidentally placing text in the card template. You can solve it as follows:
+这个问题是由于不小心将文本放入了卡片模板中导致的。你可以按照以下步骤解决这个问题：
 
-1. While reviewing with the computer version, locate one of the cards that has the problem, and edit it. (Alternatively, search for one in the browser.)
-2. Click the Cards button.
-3. Look in the Front Template box (or, if the text is appearing on the back of the card, the Back Template box). You should see the extra text in there somewhere. Being careful not to delete anything else, remove it.
+1. 在电脑版本中复习时，找到一张有问题的卡片，并编辑它。（或者在浏览器中搜索一个。）
+2. 点击「Cards」按钮。
+3. 查看「Front Template」框（或者，如果文本出现在卡片的背面，则查看「Back Template」框）。你应该会在
+   某个地方看到多余的文本。小心不要删除其他任何内容，移除它。
 
-After you close the Cards dialog, your cards should appear as normal again.
+关闭「Cards」对话框后，你的卡片应该会恢复正常。
 
-If you don't have access to the computer version, you can study such a card in AnkiMobile, then tap on Tools>More>Edit Card Template.
+如果你无法使用电脑版本，可以在 AnkiMobile 中学习这样的卡片，然后点击「Tools」>「More」>「Edit Card
+Template」。

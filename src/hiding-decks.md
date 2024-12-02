@@ -1,26 +1,30 @@
-# Hiding Decks
+# 隐藏牌组
 
-If you do not intend to study a deck for some time do not want to delete it, you may wish to *hide* it. There are two ways to do this.
+如果你暂时不打算学习某个牌组，但又不想删除它，你可以选择*隐藏*。有两种方法可以做到这一点。
 
-**A) Export the deck and delete it.**
+**A) 导出牌组并删除。**
 
-1. Choose File → Export. Select `Anki Deck Package (*.apkg)` from the *Export Format* drop-down.
-2. Select the deck to be removed from the *Include* drop-down.
-3. Make sure that *Include scheduling information* and *Include media* are checked—otherwise you will have lost your review history and possibly your media when it comes time to use the deck again.
-4. Click Export and save the apkg file somewhere you can find it again.
-5. Finally, delete the deck from your collection.
+1. 选择 文件 → 导出。从*导出格式*下拉菜单中选择 `Anki Deck Package (*.apkg)`。
+2. 从*包含*下拉菜单中选择要移除的牌组。
+3. 确保*包括排程信息*和*包括媒体*已勾选——否则，当你再次使用该牌组时，将会丢失复习历史和可能的媒体。
+4. 点击 导出 并把 apkg 文件保存在你能找到的地方。
+5. 最后，从你的集合中删除该牌组。
 
-You can restore the deck to your collection by choosing File → Import and importing the deck again. It will be restored with the same name it had when you exported it.
+你可以在 文件 → 导入 中选择导入该牌组，将其恢复到你的集合中。它将以你导出时的同名恢复。
 
-**B) Create an "unused" deck.**
+**B) 创建一个「未使用」牌组。**
 
-You can create a tree of decks in Anki by dragging and dropping the decks in the deck list. You can use a combination of this property and options groups to hide decks you do not intend to use:
+你可以通过在 Anki 中拖放牌组列表中的牌组来创建牌组树。你可以结合这种属性和选项组来隐藏你不打算使用的
+牌组：
 
-1. Click *Create Deck* and add a deck called "Unused," "Hidden," or something similar. You can place a tilde (~) before the name (like "~Unused") if you want to force the deck to appear at the bottom of the list.
-2. Drag and drop the deck you wish to hide to underneath the new deck. Then collapse the Unused deck by clicking the minus sign next to the name.
-3. You can stop here if you're happy with this; however, if you leave it this way, due counts will still be displayed. If you would rather get rid of them, continue with step 4.
-4. Click the options button next to the Unused deck and choose Options.
-5. Click the options button in the upper-right-hand corner and add a new options group (you can call it "unused deck" or something similar).
-6. On the New Cards tab, select a new cards/day limit of 0. On the reviews tab, select a maximum reviews/day limit of 0.
+1. 点击*创建牌组*并添加一个称为「未使用」、「隐藏」或类似名称的牌组。如果你想强制该牌组显示在列表底
+   部，可以在名称前面加上波浪号（~），（如「~Unused」）。
+2. 将你希望隐藏的牌组拖放到新牌组下方。然后通过点击名称旁的减号来折叠未使用的牌组。
+3. 如果你对此感到满意，可以在此停下；不过，如果你把它留在这种状态，待复习数仍会显示。如果你希望消除
+   它们，请继续执行第 4 步。
+4. 点击未使用牌组旁的选项按钮并选择选项。
+5. 点击右上角的选项按钮并添加一个新的选项组（你可以称之为「未使用牌组」或类似名称）。
+6. 在新卡片选项卡上，选择每天新卡片数量的限制为 0。在复习选项卡上，选择每天最大复习次数的限制为 0。
 
-To restore the deck, simply drag and drop it back into the main deck list (you can go either to the very top or the very bottom of the list to get the top level). You can leave the Unused deck for future use.
+要恢复牌组，只需将其拖放回主牌组列表中（你可以拖到列表的最顶部或最底部以放到顶级）。你可以将未使用的
+牌组保留供将来使用。

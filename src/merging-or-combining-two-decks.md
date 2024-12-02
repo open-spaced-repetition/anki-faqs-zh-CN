@@ -1,10 +1,14 @@
-# Merging/combining two decks
+# 合并两个牌组
 
-Anki does not have an explicit feature to combine decks, but you can accomplish this easily by moving all the cards in one deck to the other deck. Please follow these steps:
+Anki 没有明确的功能来合并牌组，但你可以通过将一个牌组中的所有卡片移动到另一个牌组中来轻松实现。请按
+照以下步骤进行：
 
-1. Open the browser (click **Browse** at the top of Anki's main window) and select one of the decks you want to merge in the left pane.
-2. Select all the cards (Edit → Select All or Ctrl-A) and click the **Change Deck** option in the menu bar. Select the other deck and click **Move Cards**.
-3. If you want to merge more than two decks, repeat steps 1 and 2 as necessary until you have only one deck remaining.
-4. Close the browser to return to the deck list and delete the now-empty deck(s) by clicking the settings button to the right of each. (Anki will warn you if you try to delete a deck that still has cards in it.)
+1. 打开浏览器（在 Anki 主窗口顶部点击 **浏览**）并在左侧窗格中选择你想要合并的其中一个牌组。
+2. 选择所有卡片（编辑 → 全选 或 Ctrl-A），然后点击菜单栏中的 **更改牌组** 选项。选择另一个牌组并点击
+   **移动卡片**。
+3. 如果你想合并多个牌组，请根据需要重复步骤 1 和 2，直到只剩下一个牌组。
+4. 关闭浏览器以返回牌组列表，点击每个牌组右侧的设置按钮来删除现在空的牌组。 （如果你尝试删除仍然有卡
+   片的牌组，Anki 会发出警告。）
 
-See also [How do I move cards between decks?](https://faqs.ankiweb.net/how-do-i-move-cards-between-decks.html?highlight=mergin#how-do-i-move-cards-between-decks).
+另请参阅
+[如何在牌组之间移动卡片？](https://faqs.ankiweb.net/how-do-i-move-cards-between-decks.html?highlight=mergin#how-do-i-move-cards-between-decks)。

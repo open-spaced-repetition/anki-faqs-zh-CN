@@ -1,5 +1,7 @@
-# A deck I want has disappeared from AnkiWeb
+# 我想要的牌组从 AnkiWeb 上消失了
 
-The shared decks on AnkiWeb are provided by other Anki users. If the deck author has chosen to remove a shared deck, the deck has been deleted from our servers, and we do not have the ability to restore it.
+AnkiWeb 上的共享牌组是由其他 Anki 用户提供的。如果牌组的作者选择移除共享牌组，那么该牌组已经从我们的
+服务器上删除，我们无法恢复它。
 
-Shared decks may also be hidden from view for other reasons, such as their copyright status needing to be confirmed. For legal reasons, we can not restore decks in these cases until we hear back from the deck author.
+共享牌组也可能由于其他原因被隐藏，例如需要确认其版权状态。出于法律原因，在我们收到牌组作者的反馈之
+前，我们无法恢复这些牌组。

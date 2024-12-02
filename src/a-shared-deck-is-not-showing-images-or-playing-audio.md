@@ -1,7 +1,8 @@
-# A shared deck is not showing images/playing audio
+# 共享牌组不显示图像/播放音频
 
-Some shared decks are missing sounds or images, either because the author expects you to download them from a separate location, or because they've accidentally or deliberately omitted them.
+有些共享牌组缺少声音或图像，可能是因为作者希望你从其他地方下载，或者是他们无意中或故意省略了这些文
+件。
 
-When downloading a shared deck from AnkiWeb, the number of included sounds and images is listed near the top of the download page.
+从 AnkiWeb 下载共享牌组时，包含的声音和图像数量会在下载页面顶部附近列出。
 
-If you've downloaded a shared deck from somewhere other than AnkiWeb and media files are not working, please contact the sharer for assistance.
+如果你从其他地方下载了共享牌组，但媒体文件无法正常工作，请联系分享者获取帮助。

@@ -1,25 +1,18 @@
-# Screenshots large and blurry on retina displays
+# Retina 显示屏上截图过大且模糊
 
-If you edit a card, click on Cards, and then place the following at the very
-bottom of the styling section, it will shrink screenshots down to the correct
-size:
+如果你编辑一张卡片，点击卡片，然后在样式部分的最底部放置以下内容，它将把截图缩小到合适的大小：
 
 ```
 img[src*="Screen"] {
-  zoom: 50%;
+zoom: 50%;
 }
 ```
 
-It works by targeting any filenames that have "Screen" in them - which applies
-to the default "Screen Shot" name that macOS uses. If your screenshots use a
-different but consistent name, you can adjust the line above.
+这段代码通过定位文件名中包含「Screen」的文件来工作——这适用于 macOS 使用的默认「Screen Shot」名称。如
+果你的截图使用不同但一致的名称，你可以调整上面的那行代码。
 
-If your screenshots use names that don't have a consistent pattern, you can
-remove the square brackets and the text inside them, which will cause all images
-to be matched. Images from high resolution displays will now look correct, but
-images you obtain from other sources may now look too small. Unfortunately there
-is no good solution to this problem at the moment - the web technologies Anki
-uses do not have a way of detecting which images need to be resized. Resizing
-the images prior to adding them to Anki will allow you to mix and match other
-images, but it requires some setup:
-<https://www.quora.com/How-can-I-get-my-retina-Mac-to-not-take-screenshots-that-are-too-big>
+如果你的截图名称没有一致的模式，你可以去掉方括号及其中的文本，这将导致匹配所有图像。来自高分辨率显示
+屏的图片现在看起来是正确的，但从其他来源获取的图片可能会显得过小。不幸的是，目前对此问题并没有很好的
+解决方案——Anki 使用的 Web 技术不能检测哪些图像需要调整大小。在将图像添加到 Anki 之前调整它们的大小，
+将允许你混合和匹配其他图像，但这需要一些设
+置：<https://www.quora.com/How-can-I-get-my-retina-Mac-to-not-take-screenshots-that-are-too-big>

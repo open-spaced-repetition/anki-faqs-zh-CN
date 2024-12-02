@@ -1,9 +1,16 @@
-# Can I reveal parts of a card one at a time?
+# 我可以一次揭示卡片的一部分吗？
 
-Typical flashcards, both on paper and in Anki, have a front and a back: the prompt or question is shown on the front and the answer on the back. Sometimes people want to add more steps to the answer. For instance, you might want to show the word in a foreign language on the front, then show a definition when you press the button once, then show an example sentence when you press it again, and so on.
+典型的抽认卡，无论是在纸上还是在 Anki 里，都是正面和背面：正面展示提示或问题，背面展示答案。有时，人
+们希望在答案上增加更多步骤。例如，你可能想在正面展示一个外语单词，按一次按钮后显示定义，再按一次按钮
+后显示例句，等等。
 
-This is generally not a good idea. The more complicated you make your cards, the more difficult they become to remember ([rule 4](http://www.supermemo.com/articles/20rules.htm)) and the less efficiently they can be scheduled. The difference between the amount of time it takes to learn and review a few complex cards and the amount of time it takes to learn a larger number of much simpler cards containing the same information can be stunning.
+这种做法通常不是一个好主意。你把卡片做得越复杂，它们就越难记住
+（[规则 4](http://www.supermemo.com/articles/20rules.htm)），安排的效率也越低。学习和复习少量复杂卡
+片所需的时间，与学习大量包含相同信息的简单卡片所需的时间相比，差别可能会非常显著。
 
-For this reason, Anki doesn't support having more than two sides per card. In our foreign-language words example, you might instead want to create multiple [card types](https://docs.ankiweb.net/templates/intro.html), so that you would be asked for each of the items *on separate cards* – one card could show you the word and ask for a definition, another could show the example sentence with the word missing and ask what word logically fits, and so on.
+因此，Anki 不支持每张卡片超过两面。在我们的外语单词示例中，你可能想创建多
+个[卡片类型](https://docs.ankiweb.net/templates/intro.html)，以便你能在*不同的卡片*上问每个项目的问
+题——一张卡片可能展示单词并要求给出定义，另一张卡片可能展示缺少该单词的例句，并问哪个单词合适，等等。
 
-In some cases, you might want to include extra non-essential information on a card without showing it until you need it. For this situation, Anki offers [hint fields](https://docs.ankiweb.net/templates/fields.html#hint-fields).
+在某些情况下，你可能想在卡片上包含一些额外的非必需信息，而不在需要之前显示它。针对这种情况，Anki 提
+供了[提示字段](https://docs.ankiweb.net/templates/fields.html#hint-fields)。

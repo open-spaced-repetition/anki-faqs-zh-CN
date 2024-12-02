@@ -1,185 +1,115 @@
-# What spaced repetition algorithm does Anki use?
+# Anki 使用了什么间隔重复算法？
 
 ## SM-2
 
-As of Anki 23.10, Anki has two available algorithms. The first one is based on
-the [SuperMemo 2 algorithm](http://www.supermemo.com/english/ol/sm2.htm), and
-the second one is called [FSRS](https://github.com/open-spaced-repetition).
+截至 Anki 23.10，Anki 拥有两种可用的算法。第一种基于
+[SuperMemo 2 算法](http://www.supermemo.com/english/ol/sm2.htm)，第二种称为
+[FSRS](https://github.com/open-spaced-repetition)。
 
-Anki’s algorithm differs from SM-2 in some respects. Notably:
+Anki 的算法在某些方面与 SM-2 不同。值得注意的是：
 
-- SM-2 defines an initial interval of 1 day then 6 days. With Anki,
-  you have full control over the length of the initial learning steps.
-  Anki understands that it can be necessary to see a new card a number
-  of times before you’re able to memorize it, and those initial
-  "failures" don’t mean you need to be punished by being shown the
-  failed card many times over the course of a few days. Performance
-  during the learning stage does not reflect performance in the
-  retaining stage.
+- SM-2 定义初始间隔为 1 天然后是 6 天。在 Anki 中，你可以完全控制初始学习步骤的长度。Anki 明白，在你
+  能记住一张新卡片之前，可能需要多次查看，而这些初始「失败」并不意味着需要通过多次重复出现卡片来惩罚
+  你。学习阶段的表现并不反映在记忆阶段的表现。
 
-- Anki uses 4 choices for answering review cards, not 6. There is only
-  one _fail_ choice, not 3. The reason for this is that failure
-  comprises a small amount of total reviews, and thus adjusting a
-  card’s ease can be sufficiently done by simply varying the positive
-  answers.
+- Anki 用于回答复习卡片的选项有 4 个，而不是 6 个。只有一个 _失败_ 选项，而不是 3 个。这是因为失败占
+  总复习量的一小部分，因此通过简单地改变正面答案即可充分调整卡片的易度。
 
-- Answering cards later than scheduled will be factored into the next
-  interval calculation, so you receive a boost to cards that you were
-  late in answering but still remembered.
+- 在预定时间之后回答卡片会被考虑到下一个间隔计算中，因此你会对那些回答延迟但仍记住的卡片产生提升。
 
-- Like SM-2, Anki’s failure button resets the card interval by
-  default. But the user can choose to have the card’s interval reduced
-  instead of being reset completely. Also, you can elect to review
-  failed mature cards on a different day, instead of the same day.
+- 像 SM-2 一样，Anki 的失败按钮默认会重置卡片间隔。但用户可以选择仅减少卡片的间隔，而不是完全重置。
+  此外，你可以选择在不同的日期而非当天复习失败的成熟卡片。
 
-- _Remembered easily_ not only increments the ease factor, but adds an
-  extra bonus to the current interval calculation. Thus, answering
-  _remembered easily_ is a little more aggressive than the standard
-  SM-2 algorithm.
+- _轻松记住_ 不仅会增加易度因子，还会在当前间隔计算中增加额外奖励。因此，回答 _轻松记住_ 相比标准
+  SM-2 算法略显激进。
 
-- Successive failures while cards are in learning do not result in
-  further decreases to the card’s ease. A common complaint with the
-  standard SM-2 algorithm is that repeated failings of a card cause
-  the card to get stuck in "low interval hell". In Anki, the initial
-  acquisition process does not influence a card’s ease.
+- 当卡片处于学习状态时，连续失败不会导致卡片易度的进一步降低。标准 SM-2 算法的常见抱怨是卡片重复失败
+  会导致卡片陷入「低间隔地狱」。在 Anki 中，初始获取过程不会影响卡片的易度。
 
 ## FSRS
 
-FSRS aims to learn your memory patterns and schedule reviews 
-more efficiently than SM-2.
+FSRS 旨在比 SM-2 更有效地学习你的记忆模式并安排复习。
 
-FSRS is based on the "Three Component Model of Memory". The model asserts 
-that three variables are sufficient to describe the status of a 
-unitary memory in a human brain.
-These three variables include:
+FSRS 基于「三元记忆模型」。该模型断言三个变量足以描述人类大脑中的单一记忆状态。这三个变量包括：
 
-- Retrievability (R): The probability that the person can successfully 
-recall a particular information at a given moment. It depends 
-on the time elapsed since the last review and the memory stability (S).
+- 可回忆性 (R)：指某人在特定时刻可以成功回忆特定信息的概率。它取决于自上次复习以来的时间和记忆稳定性
+  (S)。
 
-- Stability (S): The time, in days, required for R to decrease from
-100% to 90%. For example, S = 365 means that an entire year 
-will pass before the probability of recalling a particular card drops to 90%.
+- 稳定性 (S)：指可回忆性从 100% 下降到 90% 所需的时间，单位为天。例如，S = 365 表示要过整整一年才会
+  使得回忆特定卡片的概率下降到 90%。
 
-- Difficulty (D): The inherent complexity of a particular information.
-It represents how difficult it is to increase memory stability after a review.
+- 难度 (D)：指特定信息的内在复杂性。它代表在复习后增加记忆稳定性有多困难。
 
-In FSRS, these three values are collectively called the "memory state".
-The value of R changes daily, while D and S change only after a card 
-has been reviewed.
-Each card has its own DSR values, in other words, each card has 
-its own memory state.
-To accurately estimate the DSR values, FSRS analyzes the user's 
-review history and uses machine learning to find parameters that 
-provide the best fit to the review history.
+在 FSRS 中，这三个值统称为「记忆状态」。R 值每天变化，而 D 和 S 只有在卡片复习后才会变化。每张卡片都
+有其独立的 DSR 值，也就是每张卡片都有其独特的记忆状态。要准确估计 DSR 值，FSRS 分析用户的复习历史，
+并使用机器学习来寻找与复习历史最匹配的参数。
 
-Note that the users should not tweak the parameters manually.
-If you want to adjust the scheduling, all you need to do is choose an appropriate
-value of desired retention.
-With FSRS, users can target a specific value of retention, allowing them 
-to balance how much they remember and how many reviews they have to do.
-Higher retention leads to more reviews per day.
+请注意，用户不应该手动调整参数。如果你想调整安排，只需选择适当的期望记忆值。通过 FSRS，用户可以针对
+特定的记忆值，允许他们在多少记忆和多少复习之间找到平衡。更高的记忆度意味着每天需要进行更多复习。
 
-Aside from allowing users to easily control their retention, 
-FSRS has some other advantages when compared to Anki's default algorithm.
-With FSRS, users have to do fewer reviews than with Anki's default algorithm 
-to achieve the same retention level. FSRS is also much better at scheduling 
-cards that have been reviewed with a delay, for example, if the user took 
-a break from Anki for a few weeks or months.
+除了允许用户轻松控制他们的记忆之外，FSRS 相较于 Anki 的默认算法还有其他一些优势。使用 FSRS，用户进行
+的复习次数比使用 Anki 的默认算法要少，以达到相同的记忆水平。FSRS 在安排被延迟复习的卡片方面也要好得
+多，例如，如果用户暂时离开 Anki 几周或几个月。
 
-The scheduling code can be found in `rslib/src/scheduler/states`. Here is a summary
-(see the [deck options](https://docs.ankiweb.net/deck-options.html)
-section of the manual for the options that are mentioned in _italics_):
+调度代码可以在 `rslib/src/scheduler/states` 中找到。以下是摘要（请参阅手册的
+[牌组选项](https://docs.ankiweb.net/deck-options.html) 部分，查询提到的 _斜体_ 选项）：
 
-## Learning/Relearning Cards
+## 学习/再学习卡片
 
-If you press…​
+如果你按下…​
 
-- Again  
-  Moves the card back to the first step setted in [Learning/Relearning Steps.](https://docs.ankiweb.net/deck-options.html?#learning-steps)
+- 再次将卡片移回 [学习/再学习步骤](https://docs.ankiweb.net/deck-options.html?#learning-steps) 中设
+  置的第一步。
 
-- Hard  
-  Repeats the current step after the first step, and is the average of
-  Again and Good.
+- 困难在第一步之后重复当前步骤，并且是「再次」与「良好」的平均数。
 
-- Good  
-  Moves the card to the [next step](https://docs.ankiweb.net/deck-options.html?#learning-steps).
-  If the card was on the final step, the card is converted into a
-  review card (it 'graduates').
+- 良好将卡片移至[下一步](https://docs.ankiweb.net/deck-options.html?#learning-steps)。如果卡片在最后
+  一步，则该卡片将转化为复习卡片（即它「毕业」）。
 
-- Easy
-  Immediately converts the card into a review card.
+- 简单立即将卡片转化为复习卡片。
 
-New cards have no ease, so no matter how many times you press
-'Again' or 'Hard', the future ease factor of the card won't be affected.
-The same can be said about relearning cards: pressing 'Again'
-or 'Hard' won't have any effect over the card's ease.
+新卡片没有易度，所以无论你按多少次「再次」或「困难」，卡片的未来易度因子都不会受到影响。对于再学习卡
+片也是如此：按下「再次」或「困难」不会对卡片的易度产生影响。
 
-## Review Cards
+## 复习卡片
 
-In SM-2, once a card is graduated, it gets an ease factor. By default is 2.5, but you
-can set another value using the [Deck Options](https://docs.ankiweb.net/deck-options.html?#starting-ease).
+在 SM-2 中，一旦卡片毕业，就会拥有易度因子。默认值是 2.5，但你可以使用
+[牌组选项](https://docs.ankiweb.net/deck-options.html?#starting-ease) 设置其他值。
 
-If you press…​
+如果你按下…​
 
-- Again  
-  The card is placed into relearning mode, the ease is decreased by 20
-  percentage points (that is, 20 is subtracted from the _ease_ value,
-  which is in units of percentage points), and the current interval is
-  multiplied by the value of _new interval_ (this interval will be used
-  when the card exits relearning mode).
+- 再次卡片进入再学习模式，易度会减少 20 个百分点（即从 _易度_ 值中减去 20，单位为百分点），并且当前
+  间隔乘以新间隔的值（该间隔将在卡片退出再学习模式时使用）。
 
-- Hard  
-  The card’s ease is decreased by 15 percentage points and the current
-  interval is multiplied by the value of _hard interval_ (1.2 by default)
+- 困难卡片的易度减少 15 个百分点，当前间隔乘以困难间隔的值（默认为 1.2）。
 
-- Good  
-  The current interval is multiplied by the current ease. The ease is
-  unchanged.
+- 良好当前间隔乘以当前易度。易度保持不变。
 
-- Easy  
-  The current interval is multiplied by the current ease times the _easy
-  bonus_ and the ease is increased by 15 percentage points.
+- 简单当前间隔乘以当前易度再乘以容易奖励，易度增加 15 个百分点。
 
-For Hard, Good, and Easy, the next interval is additionally multiplied
-by the _interval modifier_. If the card is being reviewed late,
-additional days will be added to the current interval, as described
-in a [previous FAQ.](https://faqs.ankiweb.net/due-times-after-a-break.html)
+对于困难、良好和简单，接下来的间隔还乘以间隔修饰符。如果卡片正在延迟复习，将会有额外的天数添加到当前
+间隔中，如[之前的 FAQ](https://faqs.ankiweb.net/due-times-after-a-break.html) 中所述。
 
-In FSRS, once a card is reviewed at least once, it gets assigned DSR values.
+在 FSRS 中，一旦卡片至少复习过一次，就会被分配 DSR 值。
 
-If you press…​
+如果你按下…​
 
-- Again  
-  The card is placed into relearning mode, stability significantly decreases, 
-  and difficulty significantly increases.
+- 再次卡片进入再学习模式，稳定性明显下降，难度显著增加。
 
-- Hard  
-  The card’s stability either increases or stays the same, 
-  and difficulty moderately increases.
+- 困难卡片的稳定性增加或保持不变，难度适度增加。
 
-- Good  
-  The card’s stability increases, and difficulty may 
-  increase or decrease very slightly.
+- 良好卡片的稳定性增加，难度可能略微增加或减少。
 
-- Easy  
-  The card’s stability significantly increases, and difficulty 
-  moderately decreases.
+- 简单卡片的稳定性显著增加，难度适度减少。
 
-## Limitations
+## 限制
 
-When using SM-2, there are a few limitations on the scheduling values that cards can
-take. Eases will never be decreased below 130%; SuperMemo’s research has
-shown that eases below 130% tend to result in cards becoming due more
-often than is useful and annoying users. Intervals will never be
-increased beyond the value of _maximum interval_. Finally, all new
-intervals (except Again) will always be at least one day longer than the
-previous interval.
+在使用 SM-2 时，卡片可接受的调度值存在一些限制。易度不会降低到 130% 以下；SuperMemo 的研究表明，低于
+130% 的易度往往导致卡片变得由于为频繁，从而让用户感到烦扰。间隔不会超过最大间隔的值。最后，所有新的
+间隔（除再次外）总是比上一个间隔长至少一天。
 
-## Why doesn’t Anki use SuperMemo’s latest algorithm?
+## 为什么 Anki 不使用 SuperMemo 的最新算法？
 
-The simple answer is that SuperMemo’s latest algorithm is proprietary,
-and requires licensing. As Anki is an open source application, it can
-only make use of algorithms that have been made freely available, such as
-FSRS. [Preliminary tests](https://github.com/open-spaced-repetition/fsrs-vs-sm17)
-seem to indicate FSRS is roughly on par with SM-17.
+简单的答案是，SuperMemo 的最新算法是专有的，并需要授权。由于 Anki 是一个开源应用程序，因此只能使用像
+FSRS 这样免费提供的算法。[初步测试](https://github.com/open-spaced-repetition/fsrs-vs-sm17) 似乎表
+明，FSRS 大致与 SM-17 相当。

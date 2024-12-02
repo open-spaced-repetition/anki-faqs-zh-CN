@@ -1,38 +1,41 @@
-# No cloze found on card
+# 卡片上未找到完形填空
 
-<h2>Single empty cards</h2>
+<h2>单个空卡片</h2>
 
-When making clozes, each cloze number is turned into a separate card. For example, the following will create three cards:
+在制作完形填空时，每个完形填空编号会被转换为一张独立的卡片。例如，以下内容将创建三张卡片：
 
 ```
 {{c1::This}} is a {{c2::sample}} {{c3::sentence}}.
 ```
 
-If you you later edit the text, and either remove or change a cloze number, the previously created card may become blank. For example:
+如果你稍后编辑文本，移除或更改完形填空编号，之前创建的卡片可能会变得空白。例如：
 
 ```
 {{c1::This}} is a {{c2::sample}}
 ```
 
-and
+和
 
 ```
 {{c1::This}} is a {{c2::sample}} {{c1::sentence}}.
 ```
 
-are both changes that would make card 3 blank. When you view card 3, you'll see a message indicating that the card is blank, and can be cleaned up with the Empty Cards function. You can access that function via the Tools menu of the computer version's main window, and use it to remove blank cards. Please check the reported empty cards first, and if in doubt, create a backup with the File>Export menu item before proceeding.
+这两种更改都会使第 3 张卡片变为空白。当你查看第 3 张卡片时，你会看到一条消息，指示卡片为空白，并可使
+用空卡片功能进行清理。你可以通过电脑版本主窗口的工具菜单访问该功能，并用它来移除空白卡片。在操作前，
+请先检查报告的空卡片，如果不确定，请通过文件 > 导出菜单项创建一个备份。
 
-<h2>All cloze cards empty</h2>
+<h2>所有完形填空卡片均为空</h2>
 
-If you accidentally modify your card template, it may prevent any cloze deletions from appearing. If that has happened, please edit one such problem card, and note down the name of the first field - it is usually called "Text". Then, please:
+如果你不小心修改了卡片模板，可能会导致任何完形填空的删除内容无法显示。如果发生这种情况，请编辑一个问
+题卡片，并记下第一个字段的名称——通常被称为「Text」。然后，请：
 
-- Click on the Cards... button
-- Replace the front text with
+- 点击「卡片...」按钮
+- 将正面文本替换为
 
-  ```
-  {{cloze:Text}}
-  ```
+```
+{{cloze:Text}}
+```
 
-- Replace the back text with the same.
+- 将背面文本替换为相同内容。
 
-If your field was called something other than Text, replace Text with the name of the field.
+如果你的字段被称为其他名称，请将 Text 替换为该字段的名称。

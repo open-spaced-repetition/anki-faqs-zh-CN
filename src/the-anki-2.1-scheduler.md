@@ -1,101 +1,93 @@
-# Old scheduler versions
+# 旧调度器版本
 
-This section includes information about the currently outdated scheduler versions.
+本节包含有关当前已过时的调度器版本的信息。
 
-## v1 scheduler
+## v1 调度器
 
-### Review cards
+### 复习卡片
 
-- When a deck has subdecks, the cards appear from each deck in turn.
-- The v1 scheduler applies parent limits to subdecks, regardless of which deck you click on to study.
+- 当一个牌组有子牌组时，来自每个牌组的卡片会依次出现。
+- v1 调度器将父级限制应用于子牌组，无论你点击哪个牌组进行学习。
 
+### (重新)学习卡片
 
-### (Re)learning cards
+- 如果卡片处于重新学习状态，则不显示**简单**按钮。在学习状态下，**简单**和**困难**按钮都不显示。
+- 卡片计数显示的是完成队列中所有卡片所需的复习次数，而不是卡片数量。因此，一个(重新)学习的卡片可能会
+  在计数中被多次计算。
+- 暂停或埋藏(重新)学习卡片会将其移回新卡片队列或复习队列。
 
-- The **Easy** button is not shown if the card is in relearning state. In learning state,  both **Easy** and **Hard** isn't shown.
-- The card count shows reviews needed to finish all the cards in a queue, not the number of cards. Thus, one (re)learning card can be counted multiple times in the count.
-- Suspending or burying (re)learning cards move them back to the new card queue or review queue.
+### 新卡片
 
-### New cards
+- v1 调度器将父级限制应用于子牌组，无论你点击哪个牌组进行学习。
 
-- The v1 scheduler applies parent limits to subdecks, regardless of which deck you click on to study.
+### 过滤牌组
 
-### Filtered decks
+- 卡片的呈现方式更类似于其正常情况，但学习卡片有侧面影响，当你学习它们时，新卡片的原始位置会丢失。
 
-- Cards are presented more similarly to how they normally are, but studying cards have side effects, and the original position of new cards is lost when you study them.
+- 自定义步骤选项允许你覆盖主牌组的步骤，并提供你自己的步骤。这些提供的步骤适用于正在学习的卡片、失效
+  复习和提前复习。
 
-- The custom steps option allows you to override the home deck’s steps and provide your own steps instead. The provided steps apply to both cards being learnt, lapsed
-reviews, and reviews ahead of time. 
+- 如果你在卡片仍在学习中时创建、重建、清空或删除过滤牌组，这些卡片会被转变为新卡片。在重新学习中失败
+  的复习情况下，任何剩余的重新学习步骤都会被跳过。
 
-- If you create, rebuild, empty, or delete a filtered deck while cards are still in learning, they are turned into new cards. In the case of failed reviews in relearning, any remaining relearning steps are skipped.
+- 当卡片仍在过滤牌组中，无法被埋藏或暂停。
 
-- Cards cannot be buried or suspended while remaining in filtered deck.
+- 过滤牌组只具有一个过滤器。
 
-- Filtered decks only have a single filter.
+- 过滤牌组不能拉入处于(重新)学习状态的卡片。
 
-- Filtered decks cannot pull in cards in (re)learning state.
+- 当重新调度关闭时，过滤牌组不会显示所有 4 个答案按钮。
 
-- Filtered decks don't show all 4 answer buttons when rescheduling is turned off.
+### 波动因子
 
-### Fuzz factor
+- 上述答案按钮上显示的下一次复习时间中不包括波动因子。如果你注意到你选择的间隔与你的卡片实际获得的间
+  隔之间略有不符，这可能是原因。
 
-- Fuzz factor isn't included in next review time shown above answer buttons. If you’re noticing a slight discrepancy between what you select and the intervals your cards actually get, this is probably the cause.
+## v2 调度器
 
+### 复习卡片
 
-## v2 scheduler
+- 当一个牌组有子牌组时，复习卡片会从所有子牌组中同时收集。
 
-### Review cards
+- 复习限制取决于你点击学习的牌组。如果你拥有一个牌组树 Parent::Child::Grandchild，并且你选择 Child，
+  则忽略你在 Parent 和 Grandchild 上设定的限制。
 
-- When a deck has subdecks, review cards are gathered from all subdecks at once.
+### 新卡片
 
-- The review limit is taken from the deck you click to study. If you have a deck tree Parent::Child::Grandchild and you select Child, the limits you have set on Parent and Grandchild are ignored.
+- v2 调度器将父级限制应用于子牌组，无论你点击哪个牌组进行学习。
 
+### 过滤牌组
 
-### New cards
+- 当重新调度关闭时，过滤牌组不会显示所有 4 个答案按钮。
 
-- The v2 scheduler applies parent limits to subdecks, regardless of which deck you click on to study.
+### 波动因子
 
-### Filtered decks
+- 上述答案按钮上显示的下一次复习时间中不包括波动因子。如果你注意到你选择的间隔与你的卡片实际获得的间
+  隔之间略有不符，这可能是原因。
 
-- Filtered decks don't show all 4 answer buttons when rescheduling is turned off. 
+## 从 v1 更新到 v2
 
-### Fuzz factor
+如果你正在与 AnkiWeb 同步，更新需要单向上传到 AnkiWeb。请确保在更新之前你的所有设备处于同步状态，否
+则你可能会意外覆盖在其他设备上所做的更改。
 
-- Fuzz factor isn't included in next review time shown above answer buttons. If you’re noticing a slight discrepancy between what you select and the intervals your cards actually get, this is probably the cause.
+在更新之前，建议你导出一个备份。使用电脑版本时，你可以使用 **文件 > 导出** 菜单项创建一个包含所有牌
+组和调度的 `.colpkg` 文件。使用 AnkiMobile 时，你可以使用 **添加/导出** 选项导出一个 `.colpkg` 文
+件。在极不可能出现的问题情况下，你将能够从备份中恢复。
 
-## Updating to v2 from v1
-
-If you are syncing with AnkiWeb, updating requires a one-way upload to AnkiWeb.
-Please ensure all of your devices are in sync before you update, as otherwise
-you may accidentally overwrite changes made on your other devices.
-
-Before updating, it is recommended you export a backup. Using the computer version,
-you can use the **File > Export** menu item to create a `.colpkg` file containing all
-decks and scheduling. Using AnkiMobile, you can use the **Add/Export** option to export
-a `.colpkg` file. In the unlikely case that you run into problems, you will
-be able to restore from the backup.
-
-Once you have updated, please sync and choose **Upload** to send the upgraded
-collection to AnkiWeb. Then please sync any other devices you use, choosing
-**Download** on each of them, to bring things back into sync.
+一旦你完成更新，请同步并选择**上传**将升级后的集合发送到 AnkiWeb。然后请同步你使用的其他设备，选
+择**下载**让它们重新同步。
 
 ### Anki 2.1.41+/AnkiMobile 2.0.75+
 
-To update, click the Update message shown in the deck list.
+要更新，请点击牌组列表中显示的更新消息。
 
-Unlike previous Anki versions, cards in learning will not be reset, and cards in
-filtered decks will remain filtered. The new scheduler handles filtered decks
-differently, so custom steps you may have set will no longer apply, but filtered
-decks with rescheduling enabled will not reset learning cards.
+与之前的 Anki 版本不同，学习中的卡片不会被重置，过滤牌组中的卡片将保持过滤状态。新的调度器以不同的方
+式处理过滤牌组，因此你可能设置的自定义步骤将不再适用，但启用重新调度的过滤牌组不会重置学习卡片。
 
-Once you've updated, there is no option to switch back to the old scheduler. While
-it is possible to switch back to an older version of Anki on your computer and then
-change the scheduler in the preferences, please bear in mind that it will
-require your learning cards and filtered decks to be reset.
+更新后，没有选项可以切换回旧调度器。虽然有可能在电脑上切换回旧版本的 Anki 然后在偏好设置中更改调度
+器，但请注意，这将需要重置你的学习卡片和过滤牌组。
 
-### Earlier Anki versions
+### 较早的 Anki 版本
 
-Anki versions earlier than 2.1.41 reset all cards in learning prior to updating, and move all
-cards in filtered decks back to their original decks. This is problematic for
-people with longer learning steps. If you're in that situation, it is recommended
-you update with 2.1.41 or later.
+在 2.1.41 之前的 Anki 版本在更新前会重置所有正在学习的卡片，并将过滤牌组中的所有卡片移回到原始牌组。
+这对具有较长学习步骤的人来说是个问题。如果你处于这种情况，建议你使用 2.1.41 或更高版本更新。

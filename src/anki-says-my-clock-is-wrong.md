@@ -1,32 +1,36 @@
-# Anki says my clock is wrong
+# Anki 说我的时钟不正确
 
-To ensure your scheduling doesn't get messed up, Anki requires that your device's clock is set correctly. This means all of the following must be set correctly:
+为了确保你的日程安排不被搞乱，Anki 要求你设备上的时钟设置正确。这意味着以下所有项目都必须设置正确：
 
-- the time (including AM/PM)
-- the date
-- the timezone
-- daylight savings
+- 时间（包括 AM/PM）
+- 日期
+- 时区
+- 夏令时
 
-If you receive an error about the clock being wrong, please check to ensure all of the above are set correctly. Please note that even if your system is showing you what looks like the correct time, if the above settings are not correct, the computer's internal idea of the correct time may be wrong.
+如果你收到关于时钟错误的信息，请检查以确保以上所有项目设置正确。请注意，即使你的系统显示看似正确的时
+间，如果上述设置不正确，计算机对正确时间的内部判定可能是错误的。
 
-**"What should I do if my country has just changed its handling of daylight savings?"**
+**「如果我的国家刚刚改变了夏令时的处理方式，我该怎么办？」**
 
-When politicians change the handling of daylight savings time, it can take companies like Windows and Apple time to update their operating systems to reflect the new handling. To work around the problem, you can select a different timezone that has the same UTC offset as your current location, and then update the clock to make sure it is correct. For example:
+当政治家改变夏令时的处理方式时，像 Windows 和 Apple 这样的公司可能需要时间来更新他们的操作系统以反映
+新的处理方式。要解决这个问题，你可以选择一个与当前所在地有相同 UTC 偏移的不同时区，然后更新时钟以确
+保其正确。例如：
 
-- it's 10AM where you are
-- you've checked Google for the current standard time, and it's currently midnight: <https://www.google.com/search?q=utc+time>
-- this means you are ten hours ahead of standard time, so your UTC offset is +10:00
-- in your system settings, look for a timezone that is +10:00
-- after adjusting the time zone, adjust the clock so it shows the correct time
+- 你所在地是上午 10 点
+- 你已通过 Google 检查当前标准时间，目前是午夜：<https://www.google.com/search?q=utc+time>
+- 这意味着你比标准时间快 10 小时，所以你的 UTC 偏移是 +10:00
+- 在系统设置中，寻找一个时区为 +10:00
+- 调整时区后，调整时钟以显示正确的时间
 
-**"Why doesn't Anki let me ignore the error?"**
+**「为什么 Anki 不让我忽略这个错误？」**
 
-If you study while the clock is incorrect, then your progress is likely to be messed up when any of the following happen:
+如果你在时钟不正确的情况下学习，那么在以下情况发生时，你的进度可能会被搞乱：
 
-- the clock is automatically reset to the correct time in an OS upgrade
-- you decide to start using AnkiWeb for backups or deck sharing
-- you decide to start studying on multiple devices
-- you move to a new machine after the old one breaks
-- you manually change the time because other apps also notice the clock is wrong
+- 在操作系统升级中自动将时钟重置为正确时间
+- 你决定开始使用 AnkiWeb 进行备份或牌组共享
+- 你决定开始在多个设备上学习
+- 旧设备损坏后，你迁移到新设备
+- 你手动更改时间，因为其他应用也注意到时钟错误
 
-Anki refuses to start up because an incorrect clock will also cause issues like file modification times to be wrong, and it's better to address the issue than hide it away and risk issues in the future.
+Anki 拒绝启动是因为不正确的时钟也会导致问题，比如文件修改时间出错，解决这个问题比隐藏它并冒未来问题
+的风险要好。

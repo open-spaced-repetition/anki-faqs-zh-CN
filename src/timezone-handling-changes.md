@@ -1,19 +1,23 @@
-# Timezone handling changes
+# 时区处理变更
 
-Anki 2.1.22+, AnkiMobile 2.0.57+, and AnkiDroid 2.15+ contain an optional change to the way Anki calculates the elapsed number of days. This change addresses some corner cases where timezone changes (including daylight savings) could cause Anki to move back or forward a day, and addresses cards being unburied / daily counts being reset for some users when syncing with AnkiWeb.
+Anki 2.1.22+、AnkiMobile 2.0.57+ 和 AnkiDroid 2.15+ 包含了对 Anki 计算经过天数方式的可选更改。此更改
+解决了一些极端情况，即时区变更（包括夏令时）可能导致 Anki 向前或向后推移一天的问题，并解决了一些用户
+在与 AnkiWeb 同步时卡片被解除埋藏 / 每日计数被重置的问题。
 
-For most users, the new calculation should produce the same number of elapsed days as the old calculation. For some users, enabling this code may move Anki forward or back by one day, but this will only happen once, and Anki should be more robust against timezone changes afterwards.
+对于大多数用户，新算法应生成与旧算法相同的经过天数。对于某些用户，启用此代码可能会使 Anki 向前或向后
+推移一天，但这只会发生一次，并且 Anki 之后将更能应对时区变化。
 
-**Please make sure you are running the above-mentioned versions prior to enabling the new code.** If any of your Anki clients have not been updated yet, you won't be able to sync them while this feature is enabled. 
+**请确保在启用新代码之前，你正在运行上述版本。** 如果你的任何 Anki 客户端尚未更新，则在启用此功能时
+你将无法同步它们。
 
-To enable the new calculation, please make sure:
+要启用新的计算，请确保：
 
-- your devices are in sync
-- you're running Anki 2.1.22+
-- 2.1 scheduler or higher is enabled in the preferences screen
+- 你的设备已同步
+- 你正在运行 Anki 2.1.22+
+- 在首选项屏幕中启用了 2.1 调度程序或更高版本
 
-Then to enable the new timezone code, please check the 'new timezone' checkbox.
+然后，要启用新的时区代码，请勾选『新时区』复选框。
 
-Please close the window and sync, then sync your other devices to complete the process.
+请关闭窗口并同步，然后同步你的其他设备以完成此过程。
 
-If you notice any problems with the new handling, please let us know.
+如果你注意到新的处理存在任何问题，请告知我们。

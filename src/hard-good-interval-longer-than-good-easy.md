@@ -1,10 +1,12 @@
-# Hard/good interval is longer than good/easy
+# Hard/good 间隔比 good/easy 间隔长
 
-When a card is in learning:
+当一张卡片处于学习阶段时：
 
-- Again will be the first learning step
-- Hard will repeat the current learning step (except on the first step, where it is the average of first and second steps)
-- Good will the the next learning step, or the Graduating interval if learning steps are exhausted
-- Easy will be the Easy Interval
+- Again 将会是第一个学习步骤
+- Hard 将会重复当前的学习步骤（在第一个步骤中，它是第一个和第二个步骤的平均值）
+- Good 将会进入下一个学习步骤，或者如果学习步骤耗尽，则为毕业间隔
+- Easy 将会是易间隔
 
-If the [learning steps](https://docs.ankiweb.net/deck-options.html#learning-steps) are set to be longer than the [graduating or easy interval](https://docs.ankiweb.net/deck-options.html#graduating-interval), Hard/Good might show longer intervals than Good/Easy.
+如果 [学习步骤](https://docs.ankiweb.net/deck-options.html#learning-steps) 被设置得比
+[毕业或易间隔](https://docs.ankiweb.net/deck-options.html#graduating-interval) 长，那么 Hard/Good 可
+能会显示比 Good/Easy 更长的间隔。

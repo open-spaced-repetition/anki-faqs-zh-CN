@@ -11,4 +11,4 @@ Anki 没有明确的功能来合并牌组，但你可以通过将一个牌组中
    片的牌组，Anki 会发出警告。）
 
 另请参阅
-[如何在牌组之间移动卡片？](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/how-do-i-move-cards-between-decks.html?highlight=mergin#how-do-i-move-cards-between-decks)。
+[如何在牌组之间移动卡片？](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/how-do-i-move-cards-between-decks.html?highlight=合并#how-do-i-move-cards-between-decks)。

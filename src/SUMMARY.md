@@ -16,7 +16,7 @@
 - [录音时出现错误](./errors-when-recording.md)
 - [卡片上出现多余的字符](./extra-characters-appearing-on-cards.md)
 - [选择题](./multiple-choice-questions.md)
-- [卡片上没有找到挖空](./no-cloze-found-on-card.md)
+- [未在此卡片上找到填空](./no-cloze-found-on-card.md)
 - [笔记模板的名称很奇怪](./note-types-with-strange-names.md)
 - [打印集合中的卡片](./printing-cards-in-your-collection.md)
 - [移除重复的笔记模板](./removing-duplicate-note-types.md)

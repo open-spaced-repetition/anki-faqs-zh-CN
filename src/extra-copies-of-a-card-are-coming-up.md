@@ -3,7 +3,7 @@
 > 原
 > 文：[Extra copies of a card are coming up](https://faqs.ankiweb.net/extra-copies-of-a-card-are-coming-up.html)
 
-有时你可能编辑了一个笔记模板，后来发现有一些卡片被重复了（有时甚至可能有更多的副本）。
+有时你可能编辑了一个笔记模板，后来发现有一些卡片重复了（有时甚至可能有更多的副本）。
 
 你可以按以下步骤修复此问题：
 

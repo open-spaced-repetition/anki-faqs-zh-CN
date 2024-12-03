@@ -71,7 +71,7 @@
 - [同步时建立安全连接出错](./error-establishing-a-secure-connection-when-syncing.md)
 - [媒体文件同步可能需要时间](./media-files-may-take-time-to-sync.md)
 - [Outlook.com 静默丢弃邮件](./outlook-silently-discards-email.md)
-- [同步多个配置文件](./synchronizing-multiple-profiles.md)
+- [同步多个账户](./synchronizing-multiple-profiles.md)
 - [同步失败：同步时连接超时错误](./syncing-failed-connection-timed-out-errors-when-syncing.md)
 - [声音 / 图片未在 AnkiWeb 或移动客户端上显示](./sounds-or-images-are-not-appearing-on-ankiweb-or-the-mobile-clients.md)
 

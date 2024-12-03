@@ -12,7 +12,7 @@
 - 如果是 .zip 文件，解压其内容到你的插件文件夹。
 
 你的插件文件夹位于你的数据文件夹
-中：<https://open-spaced-repetition.github.io/anki-manual-zh-CN/files.html#file-locations>
+中：<https://open-spaced-repetition.github.io/anki-manual-zh-CN/files.html#文件位置>
 
 旧的 2.0 插件的存档也已提供。要使用它：
 
@@ -23,6 +23,6 @@
 - 如果是 .zip 文件，解压其内容到你的插件文件夹。
 
 你的插件文件夹位于你的数据文件夹
-中：<https://open-spaced-repetition.github.io/anki-manual-zh-CN/files.html#file-locations>
+中：<https://open-spaced-repetition.github.io/anki-manual-zh-CN/files.html#文件位置>
 
 **这些插件按原样提供，无法为它们提供支持。**

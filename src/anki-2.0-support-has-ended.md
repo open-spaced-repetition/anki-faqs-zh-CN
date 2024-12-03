@@ -12,7 +12,7 @@
 
 与 Anki 2.1.x 的同步将继续正常工作。如果你尚未更新到 Anki 2.1.x，升级过程非常简单，只需在你的计算机
 上安装它即可，因为 Anki 2.0.x 和 2.1.x 使用相同的文件格式。即使你在不同的位置安装了 2.0 和 2.1，你也
-可以来回切换——不过如果你使用的是最新的 Anki，请务必使用 [降级](https://changes.ankiweb.net) 按钮。
+可以来回切换——不过如果你使用的是最新的 Anki，请务必使用[降级](https://changes.ankiweb.net)按钮。
 
 有关 Anki 2.1 中更改的信息，请访问 <https://changes.ankiweb.net/changes/2.1.html>
 

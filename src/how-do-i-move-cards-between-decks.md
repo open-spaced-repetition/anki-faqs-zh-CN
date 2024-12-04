@@ -9,7 +9,7 @@
 - 你制作了一个较大的牌组，想将其拆分成几个小的
 - 你制作了几个小牌组，想将它们合并成一个较大的
 
-[浏览器](https://open-spaced-repetition.github.io/anki-manual-zh-CN/browsing.html) 在菜单栏中提供了
+[浏览窗口](https://open-spaced-repetition.github.io/anki-manual-zh-CN/browsing.html) 在菜单栏中提供了
 一个**更改牌组**选项，用于处理这类任务。
 
 另请参

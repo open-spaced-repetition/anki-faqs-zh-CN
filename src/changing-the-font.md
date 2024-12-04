@@ -7,7 +7,7 @@
 - 要更改复习时看到的字体，请参
   见[这里](https://open-spaced-repetition.github.io/anki-manual-zh-CN/templates/styling.html)。
 - 要更改添加或编辑时看到的字体，请点击「字段」按钮。
-- 要更改浏览器中卡片行的字体，请点击「卡片」按钮，然后点击「更多」，再选择「浏览器外观」。
+- 要更改浏览窗口中卡片行的字体，请点击「卡片」按钮，然后点击「更多」，再选择「浏览窗口外观」。
 - 对于按钮、菜单等，Anki 使用你的系统字体设置，因此可以通过调整系统字体比例来改变大小。如果你只希望
   在 Anki 中覆盖字体，可以安装 [Change Interface Font](https://ankiweb.net/shared/info/1431333984)
   插件。

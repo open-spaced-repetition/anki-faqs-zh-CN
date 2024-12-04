@@ -37,5 +37,5 @@ Python 运行。
 \anki-venv\scripts\pip install pyqt5==5.15 pyqtwebengine==5.15.0
 ```
 
-如果这也没有帮助，并且你已经按照[当问题发生时](./when-problems-occur.md)中的所有步骤进行操作，那么你
+如果这也没有帮助，并且你已经按照[当出现问题时](./when-problems-occur.md)中的所有步骤进行操作，那么你
 可能不走运了。

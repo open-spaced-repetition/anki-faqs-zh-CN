@@ -8,4 +8,5 @@
 些卡片。
 
 在 Anki 中打印由 [Basic Printing Support](https://ankiweb.net/shared/info/1025789669) 插件处理。如果
-你在打开浏览窗口时遇到问题，请遵循该页面上的「有效，但无法自动打开浏览窗口」评论中的说明。
+你在打开浏览窗口时遇到问题，请遵循该页面上的 "WORKS, but does not open the browser automatically" 评
+论中的说明。

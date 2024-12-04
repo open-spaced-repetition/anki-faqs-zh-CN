@@ -7,7 +7,7 @@
 
 ```
 img[src*="Screen"] {
-zoom: 50%;
+  zoom: 50%;
 }
 ```
 

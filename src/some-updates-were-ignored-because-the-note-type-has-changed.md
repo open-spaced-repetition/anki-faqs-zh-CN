@@ -21,8 +21,8 @@
 请注意，如果牌组分享者在他们的集合中使用了『更改笔记模板』选项，他们将永久性地打破你和他们之间的连
 接，即使你的笔记模板的字段和卡片模板匹配，通过 .apkg 导入进行更新也是不可能的。你可以通过在学习界面
 查看卡片时，
-在[调试控制台](https://open-spaced-repetition.github.io/anki-manual-zh-CN/misc.html#debug-console)中
-使用以下命令来检查笔记模板是否链接：
+在[调试控制台](https://open-spaced-repetition.github.io/anki-manual-zh-CN/misc.html#调试控制台)中使
+用以下命令来检查笔记模板是否链接：
 
 ```
 pp(card()['_note'].mid)
@@ -34,4 +34,4 @@ pp(card()['_note'].mid)
 件>导出以 txt 格式保存笔记。然后在你原始的账户中，可以导入文本文件，与一个未更改的字段进行匹配。文本
 导入一次只能对一种笔记模板操作，所以如果你下载的共享牌组包含多种笔记模板，你需要一次处理一个笔记模
 板。更多信息请见
-<https://open-spaced-repetition.github.io/anki-manual-zh-CN/importing/packaged-decks.html#updating>。
+<https://open-spaced-repetition.github.io/anki-manual-zh-CN/importing/packaged-decks.html#更新>。

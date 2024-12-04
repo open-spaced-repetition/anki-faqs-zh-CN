@@ -5,8 +5,8 @@
 
 ## 新版本的 Anki
 
-在新版本的 Anki 中，无需进行导出和导入操作。可以参考
-[这个论坛帖子](https://forums.ankiweb.net/t/cloze-type-to-basic-type/23305/2) 中的一个示例。
+在新版本的 Anki 中，无需进行导出和导入操作。可以参
+考[这个论坛帖子](https://forums.ankiweb.net/t/cloze-type-to-basic-type/23305/2)中的一个示例。
 
 ## 旧版本的 Anki
 

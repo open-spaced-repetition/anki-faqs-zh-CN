@@ -9,8 +9,8 @@
 - 你制作了一个较大的牌组，想将其拆分成几个小的
 - 你制作了几个小牌组，想将它们合并成一个较大的
 
-[浏览窗口](https://open-spaced-repetition.github.io/anki-manual-zh-CN/browsing.html) 在菜单栏中提供了
-一个**更改牌组**选项，用于处理这类任务。
+[浏览窗口](https://open-spaced-repetition.github.io/anki-manual-zh-CN/browsing.html) 在菜单栏中提供
+了一个**更改牌组**选项，用于处理这类任务。
 
 另请参
 阅[合并/组合两个牌组](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/merging-or-combining-two-decks.html#mergingcombining-two-decks)，

@@ -122,7 +122,7 @@ console.log(JSON.stringify(states, null, 4));
 // 如果网络检查器已打开，则加载调试器
 debugger;
 
-// 如果困难按钮是一个学习步骤，设置为 123 分钟延迟
+// 如果困难按钮是一个初学间隔，设置为 123 分钟延迟
 if (states.hard.normal?.learning) {
   states.hard.normal.learning.scheduledSecs = 123 * 60;
 }

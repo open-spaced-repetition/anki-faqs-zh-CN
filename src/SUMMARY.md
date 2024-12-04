@@ -50,7 +50,7 @@
 - [出现了卡片的多余副本](./extra-copies-of-a-card-are-coming-up.md)
 - [困难 / 良好的间隔比良好 / 简单更长](./hard-good-interval-longer-than-good-easy.md)
 - [我要去度假。我可以暂停调度器吗？](./i-am-going-on-vacation-can-i-pause-the-scheduler.md)
-- [学习步骤被跳过或重复](./learning-steps-skipped-or-repeated.md)
+- [初学间隔被跳过或重复](./learning-steps-skipped-or-repeated.md)
 - [重置牌组的进度](./resetting-progress-in-a-deck.md)
 - [使用 Anki 准备大型考试的设置](./settings-for-using-anki-to-prepare-for-a-large-exam.md)
 - [Anki 2.1 调度器](./the-anki-2.1-scheduler.md)

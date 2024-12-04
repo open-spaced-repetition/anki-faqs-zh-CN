@@ -11,9 +11,9 @@
 
 Anki 的算法在某些方面与 SM-2 不同。值得注意的是：
 
-- SM-2 定义初始间隔为 1 天然后是 6 天。在 Anki 中，你可以完全控制初始学习步骤的长度。Anki 明白，在你
-  能记住一张新卡片之前，可能需要多次查看，而这些初始「失败」并不意味着需要通过多次重复出现卡片来惩罚
-  你。学习阶段的表现并不反映在记忆阶段的表现。
+- SM-2 定义初始间隔为 1 天然后是 6 天。在 Anki 中，你可以完全控制初学间隔的长度。Anki 明白，在你能记
+  住一张新卡片之前，可能需要多次查看，而这些初始「失败」并不意味着需要通过多次重复出现卡片来惩罚你。
+  学习阶段的表现并不反映在记忆阶段的表现。
 
 - Anki 用于回答复习卡片的选项有 4 个，而不是 6 个。只有一个**失败**选项，而不是 3 个。这是因为失败占
   总复习量的一小部分，因此通过简单地改变正面答案即可充分调整卡片的简易度。
@@ -65,15 +65,15 @@ FSRS 基于「记忆的三变量模型」。该模型断言三个变量足以描
 
 - 重来\
   将卡片移回
-  [学习/重新学习步骤](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#learning-steps)
-  中设置的第一步。
+  [初学间隔/重学间隔](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#初学间隔)
+  中设置的第一个间隔。
 
 - 困难\
   在第一步之后重复当前步骤，并且是「重来」与「良好」的平均数。
 
 - 良好\
   将卡片移
-  至[下一步](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#learning-steps)。
+  至[下一间隔](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html?#初学间隔)。
   如果卡片在最后一步，则该卡片将转化为复习卡片（即它「毕业」）。
 
 - 简单\

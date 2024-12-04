@@ -1,4 +1,4 @@
-# 旧调度器版本
+# 旧版本调度器
 
 > 原文：[Old scheduler versions](https://faqs.ankiweb.net/the-anki-2.1-scheduler.html)
 

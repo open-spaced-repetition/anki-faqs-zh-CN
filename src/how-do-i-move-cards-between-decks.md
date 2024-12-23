@@ -13,7 +13,7 @@
 了一个**更改牌组**选项，用于处理这类任务。
 
 另请参
-阅[合并/组合两个牌组](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/merging-or-combining-two-decks.html#mergingcombining-two-decks)，
+阅[合并/组合两个牌组](https://open-spaced-repetition.github.io/anki-faqs-zh-CN/merging-or-combining-two-decks.html)，
 获取该特定情况下更精确的说明。
 
 ---

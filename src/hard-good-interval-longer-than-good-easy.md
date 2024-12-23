@@ -11,7 +11,7 @@
 - 简单 将会是「简单」卡片再现间隔
 
 如果
-[初学间隔](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html#learning-steps)
+[初学间隔](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html#初学间隔)
 被设置得比
-[「毕业」或「简单」卡片再现间隔](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html#graduating-interval)
+[「毕业」或「简单」卡片再现间隔](https://open-spaced-repetition.github.io/anki-manual-zh-CN/deck-options.html#毕业间隔)
 长，那么 困难/良好 可能会显示比 良好/简单 更长的间隔。

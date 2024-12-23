@@ -4,7 +4,7 @@
 > 文：[Sound/image media files have gone missing!](https://faqs.ankiweb.net/sounds-or-images-have-gone-missing.html)
 
 Anki 将你的卡片的音频和图像文件存储在你的计算机中，位于
-[Anki 文件夹](https://open-spaced-repetition.github.io/anki-manual-zh-CN/files.html#file-locations)的
+[Anki 文件夹](https://open-spaced-repetition.github.io/anki-manual-zh-CN/files.html#文件位置)的
 User 1/collection.media 中。如果你删除了该文件夹中的任何文件，Anki 会记录它们已被移除，并在下次同步
 时也会从你的其他设备中移除它们。有时会发生用户在电脑上整理文件，意外删除卡片使用的音频和图像，导致音
 频无法播放或图像无法显示的情况。在 Mac 上使用 Finder 的「所有我的文件」功能时，特别容易不小心删除，

@@ -18,4 +18,4 @@
 
 在某些情况下，你可能想在卡片上包含一些额外的非必需信息，而不在需要之前显示它。针对这种情况，Anki 提
 供
-了[提示字段](https://open-spaced-repetition.github.io/anki-manual-zh-CN/templates/fields.html#hint-fields)。
+了[提示字段](https://open-spaced-repetition.github.io/anki-manual-zh-CN/templates/fields.html#提示字段)。
